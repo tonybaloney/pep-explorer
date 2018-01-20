@@ -10,6 +10,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-    Hello! 
+    PEP Explorer
+    <div ng-app="pepExplorer" ng-controller="pepCtrl"> 
+
+        <table>
+          <tr ng-repeat="x in peps">
+            <td>{{ x.PEP }}</td>
+            <td>{{ x.Title }}</td>
+          </tr>
+        </table>
+        
+        </div>
+        
+        <script src="app.js" type="text/javascript"> </script>
 </body>
 </html>
