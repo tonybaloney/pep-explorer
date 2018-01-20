@@ -12,11 +12,13 @@ def main():
     for item in pep_directory.iterdir():
         if item.suffix == '.txt' and item.name.startswith('pep-'):
             peps.append(_pep_info(item))
-    possible_statuses = set([p['Status'] for p in peps])
-    possible_python_versions = set([p['Python-Version'] for p in peps if 'Python-Version' in p])
+    possible_statuses = list(set([p['Status'] for p in peps]))
+    possible_python_versions = list(set([p['Python-Version'] for p in peps if 'Python-Version' in p]))
+    possible_python_versions.sort()
+
     out = {
-        'possible_statuses': list(possible_statuses),
-        'possible_python_versions': list(possible_python_versions),
+        'possible_statuses': possible_statuses,
+        'possible_python_versions': possible_python_versions,
         'peps': peps
     }
 
@@ -43,8 +45,21 @@ def _pep_info(pep_path: pathlib.Path) -> dict:
                 else:
                     header[last_attribute] += ',' + parts[0].strip()
     header['URL'] = 'https://python.org/dev/peps/{0}/'.format(pep_path.stem)
+    if 'Python-Version' in header:
+        header['Python-Version'] = _fix_python_version(header['Python-Version'])
     return header
 
+
+def _fix_python_version(version: str) -> str:
+    '''
+    Some inconsistency in the way target versions are done
+    '''
+    version = version.replace(' / ', ', ')
+    version = version.replace(' and ', ', ')
+    version = version.replace(' or ', ', ')
+    version = version.replace(' and/or ', ', ')
+    version = version.replace('3000', '3.0')
+    return version
 
 if __name__ == '__main__':
     main()
