@@ -5,12 +5,31 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-    PEP Explorer
+    <div class='container'>
+        <h1>PEP Explorer</h1>
+        <div class='row'>
+            <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Python Version -- {{selected_status}}
+                    <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li ng-repeat='x in possible_python_versions'>
+                        <a href="#">{{x}}</a>
+                    </li>
+                    
+                    </ul>
+                </div>
+        </div>
+        <div class="row">
     <div ng-app="pepExplorer" ng-controller="pepCtrl"> 
 
         <table class='table'>
@@ -19,22 +38,25 @@
                     <th>PEP</th>
                     <th>Title</th>
                     <th>Status</th>
-                    <th>Date</th>
+                    <th>Created</th>
                     <th>Python Version</th>
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="x in peps | orderBy:'PEP' | filter: pepFilter">
+                <tr ng-repeat="x in peps | orderBy: 'PEP' | filter: pepFilter">
                     <td>{{ x.PEP }}</td>
                     <td>{{ x.Title }}</td>
                     <td>{{ x.Status }}</td>
-                    <td>{{ x.Date }}</td>
-                    <td>{{ x."Python-Version" }}</td>
+                    <td>{{ x.Created }}</td>
+                    <td>{{ x['Python-Version'] }}</td>
                 </tr>
             </tbody>
         </table>
         
         </div>
+    </div>
+    </div>
+
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
         <script src="app.js" type="text/javascript"> </script>
 </body>

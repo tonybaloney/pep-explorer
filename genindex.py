@@ -12,10 +12,17 @@ def main():
     for item in pep_directory.iterdir():
         if item.suffix == '.txt' and item.name.startswith('pep-'):
             peps.append(_pep_info(item))
+    possible_statuses = set([p['Status'] for p in peps])
+    possible_python_versions = set([p['Python-Version'] for p in peps if 'Python-Version' in p])
+    out = {
+        'possible_statuses': list(possible_statuses),
+        'possible_python_versions': list(possible_python_versions),
+        'peps': peps
+    }
 
     with open('index.json', 'w+') as index_json:
-        index_json.write(json.dumps({'peps': peps}),
-                         indent=4, separators=(',', ': '))
+        index_json.write(json.dumps(out,
+                         indent=4, separators=(',', ': ')))
 
 
 def _pep_info(pep_path: pathlib.Path) -> dict:
