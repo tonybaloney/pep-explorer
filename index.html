@@ -13,11 +13,25 @@
     PEP Explorer
     <div ng-app="pepExplorer" ng-controller="pepCtrl"> 
 
-        <table>
-          <tr ng-repeat="x in peps">
-            <td>{{ x.PEP }}</td>
-            <td>{{ x.Title }}</td>
-          </tr>
+        <table class='table'>
+            <thead>
+                <tr>
+                    <th>PEP</th>
+                    <th>Title</th>
+                    <th>Status</th>
+                    <th>Date</th>
+                    <th>Python Version</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="x in peps">
+                    <td>{{ x.PEP }}</td>
+                    <td>{{ x.Title }}</td>
+                    <td>{{ x.Status }}</td>
+                    <td>{{ x.Date }}</td>
+                    <td>{{ x.Python-Version }}</td>
+                </tr>
+            </tbody>
         </table>
         
         </div>

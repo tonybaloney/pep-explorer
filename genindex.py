@@ -14,7 +14,8 @@ def main():
             peps.append(_pep_info(item))
 
     with open('index.json', 'w+') as index_json:
-        index_json.write(json.dumps({'peps': peps}))
+        index_json.write(json.dumps({'peps': peps}),
+                         indent=4, separators=(',', ': '))
 
 
 def _pep_info(pep_path: pathlib.Path) -> dict:
