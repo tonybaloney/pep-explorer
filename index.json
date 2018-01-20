@@ -1,14 +1,14 @@
 {
     "possible_statuses": [
-        "Withdrawn",
+        "Draft",
+        "Deferred",
+        "Final",
         "Rejected",
         "Active",
-        "Draft",
         "April Fool!",
-        "Final",
-        "Accepted",
         "Superseded",
-        "Deferred"
+        "Accepted",
+        "Withdrawn"
     ],
     "possible_python_versions": [
         "",
@@ -46,13 +46,13 @@
         "N.A."
     ],
     "possible_types": [
-        "Process",
         "Informational",
-        "Standards Track"
+        "Standards Track",
+        "Process"
     ],
     "peps": [
         {
-            "PEP": "9",
+            "PEP": 9,
             "Title": "Sample Plaintext PEP Template",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -66,7 +66,7 @@
             "URL": "https://python.org/dev/peps/pep-0009/"
         },
         {
-            "PEP": "223",
+            "PEP": 223,
             "Title": "Change the Meaning of ``\\x`` Escapes",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -80,7 +80,7 @@
             "URL": "https://python.org/dev/peps/pep-0223/"
         },
         {
-            "PEP": "545",
+            "PEP": 545,
             "Title": "Python Documentation Translations",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -93,7 +93,7 @@
             "URL": "https://python.org/dev/peps/pep-0545/"
         },
         {
-            "PEP": "237",
+            "PEP": 237,
             "Title": "Unifying Long Integers and Integers",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -107,7 +107,7 @@
             "URL": "https://python.org/dev/peps/pep-0237/"
         },
         {
-            "PEP": "3104",
+            "PEP": 3104,
             "Title": "Access to Names in Outer Scopes",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -121,7 +121,7 @@
             "URL": "https://python.org/dev/peps/pep-3104/"
         },
         {
-            "PEP": "419",
+            "PEP": 419,
             "Title": "Protecting cleanup statements from interruptions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -134,7 +134,7 @@
             "URL": "https://python.org/dev/peps/pep-0419/"
         },
         {
-            "PEP": "3110",
+            "PEP": 3110,
             "Title": "Catching Exceptions in Python 3000",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -148,7 +148,7 @@
             "URL": "https://python.org/dev/peps/pep-3110/"
         },
         {
-            "PEP": "357",
+            "PEP": 357,
             "Title": "Allowing Any Object to be Used for Slicing",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -162,7 +162,7 @@
             "URL": "https://python.org/dev/peps/pep-0357/"
         },
         {
-            "PEP": "431",
+            "PEP": 431,
             "Title": "Time zone support improvements",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -176,7 +176,7 @@
             "URL": "https://python.org/dev/peps/pep-0431/"
         },
         {
-            "PEP": "3138",
+            "PEP": 3138,
             "Title": "String representation in Python 3000",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -189,7 +189,7 @@
             "URL": "https://python.org/dev/peps/pep-3138/"
         },
         {
-            "PEP": "425",
+            "PEP": 425,
             "Title": "Compatibility Tags for Built Distributions",
             "Version": "$Revision$",
             "Last-Modified": "07-Aug-2012",
@@ -205,7 +205,7 @@
             "URL": "https://python.org/dev/peps/pep-0425/"
         },
         {
-            "PEP": "343",
+            "PEP": 343,
             "Title": "The \"with\" Statement",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -219,7 +219,7 @@
             "URL": "https://python.org/dev/peps/pep-0343/"
         },
         {
-            "PEP": "394",
+            "PEP": 394,
             "Title": "The \"python\" Command on Unix-Like Systems",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -233,7 +233,7 @@
             "URL": "https://python.org/dev/peps/pep-0394/"
         },
         {
-            "PEP": "380",
+            "PEP": 380,
             "Title": "Syntax for Delegating to a Subgenerator",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -248,7 +248,7 @@
             "URL": "https://python.org/dev/peps/pep-0380/"
         },
         {
-            "PEP": "381",
+            "PEP": 381,
             "Title": "Mirroring infrastructure for PyPI",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -262,7 +262,7 @@
             "URL": "https://python.org/dev/peps/pep-0381/"
         },
         {
-            "PEP": "395",
+            "PEP": 395,
             "Title": "Qualified Names for Modules",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -276,7 +276,7 @@
             "URL": "https://python.org/dev/peps/pep-0395/"
         },
         {
-            "PEP": "424",
+            "PEP": 424,
             "Title": "A method for exposing a length hint",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -290,7 +290,7 @@
             "URL": "https://python.org/dev/peps/pep-0424/"
         },
         {
-            "PEP": "342",
+            "PEP": 342,
             "Title": "Coroutines via Enhanced Generators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -304,7 +304,7 @@
             "URL": "https://python.org/dev/peps/pep-0342/"
         },
         {
-            "PEP": "356",
+            "PEP": 356,
             "Title": "Python 2.5 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -318,7 +318,7 @@
             "URL": "https://python.org/dev/peps/pep-0356/"
         },
         {
-            "PEP": "3139",
+            "PEP": 3139,
             "Title": "Cleaning out sys and the \"interpreter\" module",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -331,7 +331,7 @@
             "URL": "https://python.org/dev/peps/pep-3139/"
         },
         {
-            "PEP": "430",
+            "PEP": 430,
             "Title": "Migrating to Python 3 as the default online documentation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -344,7 +344,7 @@
             "URL": "https://python.org/dev/peps/pep-0430/"
         },
         {
-            "PEP": "3111",
+            "PEP": 3111,
             "Title": "Simple input built-in in Python 3000",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -358,7 +358,7 @@
             "URL": "https://python.org/dev/peps/pep-3111/"
         },
         {
-            "PEP": "418",
+            "PEP": 418,
             "Title": "Add monotonic time, performance counter, and process time functions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -371,7 +371,7 @@
             "URL": "https://python.org/dev/peps/pep-0418/"
         },
         {
-            "PEP": "3105",
+            "PEP": 3105,
             "Title": "Make print a function",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -385,7 +385,7 @@
             "URL": "https://python.org/dev/peps/pep-3105/"
         },
         {
-            "PEP": "236",
+            "PEP": 236,
             "Title": "Back to the __future__",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -399,7 +399,7 @@
             "URL": "https://python.org/dev/peps/pep-0236/"
         },
         {
-            "PEP": "222",
+            "PEP": 222,
             "Title": "Web Library Enhancements",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -413,7 +413,7 @@
             "URL": "https://python.org/dev/peps/pep-0222/"
         },
         {
-            "PEP": "544",
+            "PEP": 544,
             "Title": "Protocols: Structural subtyping (static duck typing)",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -427,7 +427,7 @@
             "URL": "https://python.org/dev/peps/pep-0544/"
         },
         {
-            "PEP": "20",
+            "PEP": 20,
             "Title": "The Zen of Python",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -440,7 +440,7 @@
             "URL": "https://python.org/dev/peps/pep-0020/"
         },
         {
-            "PEP": "8",
+            "PEP": 8,
             "Title": "Style Guide for Python Code",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -453,7 +453,7 @@
             "URL": "https://python.org/dev/peps/pep-0008/"
         },
         {
-            "PEP": "208",
+            "PEP": 208,
             "Title": "Reworking the Coercion Model",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -467,7 +467,7 @@
             "URL": "https://python.org/dev/peps/pep-0208/"
         },
         {
-            "PEP": "234",
+            "PEP": 234,
             "Title": "Iterators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -481,7 +481,7 @@
             "URL": "https://python.org/dev/peps/pep-0234/"
         },
         {
-            "PEP": "546",
+            "PEP": 546,
             "Title": "Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -497,7 +497,7 @@
             "URL": "https://python.org/dev/peps/pep-0546/"
         },
         {
-            "PEP": "220",
+            "PEP": 220,
             "Title": "Coroutines, Generators, Continuations",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -510,7 +510,7 @@
             "URL": "https://python.org/dev/peps/pep-0220/"
         },
         {
-            "PEP": "3113",
+            "PEP": 3113,
             "Title": "Removal of Tuple Parameter Unpacking",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -524,7 +524,7 @@
             "URL": "https://python.org/dev/peps/pep-3113/"
         },
         {
-            "PEP": "3107",
+            "PEP": 3107,
             "Title": "Function Annotations",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -538,7 +538,7 @@
             "URL": "https://python.org/dev/peps/pep-3107/"
         },
         {
-            "PEP": "368",
+            "PEP": 368,
             "Title": "Standard image protocol and class",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -552,7 +552,7 @@
             "URL": "https://python.org/dev/peps/pep-0368/"
         },
         {
-            "PEP": "340",
+            "PEP": 340,
             "Title": "Anonymous Block Statements",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -565,7 +565,7 @@
             "URL": "https://python.org/dev/peps/pep-0340/"
         },
         {
-            "PEP": "426",
+            "PEP": 426,
             "Title": "Metadata for Python Software Packages 2.0",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -582,7 +582,7 @@
             "URL": "https://python.org/dev/peps/pep-0426/"
         },
         {
-            "PEP": "432",
+            "PEP": 432,
             "Title": "Restructuring the CPython startup sequence",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -596,7 +596,7 @@
             "URL": "https://python.org/dev/peps/pep-0432/"
         },
         {
-            "PEP": "354",
+            "PEP": 354,
             "Title": "Enumerations in Python",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -611,7 +611,7 @@
             "URL": "https://python.org/dev/peps/pep-0354/"
         },
         {
-            "PEP": "383",
+            "PEP": 383,
             "Title": "Non-decodable Bytes in System Character Interfaces",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -625,7 +625,7 @@
             "URL": "https://python.org/dev/peps/pep-0383/"
         },
         {
-            "PEP": "397",
+            "PEP": 397,
             "Title": "Python launcher for Windows",
             "Version": "$Revision: a57419aee37d $",
             "Last-Modified": "$Date: 2012/06/19 15:13:49 $",
@@ -639,7 +639,7 @@
             "URL": "https://python.org/dev/peps/pep-0397/"
         },
         {
-            "PEP": "396",
+            "PEP": 396,
             "Title": "Module Version Numbers",
             "Version": "$Revision: 65628 $",
             "Last-Modified": "$Date: 2008-08-10 09:59:20 -0400 (Sun, 10 Aug 2008) $",
@@ -652,7 +652,7 @@
             "URL": "https://python.org/dev/peps/pep-0396/"
         },
         {
-            "PEP": "382",
+            "PEP": 382,
             "Title": "Namespace Packages",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -666,7 +666,7 @@
             "URL": "https://python.org/dev/peps/pep-0382/"
         },
         {
-            "PEP": "433",
+            "PEP": 433,
             "Title": "Easier suppression of file descriptor inheritance",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -680,7 +680,7 @@
             "URL": "https://python.org/dev/peps/pep-0433/"
         },
         {
-            "PEP": "355",
+            "PEP": 355,
             "Title": "Path - Object oriented filesystem paths",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -694,7 +694,7 @@
             "URL": "https://python.org/dev/peps/pep-0355/"
         },
         {
-            "PEP": "341",
+            "PEP": 341,
             "Title": "Unifying try-except and try-finally",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -707,7 +707,7 @@
             "URL": "https://python.org/dev/peps/pep-0341/"
         },
         {
-            "PEP": "427",
+            "PEP": 427,
             "Title": "The Wheel Binary Package Format 1.0",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -723,7 +723,7 @@
             "URL": "https://python.org/dev/peps/pep-0427/"
         },
         {
-            "PEP": "3106",
+            "PEP": 3106,
             "Title": "Revamping dict.keys(), .values() and .items()",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -736,7 +736,7 @@
             "URL": "https://python.org/dev/peps/pep-3106/"
         },
         {
-            "PEP": "369",
+            "PEP": 369,
             "Title": "Post import hooks",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -750,7 +750,7 @@
             "URL": "https://python.org/dev/peps/pep-0369/"
         },
         {
-            "PEP": "3112",
+            "PEP": 3112,
             "Title": "Bytes literals in Python 3000",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -765,7 +765,7 @@
             "URL": "https://python.org/dev/peps/pep-3112/"
         },
         {
-            "PEP": "3099",
+            "PEP": 3099,
             "Title": "Things that will Not Change in Python 3000",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -778,7 +778,7 @@
             "URL": "https://python.org/dev/peps/pep-3099/"
         },
         {
-            "PEP": "221",
+            "PEP": 221,
             "Title": "Import As",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -792,7 +792,7 @@
             "URL": "https://python.org/dev/peps/pep-0221/"
         },
         {
-            "PEP": "235",
+            "PEP": 235,
             "Title": "Import on Case-Insensitive Platforms",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -806,7 +806,7 @@
             "URL": "https://python.org/dev/peps/pep-0235/"
         },
         {
-            "PEP": "209",
+            "PEP": 209,
             "Title": "Multi-dimensional Arrays",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -820,7 +820,7 @@
             "URL": "https://python.org/dev/peps/pep-0209/"
         },
         {
-            "PEP": "231",
+            "PEP": 231,
             "Title": "__findattr__()",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -834,7 +834,7 @@
             "URL": "https://python.org/dev/peps/pep-0231/"
         },
         {
-            "PEP": "225",
+            "PEP": 225,
             "Title": "Elementwise/Objectwise Operators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -849,7 +849,7 @@
             "URL": "https://python.org/dev/peps/pep-0225/"
         },
         {
-            "PEP": "219",
+            "PEP": 219,
             "Title": "Stackless Python",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -863,7 +863,7 @@
             "URL": "https://python.org/dev/peps/pep-0219/"
         },
         {
-            "PEP": "423",
+            "PEP": 423,
             "Title": "Naming conventions and recipes related to packaging",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -877,7 +877,7 @@
             "URL": "https://python.org/dev/peps/pep-0423/"
         },
         {
-            "PEP": "345",
+            "PEP": 345,
             "Title": "Metadata for Python Software Packages 1.2",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -892,7 +892,7 @@
             "URL": "https://python.org/dev/peps/pep-0345/"
         },
         {
-            "PEP": "351",
+            "PEP": 351,
             "Title": "The freeze protocol",
             "Version": "2.5",
             "Last-Modified": "$Date$",
@@ -905,7 +905,7 @@
             "URL": "https://python.org/dev/peps/pep-0351/"
         },
         {
-            "PEP": "437",
+            "PEP": 437,
             "Title": "A DSL for specifying signatures, annotations and argument converters",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -920,7 +920,7 @@
             "URL": "https://python.org/dev/peps/pep-0437/"
         },
         {
-            "PEP": "3116",
+            "PEP": 3116,
             "Title": "New I/O",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -934,7 +934,7 @@
             "URL": "https://python.org/dev/peps/pep-3116/"
         },
         {
-            "PEP": "379",
+            "PEP": 379,
             "Title": "Adding an Assignment Expression",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -948,7 +948,7 @@
             "URL": "https://python.org/dev/peps/pep-0379/"
         },
         {
-            "PEP": "3102",
+            "PEP": 3102,
             "Title": "Keyword-Only Arguments",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -962,7 +962,7 @@
             "URL": "https://python.org/dev/peps/pep-3102/"
         },
         {
-            "PEP": "386",
+            "PEP": 386,
             "Title": "Changing the version comparison module in Distutils",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -975,7 +975,7 @@
             "URL": "https://python.org/dev/peps/pep-0386/"
         },
         {
-            "PEP": "392",
+            "PEP": 392,
             "Title": "Python 3.2 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -988,7 +988,7 @@
             "URL": "https://python.org/dev/peps/pep-0392/"
         },
         {
-            "PEP": "393",
+            "PEP": 393,
             "Title": "Flexible String Representation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1002,7 +1002,7 @@
             "URL": "https://python.org/dev/peps/pep-0393/"
         },
         {
-            "PEP": "387",
+            "PEP": 387,
             "Title": "Backwards Compatibility Policy",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1015,7 +1015,7 @@
             "URL": "https://python.org/dev/peps/pep-0387/"
         },
         {
-            "PEP": "3103",
+            "PEP": 3103,
             "Title": "A Switch/Case Statement",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1029,7 +1029,7 @@
             "URL": "https://python.org/dev/peps/pep-3103/"
         },
         {
-            "PEP": "3117",
+            "PEP": 3117,
             "Title": "Postfix type declarations",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1043,7 +1043,7 @@
             "URL": "https://python.org/dev/peps/pep-3117/"
         },
         {
-            "PEP": "378",
+            "PEP": 378,
             "Title": "Format Specifier for Thousands Separator",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1057,7 +1057,7 @@
             "URL": "https://python.org/dev/peps/pep-0378/"
         },
         {
-            "PEP": "350",
+            "PEP": 350,
             "Title": "Codetags",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1070,7 +1070,7 @@
             "URL": "https://python.org/dev/peps/pep-0350/"
         },
         {
-            "PEP": "436",
+            "PEP": 436,
             "Title": "The Argument Clinic DSL",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1083,7 +1083,7 @@
             "URL": "https://python.org/dev/peps/pep-0436/"
         },
         {
-            "PEP": "422",
+            "PEP": 422,
             "Title": "Simpler customisation of class creation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1097,7 +1097,7 @@
             "URL": "https://python.org/dev/peps/pep-0422/"
         },
         {
-            "PEP": "344",
+            "PEP": 344,
             "Title": "Exception Chaining and Embedded Tracebacks",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1111,7 +1111,7 @@
             "URL": "https://python.org/dev/peps/pep-0344/"
         },
         {
-            "PEP": "218",
+            "PEP": 218,
             "Title": "Adding a Built-In Set Object Type",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1125,7 +1125,7 @@
             "URL": "https://python.org/dev/peps/pep-0218/"
         },
         {
-            "PEP": "224",
+            "PEP": 224,
             "Title": "Attribute Docstrings",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1139,7 +1139,7 @@
             "URL": "https://python.org/dev/peps/pep-0224/"
         },
         {
-            "PEP": "542",
+            "PEP": 542,
             "Title": "Dot Notation Assignment In Function Header",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1151,7 +1151,7 @@
             "URL": "https://python.org/dev/peps/pep-0542/"
         },
         {
-            "PEP": "230",
+            "PEP": 230,
             "Title": "Warning Framework",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1165,7 +1165,7 @@
             "URL": "https://python.org/dev/peps/pep-0230/"
         },
         {
-            "PEP": "754",
+            "PEP": 754,
             "Title": "IEEE 754 Floating Point Special Values",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1179,7 +1179,7 @@
             "URL": "https://python.org/dev/peps/pep-0754/"
         },
         {
-            "PEP": "540",
+            "PEP": 540,
             "Title": "Add a new UTF-8 Mode",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1194,7 +1194,7 @@
             "URL": "https://python.org/dev/peps/pep-0540/"
         },
         {
-            "PEP": "226",
+            "PEP": 226,
             "Title": "Python 2.1 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1208,7 +1208,7 @@
             "URL": "https://python.org/dev/peps/pep-0226/"
         },
         {
-            "PEP": "232",
+            "PEP": 232,
             "Title": "Function Attributes",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1222,7 +1222,7 @@
             "URL": "https://python.org/dev/peps/pep-0232/"
         },
         {
-            "PEP": "434",
+            "PEP": 434,
             "Title": "IDLE Enhancement Exception for All Branches",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1237,7 +1237,7 @@
             "URL": "https://python.org/dev/peps/pep-0434/"
         },
         {
-            "PEP": "352",
+            "PEP": 352,
             "Title": "Required Superclass for Exceptions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1250,7 +1250,7 @@
             "URL": "https://python.org/dev/peps/pep-0352/"
         },
         {
-            "PEP": "346",
+            "PEP": 346,
             "Title": "User Defined (\"``with``\") Statements",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1264,7 +1264,7 @@
             "URL": "https://python.org/dev/peps/pep-0346/"
         },
         {
-            "PEP": "3129",
+            "PEP": 3129,
             "Title": "Class Decorators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1278,7 +1278,7 @@
             "URL": "https://python.org/dev/peps/pep-3129/"
         },
         {
-            "PEP": "420",
+            "PEP": 420,
             "Title": "Implicit Namespace Packages",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1293,7 +1293,7 @@
             "URL": "https://python.org/dev/peps/pep-0420/"
         },
         {
-            "PEP": "3101",
+            "PEP": 3101,
             "Title": "Advanced String Formatting",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1307,7 +1307,7 @@
             "URL": "https://python.org/dev/peps/pep-3101/"
         },
         {
-            "PEP": "408",
+            "PEP": 408,
             "Title": "Standard library __preview__ package",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1322,7 +1322,7 @@
             "URL": "https://python.org/dev/peps/pep-0408/"
         },
         {
-            "PEP": "3115",
+            "PEP": 3115,
             "Title": "Metaclasses in Python 3000",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1336,7 +1336,7 @@
             "URL": "https://python.org/dev/peps/pep-3115/"
         },
         {
-            "PEP": "391",
+            "PEP": 391,
             "Title": "Dictionary-Based Configuration For Logging",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1350,7 +1350,7 @@
             "URL": "https://python.org/dev/peps/pep-0391/"
         },
         {
-            "PEP": "385",
+            "PEP": 385,
             "Title": "Migrating from Subversion to Mercurial",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1362,7 +1362,7 @@
             "URL": "https://python.org/dev/peps/pep-0385/"
         },
         {
-            "PEP": "384",
+            "PEP": 384,
             "Title": "Defining a Stable ABI",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1376,7 +1376,7 @@
             "URL": "https://python.org/dev/peps/pep-0384/"
         },
         {
-            "PEP": "390",
+            "PEP": 390,
             "Title": "Static metadata for Distutils",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1393,7 +1393,7 @@
             "URL": "https://python.org/dev/peps/pep-0390/"
         },
         {
-            "PEP": "3114",
+            "PEP": 3114,
             "Title": "Renaming iterator.next() to iterator.__next__()",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1407,7 +1407,7 @@
             "URL": "https://python.org/dev/peps/pep-3114/"
         },
         {
-            "PEP": "409",
+            "PEP": 409,
             "Title": "Suppressing exception context",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1422,7 +1422,7 @@
             "URL": "https://python.org/dev/peps/pep-0409/"
         },
         {
-            "PEP": "3100",
+            "PEP": 3100,
             "Title": "Miscellaneous Python 3.0 Plans",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1435,7 +1435,7 @@
             "URL": "https://python.org/dev/peps/pep-3100/"
         },
         {
-            "PEP": "347",
+            "PEP": 347,
             "Title": "Migrating the Python CVS to Subversion",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1449,7 +1449,7 @@
             "URL": "https://python.org/dev/peps/pep-0347/"
         },
         {
-            "PEP": "421",
+            "PEP": 421,
             "Title": "Adding sys.implementation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1464,7 +1464,7 @@
             "URL": "https://python.org/dev/peps/pep-0421/"
         },
         {
-            "PEP": "3128",
+            "PEP": 3128,
             "Title": "BList: A Faster List-like Type",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1479,7 +1479,7 @@
             "URL": "https://python.org/dev/peps/pep-3128/"
         },
         {
-            "PEP": "435",
+            "PEP": 435,
             "Title": "Adding an Enum type to the Python standard library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1494,7 +1494,7 @@
             "URL": "https://python.org/dev/peps/pep-0435/"
         },
         {
-            "PEP": "353",
+            "PEP": 353,
             "Title": "Using ssize_t as the index type",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1507,7 +1507,7 @@
             "URL": "https://python.org/dev/peps/pep-0353/"
         },
         {
-            "PEP": "233",
+            "PEP": 233,
             "Title": "Python Online Help",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1521,7 +1521,7 @@
             "URL": "https://python.org/dev/peps/pep-0233/"
         },
         {
-            "PEP": "541",
+            "PEP": 541,
             "Title": "Package Index Name Retention",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1535,7 +1535,7 @@
             "URL": "https://python.org/dev/peps/pep-0541/"
         },
         {
-            "PEP": "227",
+            "PEP": 227,
             "Title": "Statically Nested Scopes",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1549,7 +1549,7 @@
             "URL": "https://python.org/dev/peps/pep-0227/"
         },
         {
-            "PEP": "42",
+            "PEP": 42,
             "Title": "Feature Requests",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1563,7 +1563,7 @@
             "URL": "https://python.org/dev/peps/pep-0042/"
         },
         {
-            "PEP": "268",
+            "PEP": 268,
             "Title": "Extended HTTP functionality and WebDAV",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1577,7 +1577,7 @@
             "URL": "https://python.org/dev/peps/pep-0268/"
         },
         {
-            "PEP": "526",
+            "PEP": 526,
             "Title": "Syntax for Variable Annotations",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1592,7 +1592,7 @@
             "URL": "https://python.org/dev/peps/pep-0526/"
         },
         {
-            "PEP": "240",
+            "PEP": 240,
             "Title": "Adding a Rational Literal to Python",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1606,7 +1606,7 @@
             "URL": "https://python.org/dev/peps/pep-0240/"
         },
         {
-            "PEP": "254",
+            "PEP": 254,
             "Title": "Making Classes Look More Like Types",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1620,7 +1620,7 @@
             "URL": "https://python.org/dev/peps/pep-0254/"
         },
         {
-            "PEP": "532",
+            "PEP": 532,
             "Title": "A circuit breaking protocol and binary operators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1634,7 +1634,7 @@
             "URL": "https://python.org/dev/peps/pep-0532/"
         },
         {
-            "PEP": "283",
+            "PEP": 283,
             "Title": "Python 2.3 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1648,7 +1648,7 @@
             "URL": "https://python.org/dev/peps/pep-0283/"
         },
         {
-            "PEP": "297",
+            "PEP": 297,
             "Title": "Support for System Upgrades",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1662,7 +1662,7 @@
             "URL": "https://python.org/dev/peps/pep-0297/"
         },
         {
-            "PEP": "308",
+            "PEP": 308,
             "Title": "Conditional Expressions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1675,7 +1675,7 @@
             "URL": "https://python.org/dev/peps/pep-0308/"
         },
         {
-            "PEP": "452",
+            "PEP": 452,
             "Title": "API for Cryptographic Hash Functions v2.0",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1689,7 +1689,7 @@
             "URL": "https://python.org/dev/peps/pep-0452/"
         },
         {
-            "PEP": "334",
+            "PEP": 334,
             "Title": "Simple Coroutines via SuspendIteration",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1703,7 +1703,7 @@
             "URL": "https://python.org/dev/peps/pep-0334/"
         },
         {
-            "PEP": "320",
+            "PEP": 320,
             "Title": "Python 2.4 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1717,7 +1717,7 @@
             "URL": "https://python.org/dev/peps/pep-0320/"
         },
         {
-            "PEP": "446",
+            "PEP": 446,
             "Title": "Make newly created file descriptors non-inheritable",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1730,7 +1730,7 @@
             "URL": "https://python.org/dev/peps/pep-0446/"
         },
         {
-            "PEP": "491",
+            "PEP": 491,
             "Title": "The Wheel Binary Package Format 1.9",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1743,7 +1743,7 @@
             "URL": "https://python.org/dev/peps/pep-0491/"
         },
         {
-            "PEP": "485",
+            "PEP": 485,
             "Title": "A Function for testing approximate equality",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1758,7 +1758,7 @@
             "URL": "https://python.org/dev/peps/pep-0485/"
         },
         {
-            "PEP": "484",
+            "PEP": 484,
             "Title": "Type Hints",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1775,7 +1775,7 @@
             "URL": "https://python.org/dev/peps/pep-0484/"
         },
         {
-            "PEP": "490",
+            "PEP": 490,
             "Title": "Chain exceptions at C level",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1788,7 +1788,7 @@
             "URL": "https://python.org/dev/peps/pep-0490/"
         },
         {
-            "PEP": "321",
+            "PEP": 321,
             "Title": "Date/Time Parsing and Formatting",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1802,7 +1802,7 @@
             "URL": "https://python.org/dev/peps/pep-0321/"
         },
         {
-            "PEP": "447",
+            "PEP": 447,
             "Title": "Add __getdescriptor__ method to metaclass",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1815,7 +1815,7 @@
             "URL": "https://python.org/dev/peps/pep-0447/"
         },
         {
-            "PEP": "453",
+            "PEP": 453,
             "Title": "Explicit bootstrapping of pip in Python installations",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1830,7 +1830,7 @@
             "URL": "https://python.org/dev/peps/pep-0453/"
         },
         {
-            "PEP": "335",
+            "PEP": 335,
             "Title": "Overloadable Boolean Operators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1844,7 +1844,7 @@
             "URL": "https://python.org/dev/peps/pep-0335/"
         },
         {
-            "PEP": "309",
+            "PEP": 309,
             "Title": "Partial Function Application",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1858,7 +1858,7 @@
             "URL": "https://python.org/dev/peps/pep-0309/"
         },
         {
-            "PEP": "296",
+            "PEP": 296,
             "Title": "Adding a bytes Object Type",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1872,7 +1872,7 @@
             "URL": "https://python.org/dev/peps/pep-0296/"
         },
         {
-            "PEP": "282",
+            "PEP": 282,
             "Title": "A Logging System",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1886,7 +1886,7 @@
             "URL": "https://python.org/dev/peps/pep-0282/"
         },
         {
-            "PEP": "255",
+            "PEP": 255,
             "Title": "Simple Generators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1902,7 +1902,7 @@
             "URL": "https://python.org/dev/peps/pep-0255/"
         },
         {
-            "PEP": "533",
+            "PEP": 533,
             "Title": "Deterministic cleanup for iterators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1915,7 +1915,7 @@
             "URL": "https://python.org/dev/peps/pep-0533/"
         },
         {
-            "PEP": "527",
+            "PEP": 527,
             "Title": "Removing Un(der)used file types/extensions on PyPI",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1931,7 +1931,7 @@
             "URL": "https://python.org/dev/peps/pep-0527/"
         },
         {
-            "PEP": "241",
+            "PEP": 241,
             "Title": "Metadata for Python Software Packages",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1944,7 +1944,7 @@
             "URL": "https://python.org/dev/peps/pep-0241/"
         },
         {
-            "PEP": "269",
+            "PEP": 269,
             "Title": "Pgen Module for Python",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1958,7 +1958,7 @@
             "URL": "https://python.org/dev/peps/pep-0269/"
         },
         {
-            "PEP": "519",
+            "PEP": 519,
             "Title": "Adding a file system path protocol",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1973,7 +1973,7 @@
             "URL": "https://python.org/dev/peps/pep-0519/"
         },
         {
-            "PEP": "531",
+            "PEP": 531,
             "Title": "Existence checking operators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -1987,7 +1987,7 @@
             "URL": "https://python.org/dev/peps/pep-0531/"
         },
         {
-            "PEP": "257",
+            "PEP": 257,
             "Title": "Docstring Conventions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2001,7 +2001,7 @@
             "URL": "https://python.org/dev/peps/pep-0257/"
         },
         {
-            "PEP": "243",
+            "PEP": 243,
             "Title": "Module Repository Upload Mechanism",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2016,7 +2016,7 @@
             "URL": "https://python.org/dev/peps/pep-0243/"
         },
         {
-            "PEP": "525",
+            "PEP": 525,
             "Title": "Asynchronous Generators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2031,7 +2031,7 @@
             "URL": "https://python.org/dev/peps/pep-0525/"
         },
         {
-            "PEP": "294",
+            "PEP": 294,
             "Title": "Type Names in the types Module",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2045,7 +2045,7 @@
             "URL": "https://python.org/dev/peps/pep-0294/"
         },
         {
-            "PEP": "280",
+            "PEP": 280,
             "Title": "Optimizing access to globals",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2059,7 +2059,7 @@
             "URL": "https://python.org/dev/peps/pep-0280/"
         },
         {
-            "PEP": "479",
+            "PEP": 479,
             "Title": "Change StopIteration handling inside generators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2073,7 +2073,7 @@
             "URL": "https://python.org/dev/peps/pep-0479/"
         },
         {
-            "PEP": "445",
+            "PEP": 445,
             "Title": "Add new APIs to customize Python memory allocators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2088,7 +2088,7 @@
             "URL": "https://python.org/dev/peps/pep-0445/"
         },
         {
-            "PEP": "323",
+            "PEP": 323,
             "Title": "Copyable Iterators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2102,7 +2102,7 @@
             "URL": "https://python.org/dev/peps/pep-0323/"
         },
         {
-            "PEP": "337",
+            "PEP": 337,
             "Title": "Logging Usage in the Standard Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2116,7 +2116,7 @@
             "URL": "https://python.org/dev/peps/pep-0337/"
         },
         {
-            "PEP": "451",
+            "PEP": 451,
             "Title": "A ModuleSpec Type for the Import System",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2133,7 +2133,7 @@
             "URL": "https://python.org/dev/peps/pep-0451/"
         },
         {
-            "PEP": "486",
+            "PEP": 486,
             "Title": "Make the Python Launcher aware of virtual environments",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2148,7 +2148,7 @@
             "URL": "https://python.org/dev/peps/pep-0486/"
         },
         {
-            "PEP": "492",
+            "PEP": 492,
             "Title": "Coroutines with async and await syntax",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2163,7 +2163,7 @@
             "URL": "https://python.org/dev/peps/pep-0492/"
         },
         {
-            "PEP": "493",
+            "PEP": 493,
             "Title": "HTTPS verification migration tools for Python 2.7",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2179,7 +2179,7 @@
             "URL": "https://python.org/dev/peps/pep-0493/"
         },
         {
-            "PEP": "487",
+            "PEP": 487,
             "Title": "Simpler customisation of class creation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2195,7 +2195,7 @@
             "URL": "https://python.org/dev/peps/pep-0487/"
         },
         {
-            "PEP": "336",
+            "PEP": 336,
             "Title": "Make None Callable",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2208,7 +2208,7 @@
             "URL": "https://python.org/dev/peps/pep-0336/"
         },
         {
-            "PEP": "450",
+            "PEP": 450,
             "Title": "Adding A Statistics Module To The Standard Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2222,7 +2222,7 @@
             "URL": "https://python.org/dev/peps/pep-0450/"
         },
         {
-            "PEP": "444",
+            "PEP": 444,
             "Title": "Python Web3 Interface",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2235,7 +2235,7 @@
             "URL": "https://python.org/dev/peps/pep-0444/"
         },
         {
-            "PEP": "322",
+            "PEP": 322,
             "Title": "Reverse Iteration",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2249,7 +2249,7 @@
             "URL": "https://python.org/dev/peps/pep-0322/"
         },
         {
-            "PEP": "478",
+            "PEP": 478,
             "Title": "Python 3.5 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2262,7 +2262,7 @@
             "URL": "https://python.org/dev/peps/pep-0478/"
         },
         {
-            "PEP": "281",
+            "PEP": 281,
             "Title": "Loop Counter Iteration with range and xrange",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2276,7 +2276,7 @@
             "URL": "https://python.org/dev/peps/pep-0281/"
         },
         {
-            "PEP": "295",
+            "PEP": 295,
             "Title": "Interpretation of multiline string constants",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2290,7 +2290,7 @@
             "URL": "https://python.org/dev/peps/pep-0295/"
         },
         {
-            "PEP": "242",
+            "PEP": 242,
             "Title": "Numeric Kinds",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2304,7 +2304,7 @@
             "URL": "https://python.org/dev/peps/pep-0242/"
         },
         {
-            "PEP": "524",
+            "PEP": 524,
             "Title": "Make os.urandom() blocking on Linux",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2317,7 +2317,7 @@
             "URL": "https://python.org/dev/peps/pep-0524/"
         },
         {
-            "PEP": "530",
+            "PEP": 530,
             "Title": "Asynchronous Comprehensions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2332,7 +2332,7 @@
             "URL": "https://python.org/dev/peps/pep-0530/"
         },
         {
-            "PEP": "256",
+            "PEP": 256,
             "Title": "Docstring Processing System Framework",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2346,7 +2346,7 @@
             "URL": "https://python.org/dev/peps/pep-0256/"
         },
         {
-            "PEP": "518",
+            "PEP": 518,
             "Title": "Specifying Minimum Build System Requirements for Python Projects",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2362,7 +2362,7 @@
             "URL": "https://python.org/dev/peps/pep-0518/"
         },
         {
-            "PEP": "252",
+            "PEP": 252,
             "Title": "Making Types Look More Like Classes",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2376,7 +2376,7 @@
             "URL": "https://python.org/dev/peps/pep-0252/"
         },
         {
-            "PEP": "534",
+            "PEP": 534,
             "Title": "Distributing a Subset of the Standard Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2390,7 +2390,7 @@
             "URL": "https://python.org/dev/peps/pep-0534/"
         },
         {
-            "PEP": "520",
+            "PEP": 520,
             "Title": "Preserving Class Attribute Definition Order",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2405,7 +2405,7 @@
             "URL": "https://python.org/dev/peps/pep-0520/"
         },
         {
-            "PEP": "246",
+            "PEP": 246,
             "Title": "Object Adaptation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2419,7 +2419,7 @@
             "URL": "https://python.org/dev/peps/pep-0246/"
         },
         {
-            "PEP": "3001",
+            "PEP": 3001,
             "Title": "Procedure for reviewing and improving standard library modules",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2432,7 +2432,7 @@
             "URL": "https://python.org/dev/peps/pep-3001/"
         },
         {
-            "PEP": "508",
+            "PEP": 508,
             "Title": "Dependency specification for Python Software Packages",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2448,7 +2448,7 @@
             "URL": "https://python.org/dev/peps/pep-0508/"
         },
         {
-            "PEP": "291",
+            "PEP": 291,
             "Title": "Backward Compatibility for the Python 2 Standard Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2462,7 +2462,7 @@
             "URL": "https://python.org/dev/peps/pep-0291/"
         },
         {
-            "PEP": "285",
+            "PEP": 285,
             "Title": "Adding a bool type",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2476,7 +2476,7 @@
             "URL": "https://python.org/dev/peps/pep-0285/"
         },
         {
-            "PEP": "326",
+            "PEP": 326,
             "Title": "A Case for Top and Bottom Values",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2490,7 +2490,7 @@
             "URL": "https://python.org/dev/peps/pep-0326/"
         },
         {
-            "PEP": "440",
+            "PEP": 440,
             "Title": "Version Identification and Dependency Specification",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2507,7 +2507,7 @@
             "URL": "https://python.org/dev/peps/pep-0440/"
         },
         {
-            "PEP": "3149",
+            "PEP": 3149,
             "Title": "ABI version tagged .so files",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2522,7 +2522,7 @@
             "URL": "https://python.org/dev/peps/pep-3149/"
         },
         {
-            "PEP": "454",
+            "PEP": 454,
             "Title": "Add a new tracemalloc module to trace Python memory allocations",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2537,7 +2537,7 @@
             "URL": "https://python.org/dev/peps/pep-0454/"
         },
         {
-            "PEP": "332",
+            "PEP": 332,
             "Title": "Byte vectors and String/Unicode Unification",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2551,7 +2551,7 @@
             "URL": "https://python.org/dev/peps/pep-0332/"
         },
         {
-            "PEP": "468",
+            "PEP": 468,
             "Title": "Preserving the order of \\*\\*kwargs in a function.",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2567,7 +2567,7 @@
             "URL": "https://python.org/dev/peps/pep-0468/"
         },
         {
-            "PEP": "483",
+            "PEP": 483,
             "Title": "The Theory of Type Hints",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2582,7 +2582,7 @@
             "URL": "https://python.org/dev/peps/pep-0483/"
         },
         {
-            "PEP": "497",
+            "PEP": 497,
             "Title": "A standard mechanism for backward compatibility",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2594,7 +2594,7 @@
             "URL": "https://python.org/dev/peps/pep-0497/"
         },
         {
-            "PEP": "496",
+            "PEP": 496,
             "Title": "Environment Markers",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2607,7 +2607,7 @@
             "URL": "https://python.org/dev/peps/pep-0496/"
         },
         {
-            "PEP": "482",
+            "PEP": 482,
             "Title": "Literature Overview for Type Hints",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2622,7 +2622,7 @@
             "URL": "https://python.org/dev/peps/pep-0482/"
         },
         {
-            "PEP": "469",
+            "PEP": 469,
             "Title": "Migration of dict iteration code to Python 3",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2636,7 +2636,7 @@
             "URL": "https://python.org/dev/peps/pep-0469/"
         },
         {
-            "PEP": "455",
+            "PEP": 455,
             "Title": "Adding a key-transforming dictionary to collections",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2651,7 +2651,7 @@
             "URL": "https://python.org/dev/peps/pep-0455/"
         },
         {
-            "PEP": "333",
+            "PEP": 333,
             "Title": "Python Web Server Gateway Interface v1.0",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2666,7 +2666,7 @@
             "URL": "https://python.org/dev/peps/pep-0333/"
         },
         {
-            "PEP": "327",
+            "PEP": 327,
             "Title": "Decimal Data Type",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2680,7 +2680,7 @@
             "URL": "https://python.org/dev/peps/pep-0327/"
         },
         {
-            "PEP": "3148",
+            "PEP": 3148,
             "Title": "futures - execute computations asynchronously",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2694,7 +2694,7 @@
             "URL": "https://python.org/dev/peps/pep-3148/"
         },
         {
-            "PEP": "441",
+            "PEP": 441,
             "Title": "Improving Python ZIP Application Support",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2709,7 +2709,7 @@
             "URL": "https://python.org/dev/peps/pep-0441/"
         },
         {
-            "PEP": "284",
+            "PEP": 284,
             "Title": "Integer for-loops",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2723,7 +2723,7 @@
             "URL": "https://python.org/dev/peps/pep-0284/"
         },
         {
-            "PEP": "290",
+            "PEP": 290,
             "Title": "Code Migration and Modernization",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2736,7 +2736,7 @@
             "URL": "https://python.org/dev/peps/pep-0290/"
         },
         {
-            "PEP": "509",
+            "PEP": 509,
             "Title": "Add a private version to dict",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2749,7 +2749,7 @@
             "URL": "https://python.org/dev/peps/pep-0509/"
         },
         {
-            "PEP": "3000",
+            "PEP": 3000,
             "Title": "Python 3000",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2762,7 +2762,7 @@
             "URL": "https://python.org/dev/peps/pep-3000/"
         },
         {
-            "PEP": "521",
+            "PEP": 521,
             "Title": "Managing global context via 'with' blocks in generators and coroutines",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2776,7 +2776,7 @@
             "URL": "https://python.org/dev/peps/pep-0521/"
         },
         {
-            "PEP": "247",
+            "PEP": 247,
             "Title": "API for Cryptographic Hash Functions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2789,7 +2789,7 @@
             "URL": "https://python.org/dev/peps/pep-0247/"
         },
         {
-            "PEP": "253",
+            "PEP": 253,
             "Title": "Subtyping Built-in Types",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2803,7 +2803,7 @@
             "URL": "https://python.org/dev/peps/pep-0253/"
         },
         {
-            "PEP": "535",
+            "PEP": 535,
             "Title": "Rich comparison chaining",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2817,7 +2817,7 @@
             "URL": "https://python.org/dev/peps/pep-0535/"
         },
         {
-            "PEP": "245",
+            "PEP": 245,
             "Title": "Python Interface Syntax",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2832,7 +2832,7 @@
             "URL": "https://python.org/dev/peps/pep-0245/"
         },
         {
-            "PEP": "523",
+            "PEP": 523,
             "Title": "Adding a frame evaluation API to CPython",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2846,7 +2846,7 @@
             "URL": "https://python.org/dev/peps/pep-0523/"
         },
         {
-            "PEP": "537",
+            "PEP": 537,
             "Title": "Python 3.7 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2859,7 +2859,7 @@
             "URL": "https://python.org/dev/peps/pep-0537/"
         },
         {
-            "PEP": "251",
+            "PEP": 251,
             "Title": "Python 2.2 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2873,7 +2873,7 @@
             "URL": "https://python.org/dev/peps/pep-0251/"
         },
         {
-            "PEP": "279",
+            "PEP": 279,
             "Title": "The enumerate() built-in function",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2887,7 +2887,7 @@
             "URL": "https://python.org/dev/peps/pep-0279/"
         },
         {
-            "PEP": "3002",
+            "PEP": 3002,
             "Title": "Procedure for Backwards-Incompatible Changes",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2900,7 +2900,7 @@
             "URL": "https://python.org/dev/peps/pep-3002/"
         },
         {
-            "PEP": "286",
+            "PEP": 286,
             "Title": "Enhanced Argument Tuples",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2914,7 +2914,7 @@
             "URL": "https://python.org/dev/peps/pep-0286/"
         },
         {
-            "PEP": "292",
+            "PEP": 292,
             "Title": "Simpler String Substitutions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2928,7 +2928,7 @@
             "URL": "https://python.org/dev/peps/pep-0292/"
         },
         {
-            "PEP": "331",
+            "PEP": 331,
             "Title": "Locale-Independent Float/String Conversions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2942,7 +2942,7 @@
             "URL": "https://python.org/dev/peps/pep-0331/"
         },
         {
-            "PEP": "457",
+            "PEP": 457,
             "Title": "Syntax For Positional-Only Parameters",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2955,7 +2955,7 @@
             "URL": "https://python.org/dev/peps/pep-0457/"
         },
         {
-            "PEP": "443",
+            "PEP": 443,
             "Title": "Single-dispatch generic functions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2970,7 +2970,7 @@
             "URL": "https://python.org/dev/peps/pep-0443/"
         },
         {
-            "PEP": "325",
+            "PEP": 325,
             "Title": "Resource-Release Support for Generators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2984,7 +2984,7 @@
             "URL": "https://python.org/dev/peps/pep-0325/"
         },
         {
-            "PEP": "319",
+            "PEP": 319,
             "Title": "Python Synchronize/Asynchronize Block",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -2998,7 +2998,7 @@
             "URL": "https://python.org/dev/peps/pep-0319/"
         },
         {
-            "PEP": "494",
+            "PEP": 494,
             "Title": "Python 3.6 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3011,7 +3011,7 @@
             "URL": "https://python.org/dev/peps/pep-0494/"
         },
         {
-            "PEP": "480",
+            "PEP": 480,
             "Title": "Surviving a Compromise of PyPI: The Maximum Security Model",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3026,7 +3026,7 @@
             "URL": "https://python.org/dev/peps/pep-0480/"
         },
         {
-            "PEP": "481",
+            "PEP": 481,
             "Title": "Migrate CPython to Git, Github, and Phabricator",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3039,7 +3039,7 @@
             "URL": "https://python.org/dev/peps/pep-0481/"
         },
         {
-            "PEP": "495",
+            "PEP": 495,
             "Title": "Local Time Disambiguation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3054,7 +3054,7 @@
             "URL": "https://python.org/dev/peps/pep-0495/"
         },
         {
-            "PEP": "318",
+            "PEP": 318,
             "Title": "Decorators for Functions and Methods",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3068,7 +3068,7 @@
             "URL": "https://python.org/dev/peps/pep-0318/"
         },
         {
-            "PEP": "442",
+            "PEP": 442,
             "Title": "Safe object finalization",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3084,7 +3084,7 @@
             "URL": "https://python.org/dev/peps/pep-0442/"
         },
         {
-            "PEP": "324",
+            "PEP": 324,
             "Title": "subprocess - New process module",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3098,7 +3098,7 @@
             "URL": "https://python.org/dev/peps/pep-0324/"
         },
         {
-            "PEP": "330",
+            "PEP": 330,
             "Title": "Python Bytecode Verification",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3112,7 +3112,7 @@
             "URL": "https://python.org/dev/peps/pep-0330/"
         },
         {
-            "PEP": "456",
+            "PEP": 456,
             "Title": "Secure and interchangeable hash algorithm",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3128,7 +3128,7 @@
             "URL": "https://python.org/dev/peps/pep-0456/"
         },
         {
-            "PEP": "293",
+            "PEP": 293,
             "Title": "Codec Error Handling Callbacks",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3142,7 +3142,7 @@
             "URL": "https://python.org/dev/peps/pep-0293/"
         },
         {
-            "PEP": "287",
+            "PEP": 287,
             "Title": "reStructuredText Docstring Format",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3157,7 +3157,7 @@
             "URL": "https://python.org/dev/peps/pep-0287/"
         },
         {
-            "PEP": "3003",
+            "PEP": 3003,
             "Title": "Python Language Moratorium",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3170,7 +3170,7 @@
             "URL": "https://python.org/dev/peps/pep-3003/"
         },
         {
-            "PEP": "278",
+            "PEP": 278,
             "Title": "Universal Newline Support",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3184,7 +3184,7 @@
             "URL": "https://python.org/dev/peps/pep-0278/"
         },
         {
-            "PEP": "536",
+            "PEP": 536,
             "Title": "Final Grammar for Literal String Interpolation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3198,7 +3198,7 @@
             "URL": "https://python.org/dev/peps/pep-0536/"
         },
         {
-            "PEP": "250",
+            "PEP": 250,
             "Title": "Using site-packages on Windows",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3212,7 +3212,7 @@
             "URL": "https://python.org/dev/peps/pep-0250/"
         },
         {
-            "PEP": "244",
+            "PEP": 244,
             "Title": "The ``directive`` statement",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3226,7 +3226,7 @@
             "URL": "https://python.org/dev/peps/pep-0244/"
         },
         {
-            "PEP": "522",
+            "PEP": 522,
             "Title": "Allow BlockingIOError in security sensitive APIs",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3241,7 +3241,7 @@
             "URL": "https://python.org/dev/peps/pep-0522/"
         },
         {
-            "PEP": "249",
+            "PEP": 249,
             "Title": "Python Database API Specification v2.0",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3256,7 +3256,7 @@
             "URL": "https://python.org/dev/peps/pep-0249/"
         },
         {
-            "PEP": "507",
+            "PEP": 507,
             "Title": "Migrate CPython to Git and GitLab",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3270,7 +3270,7 @@
             "URL": "https://python.org/dev/peps/pep-0507/"
         },
         {
-            "PEP": "261",
+            "PEP": 261,
             "Title": "Support for \"wide\" Unicode characters",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3284,7 +3284,7 @@
             "URL": "https://python.org/dev/peps/pep-0261/"
         },
         {
-            "PEP": "275",
+            "PEP": 275,
             "Title": "Switching on Multiple Values",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3298,7 +3298,7 @@
             "URL": "https://python.org/dev/peps/pep-0275/"
         },
         {
-            "PEP": "513",
+            "PEP": 513,
             "Title": "A Platform Tag for Portable Linux Built Distributions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3314,7 +3314,7 @@
             "URL": "https://python.org/dev/peps/pep-0513/"
         },
         {
-            "PEP": "3146",
+            "PEP": 3146,
             "Title": "Merging Unladen Swallow into CPython",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3328,7 +3328,7 @@
             "URL": "https://python.org/dev/peps/pep-3146/"
         },
         {
-            "PEP": "329",
+            "PEP": 329,
             "Title": "Treating Builtins as Constants in the Standard Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3342,7 +3342,7 @@
             "URL": "https://python.org/dev/peps/pep-0329/"
         },
         {
-            "PEP": "3152",
+            "PEP": 3152,
             "Title": "Cofunctions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3356,7 +3356,7 @@
             "URL": "https://python.org/dev/peps/pep-3152/"
         },
         {
-            "PEP": "473",
+            "PEP": 473,
             "Title": "Adding structured data to built-in exceptions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3369,7 +3369,7 @@
             "URL": "https://python.org/dev/peps/pep-0473/"
         },
         {
-            "PEP": "315",
+            "PEP": 315,
             "Title": "Enhanced While Loop",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3383,7 +3383,7 @@
             "URL": "https://python.org/dev/peps/pep-0315/"
         },
         {
-            "PEP": "301",
+            "PEP": 301,
             "Title": "Package Index and Metadata for Distutils",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3397,7 +3397,7 @@
             "URL": "https://python.org/dev/peps/pep-0301/"
         },
         {
-            "PEP": "467",
+            "PEP": 467,
             "Title": "Minor API improvements for binary sequences",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3411,7 +3411,7 @@
             "URL": "https://python.org/dev/peps/pep-0467/"
         },
         {
-            "PEP": "498",
+            "PEP": 498,
             "Title": "Literal String Interpolation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3426,7 +3426,7 @@
             "URL": "https://python.org/dev/peps/pep-0498/"
         },
         {
-            "PEP": "103",
+            "PEP": 103,
             "Title": "Collecting information about git",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3439,7 +3439,7 @@
             "URL": "https://python.org/dev/peps/pep-0103/"
         },
         {
-            "PEP": "102",
+            "PEP": 102,
             "Title": "Doing Python Micro Releases",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3453,7 +3453,7 @@
             "URL": "https://python.org/dev/peps/pep-0102/"
         },
         {
-            "PEP": "499",
+            "PEP": 499,
             "Title": "``python -m foo`` should bind ``sys.modules['foo']`` in addition to ``sys.modules['__main__']``",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3466,7 +3466,7 @@
             "URL": "https://python.org/dev/peps/pep-0499/"
         },
         {
-            "PEP": "466",
+            "PEP": 466,
             "Title": "Network Security Enhancements for Python 2.7.x",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3481,7 +3481,7 @@
             "URL": "https://python.org/dev/peps/pep-0466/"
         },
         {
-            "PEP": "472",
+            "PEP": 472,
             "Title": "Support for indexing with keyword arguments",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3496,7 +3496,7 @@
             "URL": "https://python.org/dev/peps/pep-0472/"
         },
         {
-            "PEP": "314",
+            "PEP": 314,
             "Title": "Metadata for Python Software Packages v1.1",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3511,7 +3511,7 @@
             "URL": "https://python.org/dev/peps/pep-0314/"
         },
         {
-            "PEP": "3153",
+            "PEP": 3153,
             "Title": "Asynchronous IO support",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3525,7 +3525,7 @@
             "URL": "https://python.org/dev/peps/pep-3153/"
         },
         {
-            "PEP": "3147",
+            "PEP": 3147,
             "Title": "PYC Repository Directories",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3540,7 +3540,7 @@
             "URL": "https://python.org/dev/peps/pep-3147/"
         },
         {
-            "PEP": "328",
+            "PEP": 328,
             "Title": "Imports: Multi-Line and Absolute/Relative",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3554,7 +3554,7 @@
             "URL": "https://python.org/dev/peps/pep-0328/"
         },
         {
-            "PEP": "274",
+            "PEP": 274,
             "Title": "Dict Comprehensions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3568,7 +3568,7 @@
             "URL": "https://python.org/dev/peps/pep-0274/"
         },
         {
-            "PEP": "512",
+            "PEP": 512,
             "Title": "Migrating from hg.python.org to GitHub",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3582,7 +3582,7 @@
             "URL": "https://python.org/dev/peps/pep-0512/"
         },
         {
-            "PEP": "506",
+            "PEP": 506,
             "Title": "Adding A Secrets Module To The Standard Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3596,7 +3596,7 @@
             "URL": "https://python.org/dev/peps/pep-0506/"
         },
         {
-            "PEP": "260",
+            "PEP": 260,
             "Title": "Simplify xrange()",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3610,7 +3610,7 @@
             "URL": "https://python.org/dev/peps/pep-0260/"
         },
         {
-            "PEP": "248",
+            "PEP": 248,
             "Title": "Python Database API Specification v1.0",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3625,7 +3625,7 @@
             "URL": "https://python.org/dev/peps/pep-0248/"
         },
         {
-            "PEP": "538",
+            "PEP": 538,
             "Title": "Coercing the legacy C locale to a UTF-8 based locale",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3641,7 +3641,7 @@
             "URL": "https://python.org/dev/peps/pep-0538/"
         },
         {
-            "PEP": "510",
+            "PEP": 510,
             "Title": "Specialize functions with guards",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3654,7 +3654,7 @@
             "URL": "https://python.org/dev/peps/pep-0510/"
         },
         {
-            "PEP": "276",
+            "PEP": 276,
             "Title": "Simple Iterator for ints",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3668,7 +3668,7 @@
             "URL": "https://python.org/dev/peps/pep-0276/"
         },
         {
-            "PEP": "262",
+            "PEP": 262,
             "Title": "A Database of Installed Python Packages",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3681,7 +3681,7 @@
             "URL": "https://python.org/dev/peps/pep-0262/"
         },
         {
-            "PEP": "504",
+            "PEP": 504,
             "Title": "Using the System RNG by default",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3695,7 +3695,7 @@
             "URL": "https://python.org/dev/peps/pep-0504/"
         },
         {
-            "PEP": "289",
+            "PEP": 289,
             "Title": "Generator Expressions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3709,7 +3709,7 @@
             "URL": "https://python.org/dev/peps/pep-0289/"
         },
         {
-            "PEP": "458",
+            "PEP": 458,
             "Title": "Surviving a Compromise of PyPI",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3723,7 +3723,7 @@
             "URL": "https://python.org/dev/peps/pep-0458/"
         },
         {
-            "PEP": "3151",
+            "PEP": 3151,
             "Title": "Reworking the OS and IO exception hierarchy",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3739,7 +3739,7 @@
             "URL": "https://python.org/dev/peps/pep-3151/"
         },
         {
-            "PEP": "3145",
+            "PEP": 3145,
             "Title": "Asynchronous I/O For subprocess.Popen",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3753,7 +3753,7 @@
             "URL": "https://python.org/dev/peps/pep-3145/"
         },
         {
-            "PEP": "464",
+            "PEP": 464,
             "Title": "Removal of the PyPI Mirror Authenticity API",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3770,7 +3770,7 @@
             "URL": "https://python.org/dev/peps/pep-0464/"
         },
         {
-            "PEP": "302",
+            "PEP": 302,
             "Title": "New Import Hooks",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3784,7 +3784,7 @@
             "URL": "https://python.org/dev/peps/pep-0302/"
         },
         {
-            "PEP": "316",
+            "PEP": 316,
             "Title": "Programming by Contract for Python",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3798,7 +3798,7 @@
             "URL": "https://python.org/dev/peps/pep-0316/"
         },
         {
-            "PEP": "470",
+            "PEP": 470,
             "Title": "Removing External Hosting Support on PyPI",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3815,7 +3815,7 @@
             "URL": "https://python.org/dev/peps/pep-0470/"
         },
         {
-            "PEP": "100",
+            "PEP": 100,
             "Title": "Python Unicode Integration",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3829,7 +3829,7 @@
             "URL": "https://python.org/dev/peps/pep-0100/"
         },
         {
-            "PEP": "666",
+            "PEP": 666,
             "Title": "Reject Foolish Indentation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3843,7 +3843,7 @@
             "URL": "https://python.org/dev/peps/pep-0666/"
         },
         {
-            "PEP": "101",
+            "PEP": 101,
             "Title": "Doing Python Releases 101",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3856,7 +3856,7 @@
             "URL": "https://python.org/dev/peps/pep-0101/"
         },
         {
-            "PEP": "317",
+            "PEP": 317,
             "Title": "Eliminate Implicit Exception Instantiation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3870,7 +3870,7 @@
             "URL": "https://python.org/dev/peps/pep-0317/"
         },
         {
-            "PEP": "471",
+            "PEP": 471,
             "Title": "os.scandir() function -- a better and faster directory iterator",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3885,7 +3885,7 @@
             "URL": "https://python.org/dev/peps/pep-0471/"
         },
         {
-            "PEP": "465",
+            "PEP": 465,
             "Title": "A dedicated infix operator for matrix multiplication",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3899,7 +3899,7 @@
             "URL": "https://python.org/dev/peps/pep-0465/"
         },
         {
-            "PEP": "303",
+            "PEP": 303,
             "Title": "Extend divmod() for Multiple Divisors",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3913,7 +3913,7 @@
             "URL": "https://python.org/dev/peps/pep-0303/"
         },
         {
-            "PEP": "3144",
+            "PEP": 3144,
             "Title": "IP Address Manipulation Library for the Python Standard Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3929,7 +3929,7 @@
             "URL": "https://python.org/dev/peps/pep-3144/"
         },
         {
-            "PEP": "3150",
+            "PEP": 3150,
             "Title": "Statement local namespaces (aka \"given\" clause)",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3944,7 +3944,7 @@
             "URL": "https://python.org/dev/peps/pep-3150/"
         },
         {
-            "PEP": "459",
+            "PEP": 459,
             "Title": "Standard Metadata Extensions for Python Software Packages",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3960,7 +3960,7 @@
             "URL": "https://python.org/dev/peps/pep-0459/"
         },
         {
-            "PEP": "288",
+            "PEP": 288,
             "Title": "Generators Attributes and Exceptions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3974,7 +3974,7 @@
             "URL": "https://python.org/dev/peps/pep-0288/"
         },
         {
-            "PEP": "263",
+            "PEP": 263,
             "Title": "Defining Python Source Code Encodings",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -3988,7 +3988,7 @@
             "URL": "https://python.org/dev/peps/pep-0263/"
         },
         {
-            "PEP": "505",
+            "PEP": 505,
             "Title": "None-aware operators",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4001,7 +4001,7 @@
             "URL": "https://python.org/dev/peps/pep-0505/"
         },
         {
-            "PEP": "511",
+            "PEP": 511,
             "Title": "API for code transformers",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4014,7 +4014,7 @@
             "URL": "https://python.org/dev/peps/pep-0511/"
         },
         {
-            "PEP": "277",
+            "PEP": 277,
             "Title": "Unicode file name support for Windows NT",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4028,7 +4028,7 @@
             "URL": "https://python.org/dev/peps/pep-0277/"
         },
         {
-            "PEP": "539",
+            "PEP": 539,
             "Title": "A New C-API for Thread-Local Storage in CPython",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4043,7 +4043,7 @@
             "URL": "https://python.org/dev/peps/pep-0539/"
         },
         {
-            "PEP": "273",
+            "PEP": 273,
             "Title": "Import Modules from Zip Archives",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4057,7 +4057,7 @@
             "URL": "https://python.org/dev/peps/pep-0273/"
         },
         {
-            "PEP": "515",
+            "PEP": 515,
             "Title": "Underscores in Numeric Literals",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4071,7 +4071,7 @@
             "URL": "https://python.org/dev/peps/pep-0515/"
         },
         {
-            "PEP": "501",
+            "PEP": 501,
             "Title": "General purpose string interpolation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4086,7 +4086,7 @@
             "URL": "https://python.org/dev/peps/pep-0501/"
         },
         {
-            "PEP": "267",
+            "PEP": 267,
             "Title": "Optimized Access to Module Namespaces",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4100,7 +4100,7 @@
             "URL": "https://python.org/dev/peps/pep-0267/"
         },
         {
-            "PEP": "529",
+            "PEP": 529,
             "Title": "Change Windows filesystem encoding to UTF-8",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4115,7 +4115,7 @@
             "URL": "https://python.org/dev/peps/pep-0529/"
         },
         {
-            "PEP": "298",
+            "PEP": 298,
             "Title": "The Locked Buffer Interface",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4129,7 +4129,7 @@
             "URL": "https://python.org/dev/peps/pep-0298/"
         },
         {
-            "PEP": "307",
+            "PEP": 307,
             "Title": "Extensions to the pickle protocol",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4142,7 +4142,7 @@
             "URL": "https://python.org/dev/peps/pep-0307/"
         },
         {
-            "PEP": "461",
+            "PEP": 461,
             "Title": "Adding % formatting to bytes and bytearray",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4157,7 +4157,7 @@
             "URL": "https://python.org/dev/peps/pep-0461/"
         },
         {
-            "PEP": "475",
+            "PEP": 475,
             "Title": "Retry system calls failing with EINTR",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4172,7 +4172,7 @@
             "URL": "https://python.org/dev/peps/pep-0475/"
         },
         {
-            "PEP": "313",
+            "PEP": 313,
             "Title": "Adding Roman Numeral Literals to Python",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4186,7 +4186,7 @@
             "URL": "https://python.org/dev/peps/pep-0313/"
         },
         {
-            "PEP": "3154",
+            "PEP": 3154,
             "Title": "Pickle protocol version 4",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4202,7 +4202,7 @@
             "URL": "https://python.org/dev/peps/pep-3154/"
         },
         {
-            "PEP": "3140",
+            "PEP": 3140,
             "Title": "str(container) should call str(item), not repr(item)",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4216,7 +4216,7 @@
             "URL": "https://python.org/dev/peps/pep-3140/"
         },
         {
-            "PEP": "449",
+            "PEP": 449,
             "Title": "Removal of the PyPI Mirror Auto Discovery and Naming Scheme",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4233,7 +4233,7 @@
             "URL": "https://python.org/dev/peps/pep-0449/"
         },
         {
-            "PEP": "448",
+            "PEP": 448,
             "Title": "Additional Unpacking Generalizations",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4248,7 +4248,7 @@
             "URL": "https://python.org/dev/peps/pep-0448/"
         },
         {
-            "PEP": "3141",
+            "PEP": 3141,
             "Title": "A Type Hierarchy for Numbers",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4261,7 +4261,7 @@
             "URL": "https://python.org/dev/peps/pep-3141/"
         },
         {
-            "PEP": "3155",
+            "PEP": 3155,
             "Title": "Qualified name for classes and functions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4276,7 +4276,7 @@
             "URL": "https://python.org/dev/peps/pep-3155/"
         },
         {
-            "PEP": "474",
+            "PEP": 474,
             "Title": "Creating forge.python.org",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4289,7 +4289,7 @@
             "URL": "https://python.org/dev/peps/pep-0474/"
         },
         {
-            "PEP": "312",
+            "PEP": 312,
             "Title": "Simple Implicit Lambda",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4303,7 +4303,7 @@
             "URL": "https://python.org/dev/peps/pep-0312/"
         },
         {
-            "PEP": "306",
+            "PEP": 306,
             "Title": "How to Change Python's Grammar",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4316,7 +4316,7 @@
             "URL": "https://python.org/dev/peps/pep-0306/"
         },
         {
-            "PEP": "460",
+            "PEP": 460,
             "Title": "Add binary interpolation and formatting",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4329,7 +4329,7 @@
             "URL": "https://python.org/dev/peps/pep-0460/"
         },
         {
-            "PEP": "299",
+            "PEP": 299,
             "Title": "Special __main__() function in modules",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4343,7 +4343,7 @@
             "URL": "https://python.org/dev/peps/pep-0299/"
         },
         {
-            "PEP": "528",
+            "PEP": 528,
             "Title": "Change Windows console encoding to UTF-8",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4358,7 +4358,7 @@
             "URL": "https://python.org/dev/peps/pep-0528/"
         },
         {
-            "PEP": "500",
+            "PEP": 500,
             "Title": "A protocol for delegating datetime methods to their,tzinfo implementations",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4373,7 +4373,7 @@
             "URL": "https://python.org/dev/peps/pep-0500/"
         },
         {
-            "PEP": "266",
+            "PEP": 266,
             "Title": "Optimizing Global Variable/Attribute Access",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4387,7 +4387,7 @@
             "URL": "https://python.org/dev/peps/pep-0266/"
         },
         {
-            "PEP": "272",
+            "PEP": 272,
             "Title": "API for Block Encryption Algorithms v1.0",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4400,7 +4400,7 @@
             "URL": "https://python.org/dev/peps/pep-0272/"
         },
         {
-            "PEP": "514",
+            "PEP": 514,
             "Title": "Python registration in the Windows registry",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4415,7 +4415,7 @@
             "URL": "https://python.org/dev/peps/pep-0514/"
         },
         {
-            "PEP": "264",
+            "PEP": 264,
             "Title": "Future statements in simulated shells",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4430,7 +4430,7 @@
             "URL": "https://python.org/dev/peps/pep-0264/"
         },
         {
-            "PEP": "502",
+            "PEP": 502,
             "Title": "String Interpolation - Extended Discussion",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4443,7 +4443,7 @@
             "URL": "https://python.org/dev/peps/pep-0502/"
         },
         {
-            "PEP": "516",
+            "PEP": 516,
             "Title": "Build system abstraction for pip/conda etc",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4458,7 +4458,7 @@
             "URL": "https://python.org/dev/peps/pep-0516/"
         },
         {
-            "PEP": "270",
+            "PEP": 270,
             "Title": "uniq method for list objects",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4472,7 +4472,7 @@
             "URL": "https://python.org/dev/peps/pep-0270/"
         },
         {
-            "PEP": "258",
+            "PEP": 258,
             "Title": "Docutils Design Specification",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4487,7 +4487,7 @@
             "URL": "https://python.org/dev/peps/pep-0258/"
         },
         {
-            "PEP": "310",
+            "PEP": 310,
             "Title": "Reliable Acquisition/Release Pairs",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4501,7 +4501,7 @@
             "URL": "https://python.org/dev/peps/pep-0310/"
         },
         {
-            "PEP": "476",
+            "PEP": 476,
             "Title": "Enabling certificate verification by default for stdlib http clients",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4514,7 +4514,7 @@
             "URL": "https://python.org/dev/peps/pep-0476/"
         },
         {
-            "PEP": "462",
+            "PEP": 462,
             "Title": "Core development workflow automation for CPython",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4528,7 +4528,7 @@
             "URL": "https://python.org/dev/peps/pep-0462/"
         },
         {
-            "PEP": "304",
+            "PEP": 304,
             "Title": "Controlling Generation of Bytecode Files",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4541,7 +4541,7 @@
             "URL": "https://python.org/dev/peps/pep-0304/"
         },
         {
-            "PEP": "3143",
+            "PEP": 3143,
             "Title": "Standard daemon process library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4555,7 +4555,7 @@
             "URL": "https://python.org/dev/peps/pep-3143/"
         },
         {
-            "PEP": "338",
+            "PEP": 338,
             "Title": "Executing modules as scripts",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4569,7 +4569,7 @@
             "URL": "https://python.org/dev/peps/pep-0338/"
         },
         {
-            "PEP": "489",
+            "PEP": 489,
             "Title": "Multi-phase extension module initialization",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4586,7 +4586,7 @@
             "URL": "https://python.org/dev/peps/pep-0489/"
         },
         {
-            "PEP": "488",
+            "PEP": 488,
             "Title": "Elimination of PYO files",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4600,7 +4600,7 @@
             "URL": "https://python.org/dev/peps/pep-0488/"
         },
         {
-            "PEP": "3156",
+            "PEP": 3156,
             "Title": "Asynchronous IO Support Rebooted: the \"asyncio\" Module",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4616,7 +4616,7 @@
             "URL": "https://python.org/dev/peps/pep-3156/"
         },
         {
-            "PEP": "339",
+            "PEP": 339,
             "Title": "Design of the CPython Compiler",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4629,7 +4629,7 @@
             "URL": "https://python.org/dev/peps/pep-0339/"
         },
         {
-            "PEP": "3142",
+            "PEP": 3142,
             "Title": "Add a \"while\" clause to generator expressions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4644,7 +4644,7 @@
             "URL": "https://python.org/dev/peps/pep-3142/"
         },
         {
-            "PEP": "463",
+            "PEP": 463,
             "Title": "Exception-catching expressions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4659,7 +4659,7 @@
             "URL": "https://python.org/dev/peps/pep-0463/"
         },
         {
-            "PEP": "305",
+            "PEP": 305,
             "Title": "CSV File API",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4673,7 +4673,7 @@
             "URL": "https://python.org/dev/peps/pep-0305/"
         },
         {
-            "PEP": "311",
+            "PEP": 311,
             "Title": "Simplified Global Interpreter Lock Acquisition for Extensions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4686,7 +4686,7 @@
             "URL": "https://python.org/dev/peps/pep-0311/"
         },
         {
-            "PEP": "477",
+            "PEP": 477,
             "Title": "Backport ensurepip (PEP 453) to Python 2.7",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4701,7 +4701,7 @@
             "URL": "https://python.org/dev/peps/pep-0477/"
         },
         {
-            "PEP": "259",
+            "PEP": 259,
             "Title": "Omit printing newline after newline",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4715,7 +4715,7 @@
             "URL": "https://python.org/dev/peps/pep-0259/"
         },
         {
-            "PEP": "517",
+            "PEP": 517,
             "Title": "A build-system independent format for source trees",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4731,7 +4731,7 @@
             "URL": "https://python.org/dev/peps/pep-0517/"
         },
         {
-            "PEP": "271",
+            "PEP": 271,
             "Title": "Prefixing sys.path by command line option",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4745,7 +4745,7 @@
             "URL": "https://python.org/dev/peps/pep-0271/"
         },
         {
-            "PEP": "265",
+            "PEP": 265,
             "Title": "Sorting Dictionaries by Value",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4759,7 +4759,7 @@
             "URL": "https://python.org/dev/peps/pep-0265/"
         },
         {
-            "PEP": "503",
+            "PEP": 503,
             "Title": "Simple Repository API",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4775,7 +4775,7 @@
             "URL": "https://python.org/dev/peps/pep-0503/"
         },
         {
-            "PEP": "202",
+            "PEP": 202,
             "Title": "List Comprehensions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4789,7 +4789,7 @@
             "URL": "https://python.org/dev/peps/pep-0202/"
         },
         {
-            "PEP": "216",
+            "PEP": 216,
             "Title": "Docstring Format",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4803,7 +4803,7 @@
             "URL": "https://python.org/dev/peps/pep-0216/"
         },
         {
-            "PEP": "3125",
+            "PEP": 3125,
             "Title": "Remove Backslash Continuation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4816,7 +4816,7 @@
             "URL": "https://python.org/dev/peps/pep-3125/"
         },
         {
-            "PEP": "3131",
+            "PEP": 3131,
             "Title": "Supporting Non-ASCII Identifiers",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4830,7 +4830,7 @@
             "URL": "https://python.org/dev/peps/pep-3131/"
         },
         {
-            "PEP": "438",
+            "PEP": 438,
             "Title": "Transitioning to release-file hosting on PyPI",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4847,7 +4847,7 @@
             "URL": "https://python.org/dev/peps/pep-0438/"
         },
         {
-            "PEP": "376",
+            "PEP": 376,
             "Title": "Database of Installed Python Distributions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4861,7 +4861,7 @@
             "URL": "https://python.org/dev/peps/pep-0376/"
         },
         {
-            "PEP": "3119",
+            "PEP": 3119,
             "Title": "Introducing Abstract Base Classes",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4874,7 +4874,7 @@
             "URL": "https://python.org/dev/peps/pep-3119/"
         },
         {
-            "PEP": "410",
+            "PEP": 410,
             "Title": "Use decimal.Decimal type for timestamps",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4888,7 +4888,7 @@
             "URL": "https://python.org/dev/peps/pep-0410/"
         },
         {
-            "PEP": "404",
+            "PEP": 404,
             "Title": "Python 2.8 Un-release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4901,7 +4901,7 @@
             "URL": "https://python.org/dev/peps/pep-0404/"
         },
         {
-            "PEP": "362",
+            "PEP": 362,
             "Title": "Function Signature Object",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4916,7 +4916,7 @@
             "URL": "https://python.org/dev/peps/pep-0362/"
         },
         {
-            "PEP": "389",
+            "PEP": 389,
             "Title": "argparse - New Command Line Parsing Module",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4930,7 +4930,7 @@
             "URL": "https://python.org/dev/peps/pep-0389/"
         },
         {
-            "PEP": "3333",
+            "PEP": 3333,
             "Title": "Python Web Server Gateway Interface v1.0.1",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4945,7 +4945,7 @@
             "URL": "https://python.org/dev/peps/pep-3333/"
         },
         {
-            "PEP": "160",
+            "PEP": 160,
             "Title": "Python 1.6 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4959,7 +4959,7 @@
             "URL": "https://python.org/dev/peps/pep-0160/"
         },
         {
-            "PEP": "405",
+            "PEP": 405,
             "Title": "Python Virtual Environments",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4975,7 +4975,7 @@
             "URL": "https://python.org/dev/peps/pep-0405/"
         },
         {
-            "PEP": "363",
+            "PEP": 363,
             "Title": "Syntax For Dynamic Attribute Access",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -4988,7 +4988,7 @@
             "URL": "https://python.org/dev/peps/pep-0363/"
         },
         {
-            "PEP": "377",
+            "PEP": 377,
             "Title": "Allow __enter__() methods to skip the statement body",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5002,7 +5002,7 @@
             "URL": "https://python.org/dev/peps/pep-0377/"
         },
         {
-            "PEP": "411",
+            "PEP": 411,
             "Title": "Provisional packages in the Python standard library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5016,7 +5016,7 @@
             "URL": "https://python.org/dev/peps/pep-0411/"
         },
         {
-            "PEP": "3118",
+            "PEP": 3118,
             "Title": "Revising the buffer protocol",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5030,7 +5030,7 @@
             "URL": "https://python.org/dev/peps/pep-3118/"
         },
         {
-            "PEP": "439",
+            "PEP": 439,
             "Title": "Inclusion of implicit pip bootstrap in Python installation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5047,7 +5047,7 @@
             "URL": "https://python.org/dev/peps/pep-0439/"
         },
         {
-            "PEP": "3130",
+            "PEP": 3130,
             "Title": "Access to Current Module/Class/Function",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5061,7 +5061,7 @@
             "URL": "https://python.org/dev/peps/pep-3130/"
         },
         {
-            "PEP": "3124",
+            "PEP": 3124,
             "Title": "Overloading, Generic Functions, Interfaces, and Adaptation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5077,7 +5077,7 @@
             "URL": "https://python.org/dev/peps/pep-3124/"
         },
         {
-            "PEP": "217",
+            "PEP": 217,
             "Title": "Display Hook for Interactive Use",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5091,7 +5091,7 @@
             "URL": "https://python.org/dev/peps/pep-0217/"
         },
         {
-            "PEP": "203",
+            "PEP": 203,
             "Title": "Augmented Assignments",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5105,7 +5105,7 @@
             "URL": "https://python.org/dev/peps/pep-0203/"
         },
         {
-            "PEP": "1",
+            "PEP": 1,
             "Title": "PEP Purpose and Guidelines",
             "Author": "Barry Warsaw, Jeremy Hylton, David Goodger, Nick Coghlan",
             "Status": "Active",
@@ -5116,7 +5116,7 @@
             "URL": "https://python.org/dev/peps/pep-0001/"
         },
         {
-            "PEP": "3",
+            "PEP": 3,
             "Title": "Guidelines for Handling Bug Reports",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5129,7 +5129,7 @@
             "URL": "https://python.org/dev/peps/pep-0003/"
         },
         {
-            "PEP": "229",
+            "PEP": 229,
             "Title": "Using Distutils to Build Python",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5142,7 +5142,7 @@
             "URL": "https://python.org/dev/peps/pep-0229/"
         },
         {
-            "PEP": "215",
+            "PEP": 215,
             "Title": "String Interpolation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5157,7 +5157,7 @@
             "URL": "https://python.org/dev/peps/pep-0215/"
         },
         {
-            "PEP": "201",
+            "PEP": 201,
             "Title": "Lockstep Iteration",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5171,7 +5171,7 @@
             "URL": "https://python.org/dev/peps/pep-0201/"
         },
         {
-            "PEP": "3132",
+            "PEP": 3132,
             "Title": "Extended Iterable Unpacking",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5185,7 +5185,7 @@
             "URL": "https://python.org/dev/peps/pep-3132/"
         },
         {
-            "PEP": "3126",
+            "PEP": 3126,
             "Title": "Remove Implicit String Concatenation",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5198,7 +5198,7 @@
             "URL": "https://python.org/dev/peps/pep-3126/"
         },
         {
-            "PEP": "349",
+            "PEP": 349,
             "Title": "Allow str() to return unicode strings",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5212,7 +5212,7 @@
             "URL": "https://python.org/dev/peps/pep-0349/"
         },
         {
-            "PEP": "361",
+            "PEP": 361,
             "Title": "Python 2.6 and 3.0 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5226,7 +5226,7 @@
             "URL": "https://python.org/dev/peps/pep-0361/"
         },
         {
-            "PEP": "407",
+            "PEP": 407,
             "Title": "New release cycle and introducing long-term support versions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5240,7 +5240,7 @@
             "URL": "https://python.org/dev/peps/pep-0407/"
         },
         {
-            "PEP": "413",
+            "PEP": 413,
             "Title": "Faster evolution of the Python Standard Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5254,7 +5254,7 @@
             "URL": "https://python.org/dev/peps/pep-0413/"
         },
         {
-            "PEP": "375",
+            "PEP": 375,
             "Title": "Python 3.1 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5267,7 +5267,7 @@
             "URL": "https://python.org/dev/peps/pep-0375/"
         },
         {
-            "PEP": "412",
+            "PEP": 412,
             "Title": "Key-Sharing Dictionary",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5281,7 +5281,7 @@
             "URL": "https://python.org/dev/peps/pep-0412/"
         },
         {
-            "PEP": "374",
+            "PEP": 374,
             "Title": "Choosing a distributed VCS for the Python project",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5294,7 +5294,7 @@
             "URL": "https://python.org/dev/peps/pep-0374/"
         },
         {
-            "PEP": "360",
+            "PEP": 360,
             "Title": "Externally Maintained Packages",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5307,7 +5307,7 @@
             "URL": "https://python.org/dev/peps/pep-0360/"
         },
         {
-            "PEP": "406",
+            "PEP": 406,
             "Title": "Improved Encapsulation of Import State",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5321,7 +5321,7 @@
             "URL": "https://python.org/dev/peps/pep-0406/"
         },
         {
-            "PEP": "3127",
+            "PEP": 3127,
             "Title": "Integer Literal Support and Syntax",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5336,7 +5336,7 @@
             "URL": "https://python.org/dev/peps/pep-3127/"
         },
         {
-            "PEP": "348",
+            "PEP": 348,
             "Title": "Exception Reorganization for Python 3.0",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5349,7 +5349,7 @@
             "URL": "https://python.org/dev/peps/pep-0348/"
         },
         {
-            "PEP": "3133",
+            "PEP": 3133,
             "Title": "Introducing Roles",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5364,7 +5364,7 @@
             "URL": "https://python.org/dev/peps/pep-3133/"
         },
         {
-            "PEP": "566",
+            "PEP": 566,
             "Title": "Metadata for Python Software Packages 1.3",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5381,7 +5381,7 @@
             "URL": "https://python.org/dev/peps/pep-0566/"
         },
         {
-            "PEP": "200",
+            "PEP": 200,
             "Title": "Python 2.0 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5395,7 +5395,7 @@
             "URL": "https://python.org/dev/peps/pep-0200/"
         },
         {
-            "PEP": "214",
+            "PEP": 214,
             "Title": "Extended Print Statement",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5409,7 +5409,7 @@
             "URL": "https://python.org/dev/peps/pep-0214/"
         },
         {
-            "PEP": "228",
+            "PEP": 228,
             "Title": "Reworking Python's Numeric Model",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5422,7 +5422,7 @@
             "URL": "https://python.org/dev/peps/pep-0228/"
         },
         {
-            "PEP": "2",
+            "PEP": 2,
             "Title": "Procedure for Adding New Modules",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5435,7 +5435,7 @@
             "URL": "https://python.org/dev/peps/pep-0002/"
         },
         {
-            "PEP": "6",
+            "PEP": 6,
             "Title": "Bug Fix Releases",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5448,7 +5448,7 @@
             "URL": "https://python.org/dev/peps/pep-0006/"
         },
         {
-            "PEP": "210",
+            "PEP": 210,
             "Title": "Decoupling the Interpreter Loop",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5462,7 +5462,7 @@
             "URL": "https://python.org/dev/peps/pep-0210/"
         },
         {
-            "PEP": "204",
+            "PEP": 204,
             "Title": "Range Literals",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5476,7 +5476,7 @@
             "URL": "https://python.org/dev/peps/pep-0204/"
         },
         {
-            "PEP": "238",
+            "PEP": 238,
             "Title": "Changing the Division Operator",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5490,7 +5490,7 @@
             "URL": "https://python.org/dev/peps/pep-0238/"
         },
         {
-            "PEP": "402",
+            "PEP": 402,
             "Title": "Simplified Package Layout and Partitioning",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5505,7 +5505,7 @@
             "URL": "https://python.org/dev/peps/pep-0402/"
         },
         {
-            "PEP": "364",
+            "PEP": 364,
             "Title": "Transitioning to the Py3K Standard Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5519,7 +5519,7 @@
             "URL": "https://python.org/dev/peps/pep-0364/"
         },
         {
-            "PEP": "370",
+            "PEP": 370,
             "Title": "Per user site-packages directory",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5533,7 +5533,7 @@
             "URL": "https://python.org/dev/peps/pep-0370/"
         },
         {
-            "PEP": "416",
+            "PEP": 416,
             "Title": "Add a frozendict builtin type",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5546,7 +5546,7 @@
             "URL": "https://python.org/dev/peps/pep-0416/"
         },
         {
-            "PEP": "3137",
+            "PEP": 3137,
             "Title": "Immutable Bytes and Mutable Buffer",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5560,7 +5560,7 @@
             "URL": "https://python.org/dev/peps/pep-3137/"
         },
         {
-            "PEP": "358",
+            "PEP": 358,
             "Title": "The \"bytes\" Object",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5574,7 +5574,7 @@
             "URL": "https://python.org/dev/peps/pep-0358/"
         },
         {
-            "PEP": "3123",
+            "PEP": 3123,
             "Title": "Making PyObject_HEAD conform to standard C",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5588,7 +5588,7 @@
             "URL": "https://python.org/dev/peps/pep-3123/"
         },
         {
-            "PEP": "628",
+            "PEP": 628,
             "Title": "Add ``math.tau``",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5603,7 +5603,7 @@
             "URL": "https://python.org/dev/peps/pep-0628/"
         },
         {
-            "PEP": "3122",
+            "PEP": 3122,
             "Title": "Delineation of the main module",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5616,7 +5616,7 @@
             "URL": "https://python.org/dev/peps/pep-3122/"
         },
         {
-            "PEP": "3136",
+            "PEP": 3136,
             "Title": "Labeled break and continue",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5630,7 +5630,7 @@
             "URL": "https://python.org/dev/peps/pep-3136/"
         },
         {
-            "PEP": "359",
+            "PEP": 359,
             "Title": "The \"make\" Statement",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5644,7 +5644,7 @@
             "URL": "https://python.org/dev/peps/pep-0359/"
         },
         {
-            "PEP": "371",
+            "PEP": 371,
             "Title": "Addition of the multiprocessing package to the standard library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5658,7 +5658,7 @@
             "URL": "https://python.org/dev/peps/pep-0371/"
         },
         {
-            "PEP": "417",
+            "PEP": 417,
             "Title": "Including mock in the Standard Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5673,7 +5673,7 @@
             "URL": "https://python.org/dev/peps/pep-0417/"
         },
         {
-            "PEP": "403",
+            "PEP": 403,
             "Title": "General purpose decorator clause (aka \"@in\" clause)",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5688,7 +5688,7 @@
             "URL": "https://python.org/dev/peps/pep-0403/"
         },
         {
-            "PEP": "365",
+            "PEP": 365,
             "Title": "Adding the pkg_resources module",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5701,7 +5701,7 @@
             "URL": "https://python.org/dev/peps/pep-0365/"
         },
         {
-            "PEP": "239",
+            "PEP": 239,
             "Title": "Adding a Rational Type to Python",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5715,7 +5715,7 @@
             "URL": "https://python.org/dev/peps/pep-0239/"
         },
         {
-            "PEP": "205",
+            "PEP": 205,
             "Title": "Weak References",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5729,7 +5729,7 @@
             "URL": "https://python.org/dev/peps/pep-0205/"
         },
         {
-            "PEP": "211",
+            "PEP": 211,
             "Title": "Adding A New Outer Product Operator",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5744,7 +5744,7 @@
             "URL": "https://python.org/dev/peps/pep-0211/"
         },
         {
-            "PEP": "7",
+            "PEP": 7,
             "Title": "Style Guide for C Code",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5757,7 +5757,7 @@
             "URL": "https://python.org/dev/peps/pep-0007/"
         },
         {
-            "PEP": "5",
+            "PEP": 5,
             "Title": "Guidelines for Language Evolution",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5770,7 +5770,7 @@
             "URL": "https://python.org/dev/peps/pep-0005/"
         },
         {
-            "PEP": "11",
+            "PEP": 11,
             "Title": "Removing support for little used platforms",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5783,7 +5783,7 @@
             "URL": "https://python.org/dev/peps/pep-0011/"
         },
         {
-            "PEP": "207",
+            "PEP": 207,
             "Title": "Rich Comparisons",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5797,7 +5797,7 @@
             "URL": "https://python.org/dev/peps/pep-0207/"
         },
         {
-            "PEP": "213",
+            "PEP": 213,
             "Title": "Attribute Access Handlers",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5811,7 +5811,7 @@
             "URL": "https://python.org/dev/peps/pep-0213/"
         },
         {
-            "PEP": "415",
+            "PEP": 415,
             "Title": "Implement context suppression with exception attributes",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5828,7 +5828,7 @@
             "URL": "https://python.org/dev/peps/pep-0415/"
         },
         {
-            "PEP": "373",
+            "PEP": 373,
             "Title": "Python 2.7 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5841,7 +5841,7 @@
             "URL": "https://python.org/dev/peps/pep-0373/"
         },
         {
-            "PEP": "367",
+            "PEP": 367,
             "Title": "New Super",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5855,7 +5855,7 @@
             "URL": "https://python.org/dev/peps/pep-0367/"
         },
         {
-            "PEP": "401",
+            "PEP": 401,
             "Title": "BDFL Retirement",
             "Version": "$Revision$",
             "Last-Modified": "$Date: 2009-04-01 00:00:00 -0400 (Wed, 1 Apr 2009)$",
@@ -5868,7 +5868,7 @@
             "URL": "https://python.org/dev/peps/pep-0401/"
         },
         {
-            "PEP": "3108",
+            "PEP": 3108,
             "Title": "Standard Library Reorganization",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5882,7 +5882,7 @@
             "URL": "https://python.org/dev/peps/pep-3108/"
         },
         {
-            "PEP": "429",
+            "PEP": 429,
             "Title": "Python 3.4 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5895,7 +5895,7 @@
             "URL": "https://python.org/dev/peps/pep-0429/"
         },
         {
-            "PEP": "3120",
+            "PEP": 3120,
             "Title": "Using UTF-8 as the default source encoding",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5909,7 +5909,7 @@
             "URL": "https://python.org/dev/peps/pep-3120/"
         },
         {
-            "PEP": "3134",
+            "PEP": 3134,
             "Title": "Exception Chaining and Embedded Tracebacks",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5923,7 +5923,7 @@
             "URL": "https://python.org/dev/peps/pep-3134/"
         },
         {
-            "PEP": "398",
+            "PEP": 398,
             "Title": "Python 3.3 Release Schedule",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5936,7 +5936,7 @@
             "URL": "https://python.org/dev/peps/pep-0398/"
         },
         {
-            "PEP": "399",
+            "PEP": 399,
             "Title": "Pure Python/C Accelerator Module Compatibility Requirements",
             "Version": "$Revision: 88219 $",
             "Last-Modified": "$Date: 2011-01-27 13:47:00 -0800 (Thu, 27 Jan 2011) $",
@@ -5950,7 +5950,7 @@
             "URL": "https://python.org/dev/peps/pep-0399/"
         },
         {
-            "PEP": "3135",
+            "PEP": 3135,
             "Title": "New Super",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5964,7 +5964,7 @@
             "URL": "https://python.org/dev/peps/pep-3135/"
         },
         {
-            "PEP": "3121",
+            "PEP": 3121,
             "Title": "Extension Module Initialization and Finalization",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5978,7 +5978,7 @@
             "URL": "https://python.org/dev/peps/pep-3121/"
         },
         {
-            "PEP": "428",
+            "PEP": 428,
             "Title": "The pathlib module -- object-oriented filesystem paths",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -5993,7 +5993,7 @@
             "URL": "https://python.org/dev/peps/pep-0428/"
         },
         {
-            "PEP": "366",
+            "PEP": 366,
             "Title": "Main module explicit relative imports",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -6007,7 +6007,7 @@
             "URL": "https://python.org/dev/peps/pep-0366/"
         },
         {
-            "PEP": "3109",
+            "PEP": 3109,
             "Title": "Raising Exceptions in Python 3000",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -6021,7 +6021,7 @@
             "URL": "https://python.org/dev/peps/pep-3109/"
         },
         {
-            "PEP": "400",
+            "PEP": 400,
             "Title": "Deprecate codecs.StreamReader and codecs.StreamWriter",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -6034,7 +6034,7 @@
             "URL": "https://python.org/dev/peps/pep-0400/"
         },
         {
-            "PEP": "414",
+            "PEP": 414,
             "Title": "Explicit Unicode Literal for Python 3.3",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -6048,7 +6048,7 @@
             "URL": "https://python.org/dev/peps/pep-0414/"
         },
         {
-            "PEP": "372",
+            "PEP": 372,
             "Title": "Adding an ordered dictionary to collections",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -6062,7 +6062,7 @@
             "URL": "https://python.org/dev/peps/pep-0372/"
         },
         {
-            "PEP": "212",
+            "PEP": 212,
             "Title": "Loop Counter Iteration",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -6076,7 +6076,7 @@
             "URL": "https://python.org/dev/peps/pep-0212/"
         },
         {
-            "PEP": "206",
+            "PEP": 206,
             "Title": "Python Advanced Library",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -6089,7 +6089,7 @@
             "URL": "https://python.org/dev/peps/pep-0206/"
         },
         {
-            "PEP": "10",
+            "PEP": 10,
             "Title": "Voting Guidelines",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
@@ -6102,7 +6102,7 @@
             "URL": "https://python.org/dev/peps/pep-0010/"
         },
         {
-            "PEP": "4",
+            "PEP": 4,
             "Title": "Deprecation of Standard Modules",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",

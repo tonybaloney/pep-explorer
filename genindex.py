@@ -15,6 +15,7 @@ def main():
     possible_statuses = list(set([p['Status'] for p in peps]))
     possible_python_versions = list(set([p['Python-Version'] for p in peps if 'Python-Version' in p]))
     possible_types = list(set([p['Type'] for p in peps]))
+
     possible_python_versions.sort()
 
     out = {
@@ -49,6 +50,7 @@ def _pep_info(pep_path: pathlib.Path) -> dict:
     header['URL'] = 'https://python.org/dev/peps/{0}/'.format(pep_path.stem)
     if 'Python-Version' in header:
         header['Python-Version'] = _fix_python_version(header['Python-Version'])
+    header['PEP'] = int(header['PEP'])  # Better sorting
     return header
 
 
