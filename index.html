@@ -13,12 +13,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class='container'>
+    <div class='container' ng-app="pepExplorer" ng-controller="pepCtrl">
         <h1>PEP Explorer</h1>
         <div class='row'>
             <div class="dropdown">
                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Python Version -- {{selected_status}}
+                    Python Version -- {{ selected_version }}
                     <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -28,9 +28,21 @@
                     
                     </ul>
                 </div>
+                <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Status -- {{selected_status}}
+                        <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li ng-repeat='x in possible_statuses'>
+                            <a href="#">{{x}}</a>
+                        </li>
+                        
+                        </ul>
+                    </div>
         </div>
         <div class="row">
-    <div ng-app="pepExplorer" ng-controller="pepCtrl"> 
+    <div > 
 
         <table class='table'>
             <thead>

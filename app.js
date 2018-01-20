@@ -1,6 +1,7 @@
 var app = angular.module('pepExplorer', []);
 app.controller('pepCtrl', function($scope, $http) {
     $scope.selected_status = 'Any';
+    $scope.selected_version = 'Any';
     $http.get("index.json")
     .then(function (response) {
         $scope.peps = response.data.peps;
