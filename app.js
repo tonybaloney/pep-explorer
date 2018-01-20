@@ -2,14 +2,17 @@ var app = angular.module('pepExplorer', []);
 app.controller('pepCtrl', function($scope, $http) {
     $scope.selected_status = 'Any';
     $scope.selected_version = 'Any';
-    $http.get("index.json")
+    $http.get("index.json?no-cache")
     .then(function (response) {
         $scope.peps = response.data.peps;
         $scope.possible_python_versions = response.data.possible_python_versions;
         $scope.possible_statuses = response.data.possible_statuses;
     });
+
+    $scope.pickversion = function(x){
+        $scope.selected_version = x;
+    };
+    $scope.pickstatus = function(x){
+        $scope.selected_status = x;
+    };
 });
-app.filter('pepFilter', function($scope) {
-    return function(x) {
-        return x;
-    }});

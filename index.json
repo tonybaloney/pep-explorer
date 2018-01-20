@@ -1,55 +1,55 @@
 {
     "possible_statuses": [
         "Deferred",
-        "Withdrawn",
-        "Superseded",
         "Final",
-        "Draft",
         "Accepted",
-        "Active",
+        "Withdrawn",
         "Rejected",
-        "April Fool!"
+        "Superseded",
+        "April Fool!",
+        "Active",
+        "Draft"
     ],
     "possible_python_versions": [
         "",
-        "3000",
+        "2.7 and 3.1",
+        "2.8",
+        "2.1",
+        "2.2",
+        "2.4",
+        "3.x",
+        "2.0",
+        "2.7",
+        "2.x",
+        "3.6",
+        "2.7, 3.1",
+        "3.1",
         "3.4",
+        "2.7 and 3.2",
+        "2.4?",
+        "3.5",
+        "2.6 and 3.0",
+        "2.6 / 3.0",
+        "3000",
         "2.7.9",
-        "2.7, 3.0 (originally 2.3)",
-        "2.7.12",
+        "2.4, 2,5, 2.6",
+        "2.6?",
+        "3.7",
+        "2.6, 3.0",
+        "3.8",
         "2.6",
+        "2.6 and/or 3.0",
         "3.0",
         "2.7, 3.2",
-        "2.3",
-        "1.6",
-        "2.6 and 3.0",
-        "2.6 and/or 3.0",
-        "3.3 or 3.4",
-        "2.7 and 3.2",
-        "2.0",
-        "2.2",
-        "2.7",
-        "2.4, 2,5, 2.6",
-        "2.8",
-        "2.7, 3.1",
-        "3.5",
-        "2.1",
-        "2.7 and 3.1",
-        "2.6?",
-        "3.2",
-        "2.5",
-        "2.x",
-        "3.7",
-        "3.8",
-        "2.4",
-        "3.1",
-        "3.x",
-        "2.4?",
-        "3.3",
         "N.A.",
-        "3.6",
-        "2.6 / 3.0",
-        "2.6, 3.0"
+        "1.6",
+        "3.2",
+        "3.3 or 3.4",
+        "2.7.12",
+        "3.3",
+        "2.7, 3.0 (originally 2.3)",
+        "2.5",
+        "2.3"
     ],
     "peps": [
         {
@@ -63,7 +63,8 @@
             "Content-Type": "text/x-rst",
             "Created": "14-Aug-2001",
             "Post-History": "",
-            "Resolution": "https://mail.python.org/mailman/private/peps/2016-January/001165.html"
+            "Resolution": "https://mail.python.org/mailman/private/peps/2016-January/001165.html",
+            "URL": "https://python.org/dev/peps/pep-0009/"
         },
         {
             "PEP": "223",
@@ -76,7 +77,8 @@
             "Content-Type": "text/x-rst",
             "Created": "20-Aug-2000",
             "Python-Version": "2.0",
-            "Post-History": "23-Aug-2000"
+            "Post-History": "23-Aug-2000",
+            "URL": "https://python.org/dev/peps/pep-0223/"
         },
         {
             "PEP": "545",
@@ -88,7 +90,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "04-Mar-2017",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2017-May/147957.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2017-May/147957.html",
+            "URL": "https://python.org/dev/peps/pep-0545/"
         },
         {
             "PEP": "237",
@@ -101,7 +104,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Mar-2001",
             "Python-Version": "2.2",
-            "Post-History": "16-Mar-2001, 14-Aug-2001, 23-Aug-2001"
+            "Post-History": "16-Mar-2001, 14-Aug-2001, 23-Aug-2001",
+            "URL": "https://python.org/dev/peps/pep-0237/"
         },
         {
             "PEP": "3104",
@@ -114,7 +118,8 @@
             "Content-Type": "text/x-rst",
             "Created": "12-Oct-2006",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3104/"
         },
         {
             "PEP": "419",
@@ -126,7 +131,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "06-Apr-2012",
-            "Python-Version": "3.3"
+            "Python-Version": "3.3",
+            "URL": "https://python.org/dev/peps/pep-0419/"
         },
         {
             "PEP": "3110",
@@ -139,7 +145,8 @@
             "Content-Type": "text/x-rst",
             "Created": "16-Jan-2006",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3110/"
         },
         {
             "PEP": "357",
@@ -152,7 +159,8 @@
             "Content-Type": "text/x-rst",
             "Created": "09-Feb-2006",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0357/"
         },
         {
             "PEP": "431",
@@ -165,7 +173,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "11-Dec-2012",
-            "Post-History": "11-Dec-2012, 28-Dec-2012, 28-Jan-2013"
+            "Post-History": "11-Dec-2012, 28-Dec-2012, 28-Jan-2013",
+            "URL": "https://python.org/dev/peps/pep-0431/"
         },
         {
             "PEP": "3138",
@@ -177,7 +186,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "05-May-2008",
-            "Post-History": "05-May-2008, 05-Jun-2008"
+            "Post-History": "05-May-2008, 05-Jun-2008",
+            "URL": "https://python.org/dev/peps/pep-3138/"
         },
         {
             "PEP": "425",
@@ -192,7 +202,8 @@
             "Created": "27-Jul-2012",
             "Python-Version": "3.4",
             "Post-History": "8-Aug-2012, 18-Oct-2012, 15-Feb-2013",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-February/124116.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-February/124116.html",
+            "URL": "https://python.org/dev/peps/pep-0425/"
         },
         {
             "PEP": "343",
@@ -205,7 +216,8 @@
             "Content-Type": "text/x-rst",
             "Created": "13-May-2005",
             "Python-Version": "2.5",
-            "Post-History": "2-Jun-2005, 16-Oct-2005, 29-Oct-2005, 23-Apr-2006, 1-May-2006, 30-Jul-2006"
+            "Post-History": "2-Jun-2005, 16-Oct-2005, 29-Oct-2005, 23-Apr-2006, 1-May-2006, 30-Jul-2006",
+            "URL": "https://python.org/dev/peps/pep-0343/"
         },
         {
             "PEP": "394",
@@ -218,7 +230,8 @@
             "Content-Type": "text/x-rst",
             "Created": "02-Mar-2011",
             "Post-History": "04-Mar-2011, 20-Jul-2011, 16-Feb-2012, 30-Sep-2014",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-February/116594.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-February/116594.html",
+            "URL": "https://python.org/dev/peps/pep-0394/"
         },
         {
             "PEP": "380",
@@ -232,7 +245,8 @@
             "Created": "13-Feb-2009",
             "Python-Version": "3.3",
             "Post-History": "",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2011-June/112010.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2011-June/112010.html",
+            "URL": "https://python.org/dev/peps/pep-0380/"
         },
         {
             "PEP": "381",
@@ -245,7 +259,8 @@
             "Content-Type": "text/x-rst",
             "Created": "21-March-2009",
             "Python-Version": "N.A.",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0381/"
         },
         {
             "PEP": "395",
@@ -258,7 +273,8 @@
             "Content-Type": "text/x-rst",
             "Created": "4-Mar-2011",
             "Python-Version": "3.4",
-            "Post-History": "5-Mar-2011, 19-Nov-2011"
+            "Post-History": "5-Mar-2011, 19-Nov-2011",
+            "URL": "https://python.org/dev/peps/pep-0395/"
         },
         {
             "PEP": "424",
@@ -271,7 +287,8 @@
             "Content-Type": "text/x-rst",
             "Created": "14-July-2012",
             "Python-Version": "3.4",
-            "Post-History": "https://mail.python.org/pipermail/python-dev/2012-July/120920.html"
+            "Post-History": "https://mail.python.org/pipermail/python-dev/2012-July/120920.html",
+            "URL": "https://python.org/dev/peps/pep-0424/"
         },
         {
             "PEP": "342",
@@ -284,7 +301,8 @@
             "Content-Type": "text/x-rst",
             "Created": "10-May-2005",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0342/"
         },
         {
             "PEP": "356",
@@ -297,7 +315,8 @@
             "Content-Type": "text/x-rst",
             "Created": "07-Feb-2006",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0356/"
         },
         {
             "PEP": "3139",
@@ -309,7 +328,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "4-April-2008",
-            "Python-Version": "3.0"
+            "Python-Version": "3.0",
+            "URL": "https://python.org/dev/peps/pep-3139/"
         },
         {
             "PEP": "430",
@@ -321,7 +341,8 @@
             "Status": "Final",
             "Type": "Informational",
             "Content-Type": "text/x-rst",
-            "Created": "27-Oct-2012"
+            "Created": "27-Oct-2012",
+            "URL": "https://python.org/dev/peps/pep-0430/"
         },
         {
             "PEP": "3111",
@@ -334,7 +355,8 @@
             "Content-Type": "text/x-rst",
             "Created": "13-Sep-2006",
             "Python-Version": "3.0",
-            "Post-History": "22-Dec-2006"
+            "Post-History": "22-Dec-2006",
+            "URL": "https://python.org/dev/peps/pep-3111/"
         },
         {
             "PEP": "418",
@@ -346,7 +368,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "26-March-2012",
-            "Python-Version": "3.3"
+            "Python-Version": "3.3",
+            "URL": "https://python.org/dev/peps/pep-0418/"
         },
         {
             "PEP": "3105",
@@ -359,7 +382,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Nov-2006",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3105/"
         },
         {
             "PEP": "236",
@@ -372,7 +396,8 @@
             "Content-Type": "text/x-rst",
             "Created": "26-Feb-2001",
             "Python-Version": "2.1",
-            "Post-History": "26-Feb-2001"
+            "Post-History": "26-Feb-2001",
+            "URL": "https://python.org/dev/peps/pep-0236/"
         },
         {
             "PEP": "222",
@@ -385,7 +410,8 @@
             "Content-Type": "text/x-rst",
             "Created": "18-Aug-2000",
             "Python-Version": "2.1",
-            "Post-History": "22-Dec-2000"
+            "Post-History": "22-Dec-2000",
+            "URL": "https://python.org/dev/peps/pep-0222/"
         },
         {
             "PEP": "544",
@@ -398,7 +424,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "05-Mar-2017",
-            "Python-Version": "3.7"
+            "Python-Version": "3.7",
+            "URL": "https://python.org/dev/peps/pep-0544/"
         },
         {
             "PEP": "20",
@@ -410,7 +437,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "19-Aug-2004",
-            "Post-History": "22-Aug-2004"
+            "Post-History": "22-Aug-2004",
+            "URL": "https://python.org/dev/peps/pep-0020/"
         },
         {
             "PEP": "8",
@@ -422,7 +450,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "05-Jul-2001",
-            "Post-History": "05-Jul-2001, 01-Aug-2013"
+            "Post-History": "05-Jul-2001, 01-Aug-2013",
+            "URL": "https://python.org/dev/peps/pep-0008/"
         },
         {
             "PEP": "208",
@@ -435,7 +464,8 @@
             "Content-Type": "text/x-rst",
             "Created": "04-Dec-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0208/"
         },
         {
             "PEP": "234",
@@ -448,7 +478,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-Jan-2001",
             "Python-Version": "2.1",
-            "Post-History": "30-Apr-2001"
+            "Post-History": "30-Apr-2001",
+            "URL": "https://python.org/dev/peps/pep-0234/"
         },
         {
             "PEP": "546",
@@ -463,7 +494,8 @@
             "Created": "30-May-2017",
             "Python-Version": "2.7",
             "Post-History": "23-May-2017",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2017-June/148301.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2017-June/148301.html",
+            "URL": "https://python.org/dev/peps/pep-0546/"
         },
         {
             "PEP": "220",
@@ -475,7 +507,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "14-Aug-2000",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0220/"
         },
         {
             "PEP": "3113",
@@ -488,7 +521,8 @@
             "Content-Type": "text/x-rst",
             "Created": "02-Mar-2007",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3113/"
         },
         {
             "PEP": "3107",
@@ -501,7 +535,8 @@
             "Content-Type": "text/x-rst",
             "Created": "2-Dec-2006",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3107/"
         },
         {
             "PEP": "368",
@@ -514,7 +549,8 @@
             "Content-Type": "text/x-rst",
             "Created": "28-Jun-2007",
             "Python-Version": "2.6, 3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0368/"
         },
         {
             "PEP": "340",
@@ -526,7 +562,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "27-Apr-2005",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0340/"
         },
         {
             "PEP": "426",
@@ -542,7 +579,8 @@
             "Requires": "440, 508, 518",
             "Created": "30 Aug 2012",
             "Post-History": "14 Nov 2012, 5 Feb 2013, 7 Feb 2013, 9 Feb 2013,,27 May 2013, 20 Jun 2013, 23 Jun 2013, 14 Jul 2013,,21 Dec 2013",
-            "Replaces": "345"
+            "Replaces": "345",
+            "URL": "https://python.org/dev/peps/pep-0426/"
         },
         {
             "PEP": "432",
@@ -555,7 +593,8 @@
             "Content-Type": "text/x-rst",
             "Created": "28-Dec-2012",
             "Python-Version": "3.8",
-            "Post-History": "28-Dec-2012, 2-Jan-2013"
+            "Post-History": "28-Dec-2012, 2-Jan-2013",
+            "URL": "https://python.org/dev/peps/pep-0432/"
         },
         {
             "PEP": "354",
@@ -569,7 +608,8 @@
             "Created": "20-Dec-2005",
             "Python-Version": "2.6",
             "Post-History": "20-Dec-2005",
-            "Superseded-By": "435"
+            "Superseded-By": "435",
+            "URL": "https://python.org/dev/peps/pep-0354/"
         },
         {
             "PEP": "383",
@@ -582,7 +622,8 @@
             "Content-Type": "text/x-rst",
             "Created": "22-Apr-2009",
             "Python-Version": "3.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0383/"
         },
         {
             "PEP": "397",
@@ -595,7 +636,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Mar-2011",
             "Post-History": "21-July-2011, 17-May-2011, 15-Mar-2011",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-June/120505.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-June/120505.html",
+            "URL": "https://python.org/dev/peps/pep-0397/"
         },
         {
             "PEP": "396",
@@ -607,7 +649,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "2011-03-16",
-            "Post-History": "2011-04-05"
+            "Post-History": "2011-04-05",
+            "URL": "https://python.org/dev/peps/pep-0396/"
         },
         {
             "PEP": "382",
@@ -620,7 +663,8 @@
             "Content-Type": "text/x-rst",
             "Created": "02-Apr-2009",
             "Python-Version": "3.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0382/"
         },
         {
             "PEP": "433",
@@ -633,7 +677,8 @@
             "Content-Type": "text/x-rst",
             "Created": "10-January-2013",
             "Python-Version": "3.4",
-            "Superseded-By": "446"
+            "Superseded-By": "446",
+            "URL": "https://python.org/dev/peps/pep-0433/"
         },
         {
             "PEP": "355",
@@ -646,7 +691,8 @@
             "Content-Type": "text/x-rst",
             "Created": "24-Jan-2006",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0355/"
         },
         {
             "PEP": "341",
@@ -658,7 +704,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "04-May-2005",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0341/"
         },
         {
             "PEP": "427",
@@ -673,7 +720,8 @@
             "Content-Type": "text/x-rst",
             "Created": "20-Sep-2012",
             "Post-History": "18-Oct-2012, 15-Feb-2013",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-February/124103.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-February/124103.html",
+            "URL": "https://python.org/dev/peps/pep-0427/"
         },
         {
             "PEP": "3106",
@@ -685,7 +733,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "19-Dec-2006",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3106/"
         },
         {
             "PEP": "369",
@@ -698,7 +747,8 @@
             "Content-Type": "text/x-rst",
             "Created": "02-Jan-2008",
             "Python-Version": "2.6, 3.0",
-            "Post-History": "02-Dec-2012"
+            "Post-History": "02-Dec-2012",
+            "URL": "https://python.org/dev/peps/pep-0369/"
         },
         {
             "PEP": "3112",
@@ -712,7 +762,8 @@
             "Requires": "358",
             "Created": "23-Feb-2007",
             "Python-Version": "3.0",
-            "Post-History": "23-Feb-2007"
+            "Post-History": "23-Feb-2007",
+            "URL": "https://python.org/dev/peps/pep-3112/"
         },
         {
             "PEP": "3099",
@@ -724,7 +775,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "04-Apr-2006",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3099/"
         },
         {
             "PEP": "221",
@@ -737,7 +789,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Aug-2000",
             "Python-Version": "2.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0221/"
         },
         {
             "PEP": "235",
@@ -750,7 +803,8 @@
             "Content-Type": "text/x-rst",
             "Created": "",
             "Python-Version": "2.1",
-            "Post-History": "16 February 2001"
+            "Post-History": "16 February 2001",
+            "URL": "https://python.org/dev/peps/pep-0235/"
         },
         {
             "PEP": "209",
@@ -763,7 +817,8 @@
             "Content-Type": "text/x-rst",
             "Created": "03-Jan-2001",
             "Python-Version": "2.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0209/"
         },
         {
             "PEP": "231",
@@ -776,7 +831,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-Nov-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0231/"
         },
         {
             "PEP": "225",
@@ -790,7 +846,8 @@
             "Created": "19-Sep-2000",
             "Python-Version": "2.1",
             "Post-History": "",
-            "Resolution": "https://www.python.org/dev/peps/pep-0465/#rejected-alternatives-to-adding-a-new-operator"
+            "Resolution": "https://www.python.org/dev/peps/pep-0465/#rejected-alternatives-to-adding-a-new-operator",
+            "URL": "https://python.org/dev/peps/pep-0225/"
         },
         {
             "PEP": "219",
@@ -803,7 +860,8 @@
             "Content-Type": "text/x-rst",
             "Created": "14-Aug-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0219/"
         },
         {
             "PEP": "423",
@@ -816,7 +874,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "24-May-2012",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0423/"
         },
         {
             "PEP": "345",
@@ -830,7 +889,8 @@
             "Content-Type": "text/x-rst",
             "Created": "28-Apr-2005",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0345/"
         },
         {
             "PEP": "351",
@@ -842,7 +902,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "14-Apr-2005",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0351/"
         },
         {
             "PEP": "437",
@@ -856,7 +917,8 @@
             "Created": "2013-03-11",
             "Python-Version": "3.4",
             "Post-History": "",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-May/126117.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-May/126117.html",
+            "URL": "https://python.org/dev/peps/pep-0437/"
         },
         {
             "PEP": "3116",
@@ -869,7 +931,8 @@
             "Content-Type": "text/x-rst",
             "Created": "26-Feb-2007",
             "Python-Version": "3.0",
-            "Post-History": "26-Feb-2007"
+            "Post-History": "26-Feb-2007",
+            "URL": "https://python.org/dev/peps/pep-3116/"
         },
         {
             "PEP": "379",
@@ -882,7 +945,8 @@
             "Content-Type": "text/x-rst",
             "Created": "14-Mar-2009",
             "Python-Version": "2.7, 3.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0379/"
         },
         {
             "PEP": "3102",
@@ -895,7 +959,8 @@
             "Content-Type": "text/x-rst",
             "Created": "22-Apr-2006",
             "Python-Version": "3.0",
-            "Post-History": "28-Apr-2006, May-19-2006"
+            "Post-History": "28-Apr-2006, May-19-2006",
+            "URL": "https://python.org/dev/peps/pep-3102/"
         },
         {
             "PEP": "386",
@@ -907,7 +972,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "4-June-2009",
-            "Superseded-By": "440"
+            "Superseded-By": "440",
+            "URL": "https://python.org/dev/peps/pep-0386/"
         },
         {
             "PEP": "392",
@@ -919,7 +985,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "30-Dec-2009",
-            "Python-Version": "3.2"
+            "Python-Version": "3.2",
+            "URL": "https://python.org/dev/peps/pep-0392/"
         },
         {
             "PEP": "393",
@@ -932,7 +999,8 @@
             "Content-Type": "text/x-rst",
             "Created": "24-Jan-2010",
             "Python-Version": "3.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0393/"
         },
         {
             "PEP": "387",
@@ -944,7 +1012,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "18-Jun-2009",
-            "Post-History": "19-Jun-2009"
+            "Post-History": "19-Jun-2009",
+            "URL": "https://python.org/dev/peps/pep-0387/"
         },
         {
             "PEP": "3103",
@@ -957,7 +1026,8 @@
             "Content-Type": "text/x-rst",
             "Created": "25-Jun-2006",
             "Python-Version": "3.0",
-            "Post-History": "26-Jun-2006"
+            "Post-History": "26-Jun-2006",
+            "URL": "https://python.org/dev/peps/pep-3103/"
         },
         {
             "PEP": "3117",
@@ -970,7 +1040,8 @@
             "Content-Type": "text/x-rst",
             "Created": "01-Apr-2007",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3117/"
         },
         {
             "PEP": "378",
@@ -983,7 +1054,8 @@
             "Content-Type": "text/x-rst",
             "Created": "12-Mar-2009",
             "Python-Version": "2.7 and 3.1",
-            "Post-History": "12-Mar-2009"
+            "Post-History": "12-Mar-2009",
+            "URL": "https://python.org/dev/peps/pep-0378/"
         },
         {
             "PEP": "350",
@@ -995,7 +1067,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "27-Jun-2005",
-            "Post-History": "10-Aug-2005, 26-Sep-2005"
+            "Post-History": "10-Aug-2005, 26-Sep-2005",
+            "URL": "https://python.org/dev/peps/pep-0350/"
         },
         {
             "PEP": "436",
@@ -1007,7 +1080,8 @@
             "Status": "Draft",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
-            "Created": "22-Feb-2013"
+            "Created": "22-Feb-2013",
+            "URL": "https://python.org/dev/peps/pep-0436/"
         },
         {
             "PEP": "422",
@@ -1020,7 +1094,8 @@
             "Content-Type": "text/x-rst",
             "Created": "5-Jun-2012",
             "Python-Version": "3.5",
-            "Post-History": "5-Jun-2012, 10-Feb-2013"
+            "Post-History": "5-Jun-2012, 10-Feb-2013",
+            "URL": "https://python.org/dev/peps/pep-0422/"
         },
         {
             "PEP": "344",
@@ -1033,7 +1108,8 @@
             "Content-Type": "text/x-rst",
             "Created": "12-May-2005",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0344/"
         },
         {
             "PEP": "218",
@@ -1046,7 +1122,8 @@
             "Content-Type": "text/x-rst",
             "Created": "31-Jul-2000",
             "Python-Version": "2.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0218/"
         },
         {
             "PEP": "224",
@@ -1059,7 +1136,8 @@
             "Content-Type": "text/x-rst",
             "Created": "23-Aug-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0224/"
         },
         {
             "PEP": "542",
@@ -1070,7 +1148,8 @@
             "Status": "Draft",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
-            "Created": "10-February-2017"
+            "Created": "10-February-2017",
+            "URL": "https://python.org/dev/peps/pep-0542/"
         },
         {
             "PEP": "230",
@@ -1083,7 +1162,8 @@
             "Content-Type": "text/x-rst",
             "Created": "",
             "Python-Version": "2.1",
-            "Post-History": "05-Nov-2000"
+            "Post-History": "05-Nov-2000",
+            "URL": "https://python.org/dev/peps/pep-0230/"
         },
         {
             "PEP": "754",
@@ -1096,7 +1176,8 @@
             "Content-Type": "text/x-rst",
             "Created": "28-Mar-2003",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0754/"
         },
         {
             "PEP": "540",
@@ -1110,7 +1191,8 @@
             "Content-Type": "text/x-rst",
             "Created": "5-January-2016",
             "Python-Version": "3.7",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2017-December/151173.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2017-December/151173.html",
+            "URL": "https://python.org/dev/peps/pep-0540/"
         },
         {
             "PEP": "226",
@@ -1123,7 +1205,8 @@
             "Content-Type": "text/x-rst",
             "Created": "16-Oct-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0226/"
         },
         {
             "PEP": "232",
@@ -1136,7 +1219,8 @@
             "Content-Type": "text/x-rst",
             "Created": "02-Dec-2000",
             "Python-Version": "2.1",
-            "Post-History": "20-Feb-2001"
+            "Post-History": "20-Feb-2001",
+            "URL": "https://python.org/dev/peps/pep-0232/"
         },
         {
             "PEP": "434",
@@ -1150,7 +1234,8 @@
             "Content-Type": "text/x-rst",
             "Created": "16-Feb-2013",
             "Post-History": "16-Feb-2013,03-Mar-2013,21-Mar-2013,30-Mar-2013",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-March/125003.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-March/125003.html",
+            "URL": "https://python.org/dev/peps/pep-0434/"
         },
         {
             "PEP": "352",
@@ -1162,7 +1247,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "27-Oct-2005",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0352/"
         },
         {
             "PEP": "346",
@@ -1175,7 +1261,8 @@
             "Content-Type": "text/x-rst",
             "Created": "6-May-2005",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0346/"
         },
         {
             "PEP": "3129",
@@ -1188,7 +1275,8 @@
             "Content-Type": "text/x-rst",
             "Created": "1-May-2007",
             "Python-Version": "3.0",
-            "Post-History": "7-May-2007"
+            "Post-History": "7-May-2007",
+            "URL": "https://python.org/dev/peps/pep-3129/"
         },
         {
             "PEP": "420",
@@ -1202,7 +1290,8 @@
             "Created": "19-Apr-2012",
             "Python-Version": "3.3",
             "Post-History": "",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-May/119651.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-May/119651.html",
+            "URL": "https://python.org/dev/peps/pep-0420/"
         },
         {
             "PEP": "3101",
@@ -1215,7 +1304,8 @@
             "Content-Type": "text/x-rst",
             "Created": "16-Apr-2006",
             "Python-Version": "3.0",
-            "Post-History": "28-Apr-2006, 6-May-2006, 10-Jun-2007, 14-Aug-2007, 14-Sep-2008"
+            "Post-History": "28-Apr-2006, 6-May-2006, 10-Jun-2007, 14-Aug-2007, 14-Sep-2008",
+            "URL": "https://python.org/dev/peps/pep-3101/"
         },
         {
             "PEP": "408",
@@ -1229,7 +1319,8 @@
             "Created": "2012-01-07",
             "Python-Version": "3.3",
             "Post-History": "2012-01-27",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-January/115962.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-January/115962.html",
+            "URL": "https://python.org/dev/peps/pep-0408/"
         },
         {
             "PEP": "3115",
@@ -1242,7 +1333,8 @@
             "Content-Type": "text/x-rst",
             "Created": "07-Mar-2007",
             "Python-Version": "3.0",
-            "Post-History": "11-March-2007, 14-March-2007"
+            "Post-History": "11-March-2007, 14-March-2007",
+            "URL": "https://python.org/dev/peps/pep-3115/"
         },
         {
             "PEP": "391",
@@ -1255,7 +1347,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Oct-2009",
             "Python-Version": "2.7, 3.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0391/"
         },
         {
             "PEP": "385",
@@ -1266,7 +1359,8 @@
             "Status": "Final",
             "Type": "Process",
             "Content-Type": "text/x-rst",
-            "Created": "25-May-2009"
+            "Created": "25-May-2009",
+            "URL": "https://python.org/dev/peps/pep-0385/"
         },
         {
             "PEP": "384",
@@ -1279,7 +1373,8 @@
             "Content-Type": "text/x-rst",
             "Created": "17-May-2009",
             "Python-Version": "3.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0384/"
         },
         {
             "PEP": "390",
@@ -1295,7 +1390,8 @@
             "Created": "10-October-2009",
             "Python-Version": "2.7 and 3.2",
             "Post-History": "",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2013-April/020597.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2013-April/020597.html",
+            "URL": "https://python.org/dev/peps/pep-0390/"
         },
         {
             "PEP": "3114",
@@ -1308,7 +1404,8 @@
             "Content-Type": "text/x-rst",
             "Created": "04-Mar-2007",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3114/"
         },
         {
             "PEP": "409",
@@ -1322,7 +1419,8 @@
             "Created": "26-Jan-2012",
             "Post-History": "30-Aug-2002, 01-Feb-2012, 03-Feb-2012",
             "Superseded-By": "415",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-February/116136.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-February/116136.html",
+            "URL": "https://python.org/dev/peps/pep-0409/"
         },
         {
             "PEP": "3100",
@@ -1334,7 +1432,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "20-Aug-2004",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3100/"
         },
         {
             "PEP": "347",
@@ -1347,7 +1446,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "14-Jul-2004",
-            "Post-History": "14-Jul-2004"
+            "Post-History": "14-Jul-2004",
+            "URL": "https://python.org/dev/peps/pep-0347/"
         },
         {
             "PEP": "421",
@@ -1361,7 +1461,8 @@
             "Content-Type": "text/x-rst",
             "Created": "26-April-2012",
             "Post-History": "26-April-2012",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-May/119683.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-May/119683.html",
+            "URL": "https://python.org/dev/peps/pep-0421/"
         },
         {
             "PEP": "3128",
@@ -1375,7 +1476,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-Apr-2007",
             "Python-Version": "2.6 and/or 3.0",
-            "Post-History": "30-Apr-2007"
+            "Post-History": "30-Apr-2007",
+            "URL": "https://python.org/dev/peps/pep-3128/"
         },
         {
             "PEP": "435",
@@ -1389,7 +1491,8 @@
             "Created": "2013-02-23",
             "Python-Version": "3.4",
             "Post-History": "2013-02-23, 2013-05-02",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-May/126112.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-May/126112.html",
+            "URL": "https://python.org/dev/peps/pep-0435/"
         },
         {
             "PEP": "353",
@@ -1401,7 +1504,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "18-Dec-2005",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0353/"
         },
         {
             "PEP": "233",
@@ -1414,7 +1518,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Dec-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0233/"
         },
         {
             "PEP": "541",
@@ -1427,7 +1532,8 @@
             "Status": "Draft",
             "Type": "Process",
             "Content-Type": "text/x-rst",
-            "Created": "12-January-2017"
+            "Created": "12-January-2017",
+            "URL": "https://python.org/dev/peps/pep-0541/"
         },
         {
             "PEP": "227",
@@ -1440,7 +1546,8 @@
             "Content-Type": "text/x-rst",
             "Created": "01-Nov-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0227/"
         },
         {
             "PEP": "42",
@@ -1453,7 +1560,8 @@
             "Content-Type": "text/x-rst",
             "Created": "12-Sep-2000",
             "Post-History": "",
-            "Resolution": "https://github.com/python/peps/pull/108#issuecomment-249603204"
+            "Resolution": "https://github.com/python/peps/pull/108#issuecomment-249603204",
+            "URL": "https://python.org/dev/peps/pep-0042/"
         },
         {
             "PEP": "268",
@@ -1466,7 +1574,8 @@
             "Content-Type": "text/x-rst",
             "Created": "20-Aug-2001",
             "Python-Version": "2.x",
-            "Post-History": "21-Aug-2001"
+            "Post-History": "21-Aug-2001",
+            "URL": "https://python.org/dev/peps/pep-0268/"
         },
         {
             "PEP": "526",
@@ -1480,7 +1589,8 @@
             "Created": "09-Aug-2016",
             "Python-Version": "3.6",
             "Post-History": "30-Aug-2016, 02-Sep-2016",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-September/146282.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-September/146282.html",
+            "URL": "https://python.org/dev/peps/pep-0526/"
         },
         {
             "PEP": "240",
@@ -1493,7 +1603,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Mar-2001",
             "Python-Version": "2.2",
-            "Post-History": "16-Mar-2001"
+            "Post-History": "16-Mar-2001",
+            "URL": "https://python.org/dev/peps/pep-0240/"
         },
         {
             "PEP": "254",
@@ -1506,7 +1617,8 @@
             "Content-Type": "text/x-rst",
             "Created": "18-June-2001",
             "Python-Version": "2.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0254/"
         },
         {
             "PEP": "532",
@@ -1519,7 +1631,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-Oct-2016",
             "Python-Version": "3.8",
-            "Post-History": "5-Nov-2016"
+            "Post-History": "5-Nov-2016",
+            "URL": "https://python.org/dev/peps/pep-0532/"
         },
         {
             "PEP": "283",
@@ -1532,7 +1645,8 @@
             "Content-Type": "text/x-rst",
             "Created": "27-Feb-2002",
             "Python-Version": "2.3",
-            "Post-History": "27-Feb-2002"
+            "Post-History": "27-Feb-2002",
+            "URL": "https://python.org/dev/peps/pep-0283/"
         },
         {
             "PEP": "297",
@@ -1545,7 +1659,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Jul-2001",
             "Python-Version": "2.6",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0297/"
         },
         {
             "PEP": "308",
@@ -1557,7 +1672,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "7-Feb-2003",
-            "Post-History": "7-Feb-2003, 11-Feb-2003"
+            "Post-History": "7-Feb-2003, 11-Feb-2003",
+            "URL": "https://python.org/dev/peps/pep-0308/"
         },
         {
             "PEP": "452",
@@ -1570,7 +1686,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Aug-2013",
             "Post-History": "",
-            "Replaces": "247"
+            "Replaces": "247",
+            "URL": "https://python.org/dev/peps/pep-0452/"
         },
         {
             "PEP": "334",
@@ -1583,7 +1700,8 @@
             "Content-Type": "text/x-rst",
             "Created": "26-Aug-2004",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0334/"
         },
         {
             "PEP": "320",
@@ -1596,7 +1714,8 @@
             "Content-Type": "text/x-rst",
             "Created": "29-Jul-2003",
             "Python-Version": "2.4",
-            "Post-History": "1-Dec-2004"
+            "Post-History": "1-Dec-2004",
+            "URL": "https://python.org/dev/peps/pep-0320/"
         },
         {
             "PEP": "446",
@@ -1608,7 +1727,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "5-August-2013",
-            "Python-Version": "3.4"
+            "Python-Version": "3.4",
+            "URL": "https://python.org/dev/peps/pep-0446/"
         },
         {
             "PEP": "491",
@@ -1620,7 +1740,8 @@
             "Status": "Draft",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
-            "Created": "16 April 2015"
+            "Created": "16 April 2015",
+            "URL": "https://python.org/dev/peps/pep-0491/"
         },
         {
             "PEP": "485",
@@ -1634,7 +1755,8 @@
             "Created": "20-Jan-2015",
             "Python-Version": "3.5",
             "Post-History": "",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-February/138598.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-February/138598.html",
+            "URL": "https://python.org/dev/peps/pep-0485/"
         },
         {
             "PEP": "484",
@@ -1650,7 +1772,8 @@
             "Created": "29-Sep-2014",
             "Python-Version": "3.5",
             "Post-History": "16-Jan-2015,20-Mar-2015,17-Apr-2015,20-May-2015,22-May-2015",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-May/140104.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-May/140104.html",
+            "URL": "https://python.org/dev/peps/pep-0484/"
         },
         {
             "PEP": "490",
@@ -1662,7 +1785,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "25-March-2015",
-            "Python-Version": "3.6"
+            "Python-Version": "3.6",
+            "URL": "https://python.org/dev/peps/pep-0490/"
         },
         {
             "PEP": "321",
@@ -1675,7 +1799,8 @@
             "Content-Type": "text/x-rst",
             "Created": "16-Sep-2003",
             "Python-Version": "2.4",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0321/"
         },
         {
             "PEP": "447",
@@ -1687,7 +1812,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "12-Jun-2013",
-            "Post-History": "2-Jul-2013, 15-Jul-2013, 29-Jul-2013, 22-Jul-2015"
+            "Post-History": "2-Jul-2013, 15-Jul-2013, 29-Jul-2013, 22-Jul-2015",
+            "URL": "https://python.org/dev/peps/pep-0447/"
         },
         {
             "PEP": "453",
@@ -1701,7 +1827,8 @@
             "Content-Type": "text/x-rst",
             "Created": "10-Aug-2013",
             "Post-History": "30-Aug-2013, 15-Sep-2013, 18-Sep-2013, 19-Sep-2013,,23-Sep-2013, 29-Sep-2013, 13-Oct-2013, 20-Oct-2013",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-October/129810.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-October/129810.html",
+            "URL": "https://python.org/dev/peps/pep-0453/"
         },
         {
             "PEP": "335",
@@ -1714,7 +1841,8 @@
             "Content-Type": "text/x-rst",
             "Created": "29-Aug-2004",
             "Python-Version": "3.3",
-            "Post-History": "05-Sep-2004, 30-Sep-2011, 25-Oct-2011"
+            "Post-History": "05-Sep-2004, 30-Sep-2011, 25-Oct-2011",
+            "URL": "https://python.org/dev/peps/pep-0335/"
         },
         {
             "PEP": "309",
@@ -1727,7 +1855,8 @@
             "Content-Type": "text/x-rst",
             "Created": "08-Feb-2003",
             "Python-Version": "2.5",
-            "Post-History": "10-Feb-2003, 27-Feb-2003, 22-Feb-2004, 28-Apr-2006"
+            "Post-History": "10-Feb-2003, 27-Feb-2003, 22-Feb-2004, 28-Apr-2006",
+            "URL": "https://python.org/dev/peps/pep-0309/"
         },
         {
             "PEP": "296",
@@ -1740,7 +1869,8 @@
             "Content-Type": "text/x-rst",
             "Created": "12-Jul-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0296/"
         },
         {
             "PEP": "282",
@@ -1753,7 +1883,8 @@
             "Content-Type": "text/x-rst",
             "Created": "4-Feb-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0282/"
         },
         {
             "PEP": "255",
@@ -1768,7 +1899,8 @@
             "Requires": "234",
             "Created": "18-May-2001",
             "Python-Version": "2.2",
-            "Post-History": "14-Jun-2001, 23-Jun-2001"
+            "Post-History": "14-Jun-2001, 23-Jun-2001",
+            "URL": "https://python.org/dev/peps/pep-0255/"
         },
         {
             "PEP": "533",
@@ -1780,7 +1912,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "18-Oct-2016",
-            "Post-History": "18-Oct-2016"
+            "Post-History": "18-Oct-2016",
+            "URL": "https://python.org/dev/peps/pep-0533/"
         },
         {
             "PEP": "527",
@@ -1795,7 +1928,8 @@
             "Content-Type": "text/x-rst",
             "Created": "23-Aug-2016",
             "Post-History": "23-Aug-2016",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2016-September/029624.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2016-September/029624.html",
+            "URL": "https://python.org/dev/peps/pep-0527/"
         },
         {
             "PEP": "241",
@@ -1807,7 +1941,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "12-Mar-2001",
-            "Post-History": "19-Mar-2001"
+            "Post-History": "19-Mar-2001",
+            "URL": "https://python.org/dev/peps/pep-0241/"
         },
         {
             "PEP": "269",
@@ -1820,7 +1955,8 @@
             "Content-Type": "text/x-rst",
             "Created": "24-Aug-2001",
             "Python-Version": "2.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0269/"
         },
         {
             "PEP": "519",
@@ -1834,7 +1970,8 @@
             "Created": "11-May-2016",
             "Python-Version": "3.6",
             "Post-History": "11-May-2016,,12-May-2016,,13-May-2016",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-May/144646.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-May/144646.html",
+            "URL": "https://python.org/dev/peps/pep-0519/"
         },
         {
             "PEP": "531",
@@ -1847,7 +1984,8 @@
             "Content-Type": "text/x-rst",
             "Created": "25-Oct-2016",
             "Python-Version": "3.7",
-            "Post-History": "28-Oct-2016"
+            "Post-History": "28-Oct-2016",
+            "URL": "https://python.org/dev/peps/pep-0531/"
         },
         {
             "PEP": "257",
@@ -1860,7 +1998,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "29-May-2001",
-            "Post-History": "13-Jun-2001"
+            "Post-History": "13-Jun-2001",
+            "URL": "https://python.org/dev/peps/pep-0257/"
         },
         {
             "PEP": "243",
@@ -1874,7 +2013,8 @@
             "Content-Type": "text/x-rst",
             "Created": "18-Mar-2001",
             "Python-Version": "2.1",
-            "Post-History": "20-Mar-2001, 24-Mar-2001"
+            "Post-History": "20-Mar-2001, 24-Mar-2001",
+            "URL": "https://python.org/dev/peps/pep-0243/"
         },
         {
             "PEP": "525",
@@ -1888,7 +2028,8 @@
             "Content-Type": "text/x-rst",
             "Created": "28-Jul-2016",
             "Python-Version": "3.6",
-            "Post-History": "02-Aug-2016, 23-Aug-2016, 01-Sep-2016, 06-Sep-2016"
+            "Post-History": "02-Aug-2016, 23-Aug-2016, 01-Sep-2016, 06-Sep-2016",
+            "URL": "https://python.org/dev/peps/pep-0525/"
         },
         {
             "PEP": "294",
@@ -1901,7 +2042,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Jun-2002",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0294/"
         },
         {
             "PEP": "280",
@@ -1914,7 +2056,8 @@
             "Content-Type": "text/x-rst",
             "Created": "10-Feb-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0280/"
         },
         {
             "PEP": "479",
@@ -1927,7 +2070,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Nov-2014",
             "Python-Version": "3.5",
-            "Post-History": "15-Nov-2014, 19-Nov-2014, 5-Dec-2014"
+            "Post-History": "15-Nov-2014, 19-Nov-2014, 5-Dec-2014",
+            "URL": "https://python.org/dev/peps/pep-0479/"
         },
         {
             "PEP": "445",
@@ -1941,7 +2085,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Jun-2013",
             "Python-Version": "3.4",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-July/127222.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-July/127222.html",
+            "URL": "https://python.org/dev/peps/pep-0445/"
         },
         {
             "PEP": "323",
@@ -1954,7 +2099,8 @@
             "Content-Type": "text/x-rst",
             "Created": "25-Oct-2003",
             "Python-Version": "2.5",
-            "Post-History": "29-Oct-2003"
+            "Post-History": "29-Oct-2003",
+            "URL": "https://python.org/dev/peps/pep-0323/"
         },
         {
             "PEP": "337",
@@ -1967,7 +2113,8 @@
             "Content-Type": "text/x-rst",
             "Created": "02-Oct-2004",
             "Python-Version": "2.5",
-            "Post-History": "10-Nov-2004"
+            "Post-History": "10-Nov-2004",
+            "URL": "https://python.org/dev/peps/pep-0337/"
         },
         {
             "PEP": "451",
@@ -1983,7 +2130,8 @@
             "Created": "8-Aug-2013",
             "Python-Version": "3.4",
             "Post-History": "8-Aug-2013, 28-Aug-2013, 18-Sep-2013, 24-Sep-2013, 4-Oct-2013",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130104.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130104.html",
+            "URL": "https://python.org/dev/peps/pep-0451/"
         },
         {
             "PEP": "486",
@@ -1997,7 +2145,8 @@
             "Created": "12-Feb-2015",
             "Python-Version": "3.5",
             "Post-History": "12-Feb-2015",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-February/138579.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-February/138579.html",
+            "URL": "https://python.org/dev/peps/pep-0486/"
         },
         {
             "PEP": "492",
@@ -2011,7 +2160,8 @@
             "Content-Type": "text/x-rst",
             "Created": "09-Apr-2015",
             "Python-Version": "3.5",
-            "Post-History": "17-Apr-2015, 21-Apr-2015, 27-Apr-2015, 29-Apr-2015, 05-May-2015"
+            "Post-History": "17-Apr-2015, 21-Apr-2015, 27-Apr-2015, 29-Apr-2015, 05-May-2015",
+            "URL": "https://python.org/dev/peps/pep-0492/"
         },
         {
             "PEP": "493",
@@ -2026,7 +2176,8 @@
             "Created": "10-May-2015",
             "Python-Version": "2.7.12",
             "Post-History": "06-Jul-2015, 11-Nov-2015, 24-Nov-2015, 24-Feb-2016",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-March/143450.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-March/143450.html",
+            "URL": "https://python.org/dev/peps/pep-0493/"
         },
         {
             "PEP": "487",
@@ -2041,7 +2192,8 @@
             "Python-Version": "3.6",
             "Post-History": "27-Feb-2015, 5-Feb-2016, 24-Jun-2016, 2-Jul-2016, 13-Jul-2016",
             "Replaces": "422",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-July/145629.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-July/145629.html",
+            "URL": "https://python.org/dev/peps/pep-0487/"
         },
         {
             "PEP": "336",
@@ -2053,7 +2205,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "28-Oct-2004",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0336/"
         },
         {
             "PEP": "450",
@@ -2066,7 +2219,8 @@
             "Content-Type": "text/x-rst",
             "Created": "01-Aug-2013",
             "Python-Version": "3.4",
-            "Post-History": "13-Sep-2013"
+            "Post-History": "13-Sep-2013",
+            "URL": "https://python.org/dev/peps/pep-0450/"
         },
         {
             "PEP": "444",
@@ -2078,7 +2232,8 @@
             "Status": "Deferred",
             "Type": "Informational",
             "Content-Type": "text/x-rst",
-            "Created": "19-Jul-2010"
+            "Created": "19-Jul-2010",
+            "URL": "https://python.org/dev/peps/pep-0444/"
         },
         {
             "PEP": "322",
@@ -2091,7 +2246,8 @@
             "Content-Type": "text/x-rst",
             "Created": "24-Sep-2003",
             "Python-Version": "2.4",
-            "Post-History": "24-Sep-2003"
+            "Post-History": "24-Sep-2003",
+            "URL": "https://python.org/dev/peps/pep-0322/"
         },
         {
             "PEP": "478",
@@ -2103,7 +2259,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "22-Sep-2014",
-            "Python-Version": "3.5"
+            "Python-Version": "3.5",
+            "URL": "https://python.org/dev/peps/pep-0478/"
         },
         {
             "PEP": "281",
@@ -2116,7 +2273,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Feb-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0281/"
         },
         {
             "PEP": "295",
@@ -2129,7 +2287,8 @@
             "Content-Type": "text/x-rst",
             "Created": "22-Jul-2002",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0295/"
         },
         {
             "PEP": "242",
@@ -2142,7 +2301,8 @@
             "Content-Type": "text/x-rst",
             "Created": "17-Mar-2001",
             "Python-Version": "2.2",
-            "Post-History": "17-Apr-2001"
+            "Post-History": "17-Apr-2001",
+            "URL": "https://python.org/dev/peps/pep-0242/"
         },
         {
             "PEP": "524",
@@ -2154,7 +2314,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "20-June-2016",
-            "Python-Version": "3.6"
+            "Python-Version": "3.6",
+            "URL": "https://python.org/dev/peps/pep-0524/"
         },
         {
             "PEP": "530",
@@ -2168,7 +2329,8 @@
             "Content-Type": "text/x-rst",
             "Created": "03-Sep-2016",
             "Python-Version": "3.6",
-            "Post-History": "03-Sep-2016"
+            "Post-History": "03-Sep-2016",
+            "URL": "https://python.org/dev/peps/pep-0530/"
         },
         {
             "PEP": "256",
@@ -2181,7 +2343,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "01-Jun-2001",
-            "Post-History": "13-Jun-2001"
+            "Post-History": "13-Jun-2001",
+            "URL": "https://python.org/dev/peps/pep-0256/"
         },
         {
             "PEP": "518",
@@ -2196,7 +2359,8 @@
             "Content-Type": "text/x-rst",
             "Created": "10-May-2016",
             "Post-History": "10-May-2016,,11-May-2016,,13-May-2016",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2016-May/028969.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2016-May/028969.html",
+            "URL": "https://python.org/dev/peps/pep-0518/"
         },
         {
             "PEP": "252",
@@ -2209,7 +2373,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Apr-2001",
             "Python-Version": "2.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0252/"
         },
         {
             "PEP": "534",
@@ -2222,7 +2387,8 @@
             "Content-Type": "text/x-rst",
             "Created": "5-Sep-2016",
             "Python-Version": "3.7",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0534/"
         },
         {
             "PEP": "520",
@@ -2236,7 +2402,8 @@
             "Created": "7-Jun-2016",
             "Python-Version": "3.6",
             "Post-History": "7-Jun-2016, 11-Jun-2016, 20-Jun-2016, 24-Jun-2016",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-June/145442.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-June/145442.html",
+            "URL": "https://python.org/dev/peps/pep-0520/"
         },
         {
             "PEP": "246",
@@ -2249,7 +2416,8 @@
             "Content-Type": "text/x-rst",
             "Created": "21-Mar-2001",
             "Python-Version": "2.5",
-            "Post-History": "29-Mar-2001, 10-Jan-2005"
+            "Post-History": "29-Mar-2001, 10-Jan-2005",
+            "URL": "https://python.org/dev/peps/pep-0246/"
         },
         {
             "PEP": "3001",
@@ -2261,7 +2429,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "05-Apr-2006",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3001/"
         },
         {
             "PEP": "508",
@@ -2276,7 +2445,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Nov-2015",
             "Post-History": "05-Nov-2015, 16-Nov-2015",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2015-November/027868.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2015-November/027868.html",
+            "URL": "https://python.org/dev/peps/pep-0508/"
         },
         {
             "PEP": "291",
@@ -2289,7 +2459,8 @@
             "Content-Type": "text/x-rst",
             "Created": "06-Jun-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0291/"
         },
         {
             "PEP": "285",
@@ -2302,7 +2473,8 @@
             "Content-Type": "text/x-rst",
             "Created": "8-Mar-2002",
             "Python-Version": "2.3",
-            "Post-History": "8-Mar-2002, 30-Mar-2002, 3-Apr-2002"
+            "Post-History": "8-Mar-2002, 30-Mar-2002, 3-Apr-2002",
+            "URL": "https://python.org/dev/peps/pep-0285/"
         },
         {
             "PEP": "326",
@@ -2315,7 +2487,8 @@
             "Content-Type": "text/x-rst",
             "Created": "20-Dec-2003",
             "Python-Version": "2.4",
-            "Post-History": "20-Dec-2003, 03-Jan-2004, 05-Jan-2004, 07-Jan-2004,,21-Feb-2004"
+            "Post-History": "20-Dec-2003, 03-Jan-2004, 05-Jan-2004, 07-Jan-2004,,21-Feb-2004",
+            "URL": "https://python.org/dev/peps/pep-0326/"
         },
         {
             "PEP": "440",
@@ -2331,7 +2504,8 @@
             "Created": "18 Mar 2013",
             "Post-History": "30 Mar 2013, 27 May 2013, 20 Jun 2013,,21 Dec 2013, 28 Jan 2014, 08 Aug 2014,22 Aug 2014",
             "Replaces": "386",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2014-August/024673.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2014-August/024673.html",
+            "URL": "https://python.org/dev/peps/pep-0440/"
         },
         {
             "PEP": "3149",
@@ -2345,7 +2519,8 @@
             "Created": "2010-07-09",
             "Python-Version": "3.2",
             "Post-History": "2010-07-14, 2010-07-22",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2010-September/103408.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2010-September/103408.html",
+            "URL": "https://python.org/dev/peps/pep-3149/"
         },
         {
             "PEP": "454",
@@ -2359,7 +2534,8 @@
             "Content-Type": "text/x-rst",
             "Created": "3-September-2013",
             "Python-Version": "3.4",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130491.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130491.html",
+            "URL": "https://python.org/dev/peps/pep-0454/"
         },
         {
             "PEP": "332",
@@ -2372,7 +2548,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Aug-2004",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0332/"
         },
         {
             "PEP": "468",
@@ -2387,7 +2564,8 @@
             "Created": "5-Apr-2014",
             "Python-Version": "3.6",
             "Post-History": "5-Apr-2014,8-Sep-2016",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-September/146329.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-September/146329.html",
+            "URL": "https://python.org/dev/peps/pep-0468/"
         },
         {
             "PEP": "483",
@@ -2401,7 +2579,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Dec-2014",
             "Post-History": "",
-            "Resolution": ""
+            "Resolution": "",
+            "URL": "https://python.org/dev/peps/pep-0483/"
         },
         {
             "PEP": "497",
@@ -2412,7 +2591,8 @@
             "Status": "Draft",
             "Type": "Process",
             "Content-Type": "text/x-rst",
-            "Created": "04-Aug-2015"
+            "Created": "04-Aug-2015",
+            "URL": "https://python.org/dev/peps/pep-0497/"
         },
         {
             "PEP": "496",
@@ -2424,7 +2604,8 @@
             "Status": "Rejected",
             "Type": "Informational",
             "Content-Type": "text/x-rst",
-            "Created": "03-Jul-2015"
+            "Created": "03-Jul-2015",
+            "URL": "https://python.org/dev/peps/pep-0496/"
         },
         {
             "PEP": "482",
@@ -2438,7 +2619,8 @@
             "Content-Type": "text/x-rst",
             "Created": "08-Jan-2015",
             "Post-History": "",
-            "Resolution": ""
+            "Resolution": "",
+            "URL": "https://python.org/dev/peps/pep-0482/"
         },
         {
             "PEP": "469",
@@ -2451,7 +2633,8 @@
             "Content-Type": "text/x-rst",
             "Created": "2014-04-18",
             "Python-Version": "3.5",
-            "Post-History": "2014-04-18, 2014-04-21"
+            "Post-History": "2014-04-18, 2014-04-21",
+            "URL": "https://python.org/dev/peps/pep-0469/"
         },
         {
             "PEP": "455",
@@ -2465,7 +2648,8 @@
             "Content-Type": "text/x-rst",
             "Created": "13-Sep-2013",
             "Python-Version": "3.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0455/"
         },
         {
             "PEP": "333",
@@ -2479,7 +2663,8 @@
             "Content-Type": "text/x-rst",
             "Created": "07-Dec-2003",
             "Post-History": "07-Dec-2003, 08-Aug-2004, 20-Aug-2004, 27-Aug-2004, 27-Sep-2010",
-            "Superseded-By": "3333"
+            "Superseded-By": "3333",
+            "URL": "https://python.org/dev/peps/pep-0333/"
         },
         {
             "PEP": "327",
@@ -2492,7 +2677,8 @@
             "Content-Type": "text/x-rst",
             "Created": "17-Oct-2003",
             "Python-Version": "2.4",
-            "Post-History": "30-Nov-2003, 02-Jan-2004, 29-Jan-2004"
+            "Post-History": "30-Nov-2003, 02-Jan-2004, 29-Jan-2004",
+            "URL": "https://python.org/dev/peps/pep-0327/"
         },
         {
             "PEP": "3148",
@@ -2505,7 +2691,8 @@
             "Content-Type": "text/x-rst",
             "Created": "16-Oct-2009",
             "Python-Version": "3.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3148/"
         },
         {
             "PEP": "441",
@@ -2519,7 +2706,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30 March 2013",
             "Post-History": "30 March 2013, 1 April 2013, 16 February 2015",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-February/138578.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-February/138578.html",
+            "URL": "https://python.org/dev/peps/pep-0441/"
         },
         {
             "PEP": "284",
@@ -2532,7 +2720,8 @@
             "Content-Type": "text/x-rst",
             "Created": "1-Mar-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0284/"
         },
         {
             "PEP": "290",
@@ -2544,7 +2733,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "6-Jun-2002",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0290/"
         },
         {
             "PEP": "509",
@@ -2556,7 +2746,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "4-January-2016",
-            "Python-Version": "3.6"
+            "Python-Version": "3.6",
+            "URL": "https://python.org/dev/peps/pep-0509/"
         },
         {
             "PEP": "3000",
@@ -2568,7 +2759,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "05-Apr-2006",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3000/"
         },
         {
             "PEP": "521",
@@ -2581,7 +2773,8 @@
             "Content-Type": "text/x-rst",
             "Created": "27-Apr-2015",
             "Python-Version": "3.6",
-            "Post-History": "29-Apr-2015"
+            "Post-History": "29-Apr-2015",
+            "URL": "https://python.org/dev/peps/pep-0521/"
         },
         {
             "PEP": "247",
@@ -2593,7 +2786,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "23-Mar-2001",
-            "Post-History": "20-Sep-2001"
+            "Post-History": "20-Sep-2001",
+            "URL": "https://python.org/dev/peps/pep-0247/"
         },
         {
             "PEP": "253",
@@ -2606,7 +2800,8 @@
             "Content-Type": "text/x-rst",
             "Created": "14-May-2001",
             "Python-Version": "2.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0253/"
         },
         {
             "PEP": "535",
@@ -2619,7 +2814,8 @@
             "Content-Type": "text/x-rst",
             "Requires": "532",
             "Created": "12-Nov-2016",
-            "Python-Version": "3.8"
+            "Python-Version": "3.8",
+            "URL": "https://python.org/dev/peps/pep-0535/"
         },
         {
             "PEP": "245",
@@ -2633,7 +2829,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Jan-2001",
             "Python-Version": "2.2",
-            "Post-History": "21-Mar-2001"
+            "Post-History": "21-Mar-2001",
+            "URL": "https://python.org/dev/peps/pep-0245/"
         },
         {
             "PEP": "523",
@@ -2646,7 +2843,8 @@
             "Content-Type": "text/x-rst",
             "Created": "16-May-2016",
             "Post-History": "16-May-2016",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-August/145937.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-August/145937.html",
+            "URL": "https://python.org/dev/peps/pep-0523/"
         },
         {
             "PEP": "537",
@@ -2658,7 +2856,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "23-Dec-2016",
-            "Python-Version": "3.7"
+            "Python-Version": "3.7",
+            "URL": "https://python.org/dev/peps/pep-0537/"
         },
         {
             "PEP": "251",
@@ -2671,7 +2870,8 @@
             "Content-Type": "text/x-rst",
             "Created": "17-Apr-2001",
             "Python-Version": "2.2",
-            "Post-History": "14-Aug-2001"
+            "Post-History": "14-Aug-2001",
+            "URL": "https://python.org/dev/peps/pep-0251/"
         },
         {
             "PEP": "279",
@@ -2684,7 +2884,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-Jan-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0279/"
         },
         {
             "PEP": "3002",
@@ -2696,7 +2897,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "27-Mar-2006",
-            "Post-History": "27-Mar-2006, 13-Apr-2006"
+            "Post-History": "27-Mar-2006, 13-Apr-2006",
+            "URL": "https://python.org/dev/peps/pep-3002/"
         },
         {
             "PEP": "286",
@@ -2709,7 +2911,8 @@
             "Content-Type": "text/x-rst",
             "Created": "3-Mar-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0286/"
         },
         {
             "PEP": "292",
@@ -2722,7 +2925,8 @@
             "Content-Type": "text/x-rst",
             "Created": "18-Jun-2002",
             "Python-Version": "2.4",
-            "Post-History": "18-Jun-2002, 23-Mar-2004, 22-Aug-2004"
+            "Post-History": "18-Jun-2002, 23-Mar-2004, 22-Aug-2004",
+            "URL": "https://python.org/dev/peps/pep-0292/"
         },
         {
             "PEP": "331",
@@ -2735,7 +2939,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Jul-2003",
             "Python-Version": "2.4",
-            "Post-History": "21-Jul-2003, 13-Aug-2003, 18-Jun-2004"
+            "Post-History": "21-Jul-2003, 13-Aug-2003, 18-Jun-2004",
+            "URL": "https://python.org/dev/peps/pep-0331/"
         },
         {
             "PEP": "457",
@@ -2747,7 +2952,8 @@
             "Status": "Draft",
             "Type": "Informational",
             "Content-Type": "text/x-rst",
-            "Created": "08-Oct-2013"
+            "Created": "08-Oct-2013",
+            "URL": "https://python.org/dev/peps/pep-0457/"
         },
         {
             "PEP": "443",
@@ -2761,7 +2967,8 @@
             "Content-Type": "text/x-rst",
             "Created": "22-May-2013",
             "Post-History": "22-May-2013, 25-May-2013, 31-May-2013",
-            "Replaces": "245, 246, 3124"
+            "Replaces": "245, 246, 3124",
+            "URL": "https://python.org/dev/peps/pep-0443/"
         },
         {
             "PEP": "325",
@@ -2774,7 +2981,8 @@
             "Content-Type": "text/x-rst",
             "Created": "25-Aug-2003",
             "Python-Version": "2.4",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0325/"
         },
         {
             "PEP": "319",
@@ -2787,7 +2995,8 @@
             "Content-Type": "text/x-rst",
             "Created": "24-Feb-2003",
             "Python-Version": "2.4?",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0319/"
         },
         {
             "PEP": "494",
@@ -2799,7 +3008,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "30-May-2015",
-            "Python-Version": "3.6"
+            "Python-Version": "3.6",
+            "URL": "https://python.org/dev/peps/pep-0494/"
         },
         {
             "PEP": "480",
@@ -2813,7 +3023,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Requires": "458",
-            "Created": "8-Oct-2014"
+            "Created": "8-Oct-2014",
+            "URL": "https://python.org/dev/peps/pep-0480/"
         },
         {
             "PEP": "481",
@@ -2825,7 +3036,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "29-Nov-2014",
-            "Post-History": "29-Nov-2014"
+            "Post-History": "29-Nov-2014",
+            "URL": "https://python.org/dev/peps/pep-0481/"
         },
         {
             "PEP": "495",
@@ -2839,7 +3051,8 @@
             "Content-Type": "text/x-rst",
             "Created": "02-Aug-2015",
             "Python-Version": "3.6",
-            "Resolution": "https://mail.python.org/pipermail/datetime-sig/2015-September/000900.html"
+            "Resolution": "https://mail.python.org/pipermail/datetime-sig/2015-September/000900.html",
+            "URL": "https://python.org/dev/peps/pep-0495/"
         },
         {
             "PEP": "318",
@@ -2852,7 +3065,8 @@
             "Content-Type": "text/x-rst",
             "Created": "05-Jun-2003",
             "Python-Version": "2.4",
-            "Post-History": "09-Jun-2003, 10-Jun-2003, 27-Feb-2004, 23-Mar-2004, 30-Aug-2004,,2-Sep-2004"
+            "Post-History": "09-Jun-2003, 10-Jun-2003, 27-Feb-2004, 23-Mar-2004, 30-Aug-2004,,2-Sep-2004",
+            "URL": "https://python.org/dev/peps/pep-0318/"
         },
         {
             "PEP": "442",
@@ -2867,7 +3081,8 @@
             "Created": "2013-05-18",
             "Python-Version": "3.4",
             "Post-History": "2013-05-18",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-June/126746.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-June/126746.html",
+            "URL": "https://python.org/dev/peps/pep-0442/"
         },
         {
             "PEP": "324",
@@ -2880,7 +3095,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Nov-2003",
             "Python-Version": "2.4",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0324/"
         },
         {
             "PEP": "330",
@@ -2893,7 +3109,8 @@
             "Content-Type": "text/x-rst",
             "Created": "17-Jun-2004",
             "Python-Version": "2.6?",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0330/"
         },
         {
             "PEP": "456",
@@ -2908,7 +3125,8 @@
             "Created": "27-Sep-2013",
             "Python-Version": "3.4",
             "Post-History": "06-Oct-2013, 14-Nov-2013, 20-Nov-2013",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130400.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130400.html",
+            "URL": "https://python.org/dev/peps/pep-0456/"
         },
         {
             "PEP": "293",
@@ -2921,7 +3139,8 @@
             "Content-Type": "text/x-rst",
             "Created": "18-Jun-2002",
             "Python-Version": "2.3",
-            "Post-History": "19-Jun-2002"
+            "Post-History": "19-Jun-2002",
+            "URL": "https://python.org/dev/peps/pep-0293/"
         },
         {
             "PEP": "287",
@@ -2935,7 +3154,8 @@
             "Content-Type": "text/x-rst",
             "Created": "25-Mar-2002",
             "Post-History": "02-Apr-2002",
-            "Replaces": "216"
+            "Replaces": "216",
+            "URL": "https://python.org/dev/peps/pep-0287/"
         },
         {
             "PEP": "3003",
@@ -2947,7 +3167,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "21-Oct-2009",
-            "Post-History": "03-Nov-2009"
+            "Post-History": "03-Nov-2009",
+            "URL": "https://python.org/dev/peps/pep-3003/"
         },
         {
             "PEP": "278",
@@ -2960,7 +3181,8 @@
             "Content-Type": "text/x-rst",
             "Created": "14-Jan-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0278/"
         },
         {
             "PEP": "536",
@@ -2973,7 +3195,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Dec-2016",
             "Python-Version": "3.7",
-            "Post-History": "12-Dec-2016"
+            "Post-History": "12-Dec-2016",
+            "URL": "https://python.org/dev/peps/pep-0536/"
         },
         {
             "PEP": "250",
@@ -2986,7 +3209,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-Mar-2001",
             "Python-Version": "2.2",
-            "Post-History": "30-Mar-2001"
+            "Post-History": "30-Mar-2001",
+            "URL": "https://python.org/dev/peps/pep-0250/"
         },
         {
             "PEP": "244",
@@ -2999,7 +3223,8 @@
             "Content-Type": "text/x-rst",
             "Created": "20-Mar-2001",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0244/"
         },
         {
             "PEP": "522",
@@ -3013,7 +3238,8 @@
             "Requires": "506",
             "Created": "16 June 2016",
             "Python-Version": "3.6",
-            "Resolution": "https://mail.python.org/pipermail/security-sig/2016-August/000101.html"
+            "Resolution": "https://mail.python.org/pipermail/security-sig/2016-August/000101.html",
+            "URL": "https://python.org/dev/peps/pep-0522/"
         },
         {
             "PEP": "249",
@@ -3027,7 +3253,8 @@
             "Content-Type": "text/x-rst",
             "Created": "",
             "Post-History": "",
-            "Replaces": "248"
+            "Replaces": "248",
+            "URL": "https://python.org/dev/peps/pep-0249/"
         },
         {
             "PEP": "507",
@@ -3040,7 +3267,8 @@
             "Content-Type": "text/x-rst",
             "Created": "2015-09-30",
             "Post-History": "",
-            "Resolution": "https://mail.python.org/pipermail/core-workflow/2016-January/000345.html"
+            "Resolution": "https://mail.python.org/pipermail/core-workflow/2016-January/000345.html",
+            "URL": "https://python.org/dev/peps/pep-0507/"
         },
         {
             "PEP": "261",
@@ -3053,7 +3281,8 @@
             "Content-Type": "text/x-rst",
             "Created": "27-Jun-2001",
             "Python-Version": "2.2",
-            "Post-History": "27-Jun-2001"
+            "Post-History": "27-Jun-2001",
+            "URL": "https://python.org/dev/peps/pep-0261/"
         },
         {
             "PEP": "275",
@@ -3066,7 +3295,8 @@
             "Content-Type": "text/x-rst",
             "Created": "10-Nov-2001",
             "Python-Version": "2.6",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0275/"
         },
         {
             "PEP": "513",
@@ -3081,7 +3311,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Jan-2016",
             "Post-History": "19-Jan-2016, 25-Jan-2016, 29-Jan-2016",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2016-January/028211.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2016-January/028211.html",
+            "URL": "https://python.org/dev/peps/pep-0513/"
         },
         {
             "PEP": "3146",
@@ -3094,7 +3325,8 @@
             "Content-Type": "text/x-rst",
             "Created": "1-Jan-2010",
             "Python-Version": "3.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3146/"
         },
         {
             "PEP": "329",
@@ -3107,7 +3339,8 @@
             "Content-Type": "text/x-rst",
             "Created": "18-Apr-2004",
             "Python-Version": "2.4",
-            "Post-History": "18-Apr-2004"
+            "Post-History": "18-Apr-2004",
+            "URL": "https://python.org/dev/peps/pep-0329/"
         },
         {
             "PEP": "3152",
@@ -3120,7 +3353,8 @@
             "Content-Type": "text/x-rst",
             "Created": "13-Feb-2009",
             "Python-Version": "3.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3152/"
         },
         {
             "PEP": "473",
@@ -3132,7 +3366,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "29-Mar-2014",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0473/"
         },
         {
             "PEP": "315",
@@ -3145,7 +3380,8 @@
             "Content-Type": "text/x-rst",
             "Created": "25-Apr-2003",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0315/"
         },
         {
             "PEP": "301",
@@ -3158,7 +3394,8 @@
             "Content-Type": "text/x-rst",
             "Created": "24-Oct-2002",
             "Python-Version": "2.3",
-            "Post-History": "8-Nov-2002"
+            "Post-History": "8-Nov-2002",
+            "URL": "https://python.org/dev/peps/pep-0301/"
         },
         {
             "PEP": "467",
@@ -3171,7 +3408,8 @@
             "Content-Type": "text/x-rst",
             "Created": "2014-03-30",
             "Python-Version": "3.5",
-            "Post-History": "2014-03-30 2014-08-15 2014-08-16"
+            "Post-History": "2014-03-30 2014-08-15 2014-08-16",
+            "URL": "https://python.org/dev/peps/pep-0467/"
         },
         {
             "PEP": "498",
@@ -3185,7 +3423,8 @@
             "Created": "01-Aug-2015",
             "Python-Version": "3.6",
             "Post-History": "07-Aug-2015, 30-Aug-2015, 04-Sep-2015, 19-Sep-2015, 06-Nov-2016",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-September/141526.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-September/141526.html",
+            "URL": "https://python.org/dev/peps/pep-0498/"
         },
         {
             "PEP": "103",
@@ -3197,7 +3436,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "01-Jun-2015",
-            "Post-History": "12-Sep-2015"
+            "Post-History": "12-Sep-2015",
+            "URL": "https://python.org/dev/peps/pep-0103/"
         },
         {
             "PEP": "102",
@@ -3210,7 +3450,8 @@
             "Content-Type": "text/x-rst",
             "Created": "22-Aug-2001 (edited down on 9-Jan-2002 to become PEP 102)",
             "Post-History": "",
-            "Superseded-By": "101"
+            "Superseded-By": "101",
+            "URL": "https://python.org/dev/peps/pep-0102/"
         },
         {
             "PEP": "499",
@@ -3222,7 +3463,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "07-Aug-2015",
-            "Python-Version": "3.6"
+            "Python-Version": "3.6",
+            "URL": "https://python.org/dev/peps/pep-0499/"
         },
         {
             "PEP": "466",
@@ -3236,7 +3478,8 @@
             "Created": "23-Mar-2014",
             "Python-Version": "2.7.9",
             "Post-History": "23-Mar-2014, 24-Mar-2014, 25-Mar-2014, 26-Mar-2014, 16-Apr-2014",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2014-April/134163.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2014-April/134163.html",
+            "URL": "https://python.org/dev/peps/pep-0466/"
         },
         {
             "PEP": "472",
@@ -3250,7 +3493,8 @@
             "Content-Type": "text/x-rst",
             "Created": "24-Jun-2014",
             "Python-Version": "3.6",
-            "Post-History": "02-Jul-2014"
+            "Post-History": "02-Jul-2014",
+            "URL": "https://python.org/dev/peps/pep-0472/"
         },
         {
             "PEP": "314",
@@ -3264,7 +3508,8 @@
             "Created": "12-Apr-2003",
             "Python-Version": "2.5",
             "Post-History": "29-Apr-2003",
-            "Replaces": "241"
+            "Replaces": "241",
+            "URL": "https://python.org/dev/peps/pep-0314/"
         },
         {
             "PEP": "3153",
@@ -3277,7 +3522,8 @@
             "Content-Type": "text/x-rst",
             "Created": "29-May-2011",
             "Post-History": "TBD",
-            "Superseded-By": "3156"
+            "Superseded-By": "3156",
+            "URL": "https://python.org/dev/peps/pep-3153/"
         },
         {
             "PEP": "3147",
@@ -3291,7 +3537,8 @@
             "Created": "2009-12-16",
             "Python-Version": "3.2",
             "Post-History": "2010-01-30, 2010-02-25, 2010-03-03, 2010-04-12",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2010-April/099414.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2010-April/099414.html",
+            "URL": "https://python.org/dev/peps/pep-3147/"
         },
         {
             "PEP": "328",
@@ -3304,7 +3551,8 @@
             "Content-Type": "text/x-rst",
             "Created": "21-Dec-2003",
             "Python-Version": "2.4, 2,5, 2.6",
-            "Post-History": "8-Mar-2004"
+            "Post-History": "8-Mar-2004",
+            "URL": "https://python.org/dev/peps/pep-0328/"
         },
         {
             "PEP": "274",
@@ -3317,7 +3565,8 @@
             "Content-Type": "text/x-rst",
             "Created": "25-Oct-2001",
             "Python-Version": "2.7, 3.0 (originally 2.3)",
-            "Post-History": "29-Oct-2001"
+            "Post-History": "29-Oct-2001",
+            "URL": "https://python.org/dev/peps/pep-0274/"
         },
         {
             "PEP": "512",
@@ -3330,7 +3579,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "17-Jan-2015",
-            "Post-History": "17-Jan-2016, 19-Jan-2016, 23-Jan-2016"
+            "Post-History": "17-Jan-2016, 19-Jan-2016, 23-Jan-2016",
+            "URL": "https://python.org/dev/peps/pep-0512/"
         },
         {
             "PEP": "506",
@@ -3343,7 +3593,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Sep-2015",
             "Python-Version": "3.6",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0506/"
         },
         {
             "PEP": "260",
@@ -3356,7 +3607,8 @@
             "Content-Type": "text/x-rst",
             "Created": "26-Jun-2001",
             "Python-Version": "2.2",
-            "Post-History": "26-Jun-2001"
+            "Post-History": "26-Jun-2001",
+            "URL": "https://python.org/dev/peps/pep-0260/"
         },
         {
             "PEP": "248",
@@ -3370,7 +3622,8 @@
             "Content-Type": "text/x-rst",
             "Created": "",
             "Post-History": "",
-            "Superseded-By": "249"
+            "Superseded-By": "249",
+            "URL": "https://python.org/dev/peps/pep-0248/"
         },
         {
             "PEP": "538",
@@ -3385,7 +3638,8 @@
             "Created": "28-Dec-2016",
             "Python-Version": "3.7",
             "Post-History": "03-Jan-2017 (linux-sig),,07-Jan-2017 (python-ideas),,05-Mar-2017 (python-dev),,09-May-2017 (python-dev)",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2017-May/148035.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2017-May/148035.html",
+            "URL": "https://python.org/dev/peps/pep-0538/"
         },
         {
             "PEP": "510",
@@ -3397,7 +3651,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "4-January-2016",
-            "Python-Version": "3.6"
+            "Python-Version": "3.6",
+            "URL": "https://python.org/dev/peps/pep-0510/"
         },
         {
             "PEP": "276",
@@ -3410,7 +3665,8 @@
             "Content-Type": "text/x-rst",
             "Created": "12-Nov-2001",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0276/"
         },
         {
             "PEP": "262",
@@ -3422,7 +3678,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "08-Jul-2001",
-            "Post-History": "27-Mar-2002"
+            "Post-History": "27-Mar-2002",
+            "URL": "https://python.org/dev/peps/pep-0262/"
         },
         {
             "PEP": "504",
@@ -3435,7 +3692,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Sep-2015",
             "Python-Version": "3.6",
-            "Post-History": "15-Sep-2015"
+            "Post-History": "15-Sep-2015",
+            "URL": "https://python.org/dev/peps/pep-0504/"
         },
         {
             "PEP": "289",
@@ -3448,7 +3706,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-Jan-2002",
             "Python-Version": "2.4",
-            "Post-History": "22-Oct-2003"
+            "Post-History": "22-Oct-2003",
+            "URL": "https://python.org/dev/peps/pep-0289/"
         },
         {
             "PEP": "458",
@@ -3461,7 +3720,8 @@
             "Status": "Draft",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
-            "Created": "27-Sep-2013"
+            "Created": "27-Sep-2013",
+            "URL": "https://python.org/dev/peps/pep-0458/"
         },
         {
             "PEP": "3151",
@@ -3476,7 +3736,8 @@
             "Created": "2010-07-21",
             "Python-Version": "3.3",
             "Post-History": "",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2011-October/114033.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2011-October/114033.html",
+            "URL": "https://python.org/dev/peps/pep-3151/"
         },
         {
             "PEP": "3145",
@@ -3489,7 +3750,8 @@
             "Content-Type": "text/x-rst",
             "Created": "04-Aug-2009",
             "Python-Version": "3.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3145/"
         },
         {
             "PEP": "464",
@@ -3505,7 +3767,8 @@
             "Created": "02-Mar-2014",
             "Post-History": "04-Mar-2014",
             "Replaces": "381",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2014-March/024027.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2014-March/024027.html",
+            "URL": "https://python.org/dev/peps/pep-0464/"
         },
         {
             "PEP": "302",
@@ -3518,7 +3781,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Dec-2002",
             "Python-Version": "2.3",
-            "Post-History": "19-Dec-2002"
+            "Post-History": "19-Dec-2002",
+            "URL": "https://python.org/dev/peps/pep-0302/"
         },
         {
             "PEP": "316",
@@ -3531,7 +3795,8 @@
             "Content-Type": "text/x-rst",
             "Created": "02-May-2003",
             "Python-Version": "",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0316/"
         },
         {
             "PEP": "470",
@@ -3547,7 +3812,8 @@
             "Created": "12-May-2014",
             "Post-History": "14-May-2014, 05-Jun-2014, 03-Oct-2014, 13-Oct-2014, 26-Aug-2015",
             "Replaces": "438",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2015-September/026789.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2015-September/026789.html",
+            "URL": "https://python.org/dev/peps/pep-0470/"
         },
         {
             "PEP": "100",
@@ -3560,7 +3826,8 @@
             "Content-Type": "text/x-rst",
             "Created": "10-Mar-2000",
             "Python-Version": "2.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0100/"
         },
         {
             "PEP": "666",
@@ -3573,7 +3840,8 @@
             "Content-Type": "text/x-rst",
             "Created": "3-Dec-2001",
             "Python-Version": "2.2",
-            "Post-History": "5-Dec-2001"
+            "Post-History": "5-Dec-2001",
+            "URL": "https://python.org/dev/peps/pep-0666/"
         },
         {
             "PEP": "101",
@@ -3585,7 +3853,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "22-Aug-2001",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0101/"
         },
         {
             "PEP": "317",
@@ -3598,7 +3867,8 @@
             "Content-Type": "text/x-rst",
             "Created": "06-May-2003",
             "Python-Version": "2.4",
-            "Post-History": "09-Jun-2003"
+            "Post-History": "09-Jun-2003",
+            "URL": "https://python.org/dev/peps/pep-0317/"
         },
         {
             "PEP": "471",
@@ -3612,7 +3882,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-May-2014",
             "Python-Version": "3.5",
-            "Post-History": "27-Jun-2014, 8-Jul-2014, 14-Jul-2014"
+            "Post-History": "27-Jun-2014, 8-Jul-2014, 14-Jul-2014",
+            "URL": "https://python.org/dev/peps/pep-0471/"
         },
         {
             "PEP": "465",
@@ -3625,7 +3896,8 @@
             "Content-Type": "text/x-rst",
             "Created": "20-Feb-2014",
             "Python-Version": "3.5",
-            "Post-History": "13-Mar-2014"
+            "Post-History": "13-Mar-2014",
+            "URL": "https://python.org/dev/peps/pep-0465/"
         },
         {
             "PEP": "303",
@@ -3638,7 +3910,8 @@
             "Content-Type": "text/x-rst",
             "Created": "31-Dec-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0303/"
         },
         {
             "PEP": "3144",
@@ -3653,7 +3926,8 @@
             "Content-Type": "text/x-rst",
             "Created": "6-Feb-2012",
             "Python-Version": "3.3",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-May/119474.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-May/119474.html",
+            "URL": "https://python.org/dev/peps/pep-3144/"
         },
         {
             "PEP": "3150",
@@ -3667,7 +3941,8 @@
             "Created": "2010-07-09",
             "Python-Version": "3.4",
             "Post-History": "2010-07-14, 2011-04-21, 2011-06-13",
-            "Resolution": "TBD"
+            "Resolution": "TBD",
+            "URL": "https://python.org/dev/peps/pep-3150/"
         },
         {
             "PEP": "459",
@@ -3682,7 +3957,8 @@
             "Content-Type": "text/x-rst",
             "Requires": "426",
             "Created": "11 Nov 2013",
-            "Post-History": "21 Dec 2013"
+            "Post-History": "21 Dec 2013",
+            "URL": "https://python.org/dev/peps/pep-0459/"
         },
         {
             "PEP": "288",
@@ -3695,7 +3971,8 @@
             "Content-Type": "text/x-rst",
             "Created": "21-Mar-2002",
             "Python-Version": "2.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0288/"
         },
         {
             "PEP": "263",
@@ -3708,7 +3985,8 @@
             "Content-Type": "text/x-rst",
             "Created": "06-Jun-2001",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0263/"
         },
         {
             "PEP": "505",
@@ -3720,7 +3998,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "18-Sep-2015",
-            "Python-Version": "3.8"
+            "Python-Version": "3.8",
+            "URL": "https://python.org/dev/peps/pep-0505/"
         },
         {
             "PEP": "511",
@@ -3732,7 +4011,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "4-January-2016",
-            "Python-Version": "3.6"
+            "Python-Version": "3.6",
+            "URL": "https://python.org/dev/peps/pep-0511/"
         },
         {
             "PEP": "277",
@@ -3745,7 +4025,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Jan-2002",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0277/"
         },
         {
             "PEP": "539",
@@ -3759,7 +4040,8 @@
             "Content-Type": "text/x-rst",
             "Created": "20-Dec-2016",
             "Post-History": "16-Dec-2016, 31-Aug-2017, 08-Sep-2017",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2017-September/149358.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2017-September/149358.html",
+            "URL": "https://python.org/dev/peps/pep-0539/"
         },
         {
             "PEP": "273",
@@ -3772,7 +4054,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Oct-2001",
             "Python-Version": "2.3",
-            "Post-History": "26-Oct-2001"
+            "Post-History": "26-Oct-2001",
+            "URL": "https://python.org/dev/peps/pep-0273/"
         },
         {
             "PEP": "515",
@@ -3785,7 +4068,8 @@
             "Content-Type": "text/x-rst",
             "Created": "10-Feb-2016",
             "Python-Version": "3.6",
-            "Post-History": "10-Feb-2016, 11-Feb-2016"
+            "Post-History": "10-Feb-2016, 11-Feb-2016",
+            "URL": "https://python.org/dev/peps/pep-0515/"
         },
         {
             "PEP": "501",
@@ -3799,7 +4083,8 @@
             "Requires": "498",
             "Created": "08-Aug-2015",
             "Python-Version": "3.6",
-            "Post-History": "08-Aug-2015, 23-Aug-2015, 30-Aug-2015"
+            "Post-History": "08-Aug-2015, 23-Aug-2015, 30-Aug-2015",
+            "URL": "https://python.org/dev/peps/pep-0501/"
         },
         {
             "PEP": "267",
@@ -3812,7 +4097,8 @@
             "Content-Type": "text/x-rst",
             "Created": "23-May-2001",
             "Python-Version": "2.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0267/"
         },
         {
             "PEP": "529",
@@ -3826,7 +4112,8 @@
             "Created": "27-Aug-2016",
             "Python-Version": "3.6",
             "Post-History": "01-Sep-2016, 04-Sep-2016",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-September/146277.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-September/146277.html",
+            "URL": "https://python.org/dev/peps/pep-0529/"
         },
         {
             "PEP": "298",
@@ -3839,7 +4126,8 @@
             "Content-Type": "text/x-rst",
             "Created": "26-Jul-2002",
             "Python-Version": "2.3",
-            "Post-History": "30-Jul-2002, 1-Aug-2002"
+            "Post-History": "30-Jul-2002, 1-Aug-2002",
+            "URL": "https://python.org/dev/peps/pep-0298/"
         },
         {
             "PEP": "307",
@@ -3851,7 +4139,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "31-Jan-2003",
-            "Post-History": "7-Feb-2003"
+            "Post-History": "7-Feb-2003",
+            "URL": "https://python.org/dev/peps/pep-0307/"
         },
         {
             "PEP": "461",
@@ -3865,7 +4154,8 @@
             "Created": "2014-01-13",
             "Python-Version": "3.5",
             "Post-History": "2014-01-14, 2014-01-15, 2014-01-17, 2014-02-22, 2014-03-25,,2014-03-27",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2014-March/133621.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2014-March/133621.html",
+            "URL": "https://python.org/dev/peps/pep-0461/"
         },
         {
             "PEP": "475",
@@ -3879,7 +4169,8 @@
             "Content-Type": "text/x-rst",
             "Created": "29-July-2014",
             "Python-Version": "3.5",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-February/138018.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-February/138018.html",
+            "URL": "https://python.org/dev/peps/pep-0475/"
         },
         {
             "PEP": "313",
@@ -3892,7 +4183,8 @@
             "Content-Type": "text/x-rst",
             "Created": "01-Apr-2003",
             "Python-Version": "2.4",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0313/"
         },
         {
             "PEP": "3154",
@@ -3907,7 +4199,8 @@
             "Python-Version": "3.4",
             "Post-History": "",
             "    https": "//mail.python.org/pipermail/python-dev/2011-August/112821.html",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130439.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130439.html",
+            "URL": "https://python.org/dev/peps/pep-3154/"
         },
         {
             "PEP": "3140",
@@ -3920,7 +4213,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "27-May-2008",
-            "Post-History": "28-May-2008"
+            "Post-History": "28-May-2008",
+            "URL": "https://python.org/dev/peps/pep-3140/"
         },
         {
             "PEP": "449",
@@ -3936,7 +4230,8 @@
             "Created": "04-Aug-2013",
             "Post-History": "04-Aug-2013",
             "Replaces": "381",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2013-August/022518.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2013-August/022518.html",
+            "URL": "https://python.org/dev/peps/pep-0449/"
         },
         {
             "PEP": "448",
@@ -3950,7 +4245,8 @@
             "Content-Type": "text/x-rst",
             "Created": "29-Jun-2013",
             "Python-Version": "3.5",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0448/"
         },
         {
             "PEP": "3141",
@@ -3962,7 +4258,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "23-Apr-2007",
-            "Post-History": "25-Apr-2007, 16-May-2007, 02-Aug-2007"
+            "Post-History": "25-Apr-2007, 16-May-2007, 02-Aug-2007",
+            "URL": "https://python.org/dev/peps/pep-3141/"
         },
         {
             "PEP": "3155",
@@ -3976,7 +4273,8 @@
             "Created": "2011-10-29",
             "Python-Version": "3.3",
             "Post-History": "",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2011-November/114545.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2011-November/114545.html",
+            "URL": "https://python.org/dev/peps/pep-3155/"
         },
         {
             "PEP": "474",
@@ -3988,7 +4286,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "19-Jul-2014",
-            "Post-History": "19-Jul-2014, 08-Jan-2015, 01-Feb-2015"
+            "Post-History": "19-Jul-2014, 08-Jan-2015, 01-Feb-2015",
+            "URL": "https://python.org/dev/peps/pep-0474/"
         },
         {
             "PEP": "312",
@@ -4001,7 +4300,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Feb-2003",
             "Python-Version": "2.4",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0312/"
         },
         {
             "PEP": "306",
@@ -4013,7 +4313,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "29-Jan-2003",
-            "Post-History": "30-Jan-2003"
+            "Post-History": "30-Jan-2003",
+            "URL": "https://python.org/dev/peps/pep-0306/"
         },
         {
             "PEP": "460",
@@ -4025,7 +4326,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "6-Jan-2014",
-            "Python-Version": "3.5"
+            "Python-Version": "3.5",
+            "URL": "https://python.org/dev/peps/pep-0460/"
         },
         {
             "PEP": "299",
@@ -4038,7 +4340,8 @@
             "Content-Type": "text/x-rst",
             "Created": "12-Aug-2002",
             "Python-Version": "2.3",
-            "Post-History": "29-Mar-2006"
+            "Post-History": "29-Mar-2006",
+            "URL": "https://python.org/dev/peps/pep-0299/"
         },
         {
             "PEP": "528",
@@ -4052,7 +4355,8 @@
             "Created": "27-Aug-2016",
             "Python-Version": "3.6",
             "Post-History": "01-Sep-2016, 04-Sep-2016",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-September/146278.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-September/146278.html",
+            "URL": "https://python.org/dev/peps/pep-0528/"
         },
         {
             "PEP": "500",
@@ -4066,7 +4370,8 @@
             "Content-Type": "text/x-rst",
             "Requires": "495",
             "Created": "08-Aug-2015",
-            "Resolution": "https://mail.python.org/pipermail/datetime-sig/2015-August/000354.html"
+            "Resolution": "https://mail.python.org/pipermail/datetime-sig/2015-August/000354.html",
+            "URL": "https://python.org/dev/peps/pep-0500/"
         },
         {
             "PEP": "266",
@@ -4079,7 +4384,8 @@
             "Content-Type": "text/x-rst",
             "Created": "13-Aug-2001",
             "Python-Version": "2.3",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0266/"
         },
         {
             "PEP": "272",
@@ -4091,7 +4397,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "18-Sep-2001",
-            "Post-History": "17-Apr-2002, 29-May-2002"
+            "Post-History": "17-Apr-2002, 29-May-2002",
+            "URL": "https://python.org/dev/peps/pep-0272/"
         },
         {
             "PEP": "514",
@@ -4105,7 +4412,8 @@
             "Content-Type": "text/x-rst",
             "Created": "02-Feb-2016",
             "Post-History": "02-Feb-2016, 01-Mar-2016, 18-Jul-2016",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-July/145697.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2016-July/145697.html",
+            "URL": "https://python.org/dev/peps/pep-0514/"
         },
         {
             "PEP": "264",
@@ -4119,7 +4427,8 @@
             "Requires": "236",
             "Created": "30-Jul-2001",
             "Python-Version": "2.2",
-            "Post-History": "30-Jul-2001"
+            "Post-History": "30-Jul-2001",
+            "URL": "https://python.org/dev/peps/pep-0264/"
         },
         {
             "PEP": "502",
@@ -4131,7 +4440,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "10-Aug-2015",
-            "Python-Version": "3.6"
+            "Python-Version": "3.6",
+            "URL": "https://python.org/dev/peps/pep-0502/"
         },
         {
             "PEP": "516",
@@ -4145,7 +4455,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "26-Oct-2015",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2017-May/030517.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2017-May/030517.html",
+            "URL": "https://python.org/dev/peps/pep-0516/"
         },
         {
             "PEP": "270",
@@ -4158,7 +4469,8 @@
             "Content-Type": "text/x-rst",
             "Created": "21-Aug-2001",
             "Python-Version": "2.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0270/"
         },
         {
             "PEP": "258",
@@ -4172,7 +4484,8 @@
             "Content-Type": "text/x-rst",
             "Requires": "256, 257",
             "Created": "31-May-2001",
-            "Post-History": "13-Jun-2001"
+            "Post-History": "13-Jun-2001",
+            "URL": "https://python.org/dev/peps/pep-0258/"
         },
         {
             "PEP": "310",
@@ -4185,7 +4498,8 @@
             "Content-Type": "text/x-rst",
             "Created": "18-Dec-2002",
             "Python-Version": "2.4",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0310/"
         },
         {
             "PEP": "476",
@@ -4197,7 +4511,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "28-August-2014",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2014-October/136676.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2014-October/136676.html",
+            "URL": "https://python.org/dev/peps/pep-0476/"
         },
         {
             "PEP": "462",
@@ -4210,7 +4525,8 @@
             "Content-Type": "text/x-rst",
             "Requires": "474",
             "Created": "23-Jan-2014",
-            "Post-History": "25-Jan-2014, 27-Jan-2014, 01-Feb-2015"
+            "Post-History": "25-Jan-2014, 27-Jan-2014, 01-Feb-2015",
+            "URL": "https://python.org/dev/peps/pep-0462/"
         },
         {
             "PEP": "304",
@@ -4222,7 +4538,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "22-Jan-2003",
-            "Post-History": "27-Jan-2003, 31-Jan-2003, 17-Jun-2005"
+            "Post-History": "27-Jan-2003, 31-Jan-2003, 17-Jun-2005",
+            "URL": "https://python.org/dev/peps/pep-0304/"
         },
         {
             "PEP": "3143",
@@ -4235,7 +4552,8 @@
             "Content-Type": "text/x-rst",
             "Created": "2009-01-26",
             "Python-Version": "3.x",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3143/"
         },
         {
             "PEP": "338",
@@ -4248,7 +4566,8 @@
             "Content-Type": "text/x-rst",
             "Created": "16-Oct-2004",
             "Python-Version": "2.5",
-            "Post-History": "8-Nov-2004, 11-Feb-2006, 12-Feb-2006, 18-Feb-2006"
+            "Post-History": "8-Nov-2004, 11-Feb-2006, 12-Feb-2006, 18-Feb-2006",
+            "URL": "https://python.org/dev/peps/pep-0338/"
         },
         {
             "PEP": "489",
@@ -4264,7 +4583,8 @@
             "Created": "11-Aug-2013",
             "Python-Version": "3.5",
             "Post-History": "23-Aug-2013, 20-Feb-2015, 16-Apr-2015, 7-May-2015, 18-May-2015",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-May/140108.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2015-May/140108.html",
+            "URL": "https://python.org/dev/peps/pep-0489/"
         },
         {
             "PEP": "488",
@@ -4277,7 +4597,8 @@
             "Content-Type": "text/x-rst",
             "Created": "20-Feb-2015",
             "Python-Version": "3.5",
-            "Post-History": ",2015-03-06,2015-03-13,2015-03-20"
+            "Post-History": ",2015-03-06,2015-03-13,2015-03-20",
+            "URL": "https://python.org/dev/peps/pep-0488/"
         },
         {
             "PEP": "3156",
@@ -4292,7 +4613,8 @@
             "Content-Type": "text/x-rst",
             "Created": "12-Dec-2012",
             "Post-History": "21-Dec-2012",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130419.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130419.html",
+            "URL": "https://python.org/dev/peps/pep-3156/"
         },
         {
             "PEP": "339",
@@ -4304,7 +4626,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "02-Feb-2005",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0339/"
         },
         {
             "PEP": "3142",
@@ -4318,7 +4641,8 @@
             "Created": "12-Jan-2009",
             "Python-Version": "3.0",
             "Post-History": "",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-May/126136.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-May/126136.html",
+            "URL": "https://python.org/dev/peps/pep-3142/"
         },
         {
             "PEP": "463",
@@ -4332,7 +4656,8 @@
             "Created": "15-Feb-2014",
             "Python-Version": "3.5",
             "Post-History": "20-Feb-2014, 16-Feb-2014",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2014-March/133118.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2014-March/133118.html",
+            "URL": "https://python.org/dev/peps/pep-0463/"
         },
         {
             "PEP": "305",
@@ -4345,7 +4670,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "26-Jan-2003",
-            "Post-History": "31-Jan-2003, 13-Feb-2003"
+            "Post-History": "31-Jan-2003, 13-Feb-2003",
+            "URL": "https://python.org/dev/peps/pep-0305/"
         },
         {
             "PEP": "311",
@@ -4357,7 +4683,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "05-Feb-2003",
-            "Post-History": "05-Feb-2003 14-Feb-2003 19-Apr-2003"
+            "Post-History": "05-Feb-2003 14-Feb-2003 19-Apr-2003",
+            "URL": "https://python.org/dev/peps/pep-0311/"
         },
         {
             "PEP": "477",
@@ -4371,7 +4698,8 @@
             "Content-Type": "text/x-rst",
             "Created": "26-Aug-2014",
             "Post-History": "1-Sep-2014",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2014-September/136238.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2014-September/136238.html",
+            "URL": "https://python.org/dev/peps/pep-0477/"
         },
         {
             "PEP": "259",
@@ -4384,7 +4712,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Jun-2001",
             "Python-Version": "2.2",
-            "Post-History": "11-Jun-2001"
+            "Post-History": "11-Jun-2001",
+            "URL": "https://python.org/dev/peps/pep-0259/"
         },
         {
             "PEP": "517",
@@ -4399,7 +4728,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-Sep-2015",
             "Post-History": "1 Oct 2015, 25 Oct 2015, 19 May 2017, 11 Sep 2017",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2017-September/031548.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2017-September/031548.html",
+            "URL": "https://python.org/dev/peps/pep-0517/"
         },
         {
             "PEP": "271",
@@ -4412,7 +4742,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Aug-2001",
             "Python-Version": "2.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0271/"
         },
         {
             "PEP": "265",
@@ -4425,7 +4756,8 @@
             "Content-Type": "text/x-rst",
             "Created": "8-Aug-2001",
             "Python-Version": "2.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0265/"
         },
         {
             "PEP": "503",
@@ -4440,7 +4772,8 @@
             "Content-Type": "text/x-rst",
             "Created": "04-Sep-2015",
             "Post-History": "04-Sep-2015",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2015-September/026899.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2015-September/026899.html",
+            "URL": "https://python.org/dev/peps/pep-0503/"
         },
         {
             "PEP": "202",
@@ -4453,7 +4786,8 @@
             "Content-Type": "text/x-rst",
             "Created": "13-Jul-2000",
             "Python-Version": "2.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0202/"
         },
         {
             "PEP": "216",
@@ -4466,7 +4800,8 @@
             "Content-Type": "text/x-rst",
             "Created": "31-Jul-2000",
             "Post-History": "",
-            "Superseded-By": "287"
+            "Superseded-By": "287",
+            "URL": "https://python.org/dev/peps/pep-0216/"
         },
         {
             "PEP": "3125",
@@ -4478,7 +4813,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "29-Apr-2007",
-            "Post-History": "29-Apr-2007, 30-Apr-2007, 04-May-2007"
+            "Post-History": "29-Apr-2007, 30-Apr-2007, 04-May-2007",
+            "URL": "https://python.org/dev/peps/pep-3125/"
         },
         {
             "PEP": "3131",
@@ -4491,7 +4827,8 @@
             "Content-Type": "text/x-rst",
             "Created": "1-May-2007",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3131/"
         },
         {
             "PEP": "438",
@@ -4507,7 +4844,8 @@
             "Created": "15-Mar-2013",
             "Post-History": "19-May-2013",
             "Superseded-By": "470",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2013-May/020773.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2013-May/020773.html",
+            "URL": "https://python.org/dev/peps/pep-0438/"
         },
         {
             "PEP": "376",
@@ -4520,7 +4858,8 @@
             "Content-Type": "text/x-rst",
             "Created": "22-Feb-2009",
             "Python-Version": "2.7, 3.2",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0376/"
         },
         {
             "PEP": "3119",
@@ -4532,7 +4871,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "18-Apr-2007",
-            "Post-History": "26-Apr-2007, 11-May-2007"
+            "Post-History": "26-Apr-2007, 11-May-2007",
+            "URL": "https://python.org/dev/peps/pep-3119/"
         },
         {
             "PEP": "410",
@@ -4545,7 +4885,8 @@
             "Content-Type": "text/x-rst",
             "Created": "01-February-2012",
             "Python-Version": "3.3",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-February/116837.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-February/116837.html",
+            "URL": "https://python.org/dev/peps/pep-0410/"
         },
         {
             "PEP": "404",
@@ -4557,7 +4898,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "2011-11-09",
-            "Python-Version": "2.8"
+            "Python-Version": "2.8",
+            "URL": "https://python.org/dev/peps/pep-0404/"
         },
         {
             "PEP": "362",
@@ -4571,7 +4913,8 @@
             "Created": "21-Aug-2006",
             "Python-Version": "3.3",
             "Post-History": "04-Jun-2012",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-June/120682.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-June/120682.html",
+            "URL": "https://python.org/dev/peps/pep-0362/"
         },
         {
             "PEP": "389",
@@ -4584,7 +4927,8 @@
             "Content-Type": "text/x-rst",
             "Created": "25-Sep-2009",
             "Python-Version": "2.7 and 3.2",
-            "Post-History": "27-Sep-2009, 24-Oct-2009"
+            "Post-History": "27-Sep-2009, 24-Oct-2009",
+            "URL": "https://python.org/dev/peps/pep-0389/"
         },
         {
             "PEP": "3333",
@@ -4598,7 +4942,8 @@
             "Content-Type": "text/x-rst",
             "Created": "26-Sep-2010",
             "Post-History": "26-Sep-2010, 04-Oct-2010",
-            "Replaces": "333"
+            "Replaces": "333",
+            "URL": "https://python.org/dev/peps/pep-3333/"
         },
         {
             "PEP": "160",
@@ -4611,7 +4956,8 @@
             "Content-Type": "text/x-rst",
             "Created": "25-Jul-2000",
             "Python-Version": "1.6",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0160/"
         },
         {
             "PEP": "405",
@@ -4626,7 +4972,8 @@
             "Created": "13-Jun-2011",
             "Python-Version": "3.3",
             "Post-History": "24-Oct-2011, 28-Oct-2011, 06-Mar-2012, 24-May-2012",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-May/119668.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-May/119668.html",
+            "URL": "https://python.org/dev/peps/pep-0405/"
         },
         {
             "PEP": "363",
@@ -4638,7 +4985,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "29-Jan-2007",
-            "Post-History": "12-Feb-2007"
+            "Post-History": "12-Feb-2007",
+            "URL": "https://python.org/dev/peps/pep-0363/"
         },
         {
             "PEP": "377",
@@ -4651,7 +4999,8 @@
             "Content-Type": "text/x-rst",
             "Created": "8-Mar-2009",
             "Python-Version": "2.7, 3.1",
-            "Post-History": "8-Mar-2009"
+            "Post-History": "8-Mar-2009",
+            "URL": "https://python.org/dev/peps/pep-0377/"
         },
         {
             "PEP": "411",
@@ -4664,7 +5013,8 @@
             "Content-Type": "text/x-rst",
             "Created": "2012-02-10",
             "Python-Version": "3.3",
-            "Post-History": "2012-02-10, 2012-03-24"
+            "Post-History": "2012-02-10, 2012-03-24",
+            "URL": "https://python.org/dev/peps/pep-0411/"
         },
         {
             "PEP": "3118",
@@ -4677,7 +5027,8 @@
             "Content-Type": "text/x-rst",
             "Created": "28-Aug-2006",
             "Python-Version": "3000",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3118/"
         },
         {
             "PEP": "439",
@@ -4693,7 +5044,8 @@
             "Created": "18-Mar-2013",
             "Python-Version": "3.4",
             "Post-History": "19-Mar-2013",
-            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2013-August/022527.html"
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2013-August/022527.html",
+            "URL": "https://python.org/dev/peps/pep-0439/"
         },
         {
             "PEP": "3130",
@@ -4706,7 +5058,8 @@
             "Content-Type": "text/x-rst",
             "Created": "22-Apr-2007",
             "Python-Version": "3.0",
-            "Post-History": "22-Apr-2007"
+            "Post-History": "22-Apr-2007",
+            "URL": "https://python.org/dev/peps/pep-3130/"
         },
         {
             "PEP": "3124",
@@ -4721,7 +5074,8 @@
             "Requires": "3107, 3115, 3119",
             "Created": "28-Apr-2007",
             "Post-History": "30-Apr-2007",
-            "Replaces": "245, 246"
+            "Replaces": "245, 246",
+            "URL": "https://python.org/dev/peps/pep-3124/"
         },
         {
             "PEP": "217",
@@ -4734,7 +5088,8 @@
             "Content-Type": "text/x-rst",
             "Created": "31-Jul-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0217/"
         },
         {
             "PEP": "203",
@@ -4747,7 +5102,8 @@
             "Content-Type": "text/x-rst",
             "Created": "13-Jul-2000",
             "Python-Version": "2.0",
-            "Post-History": "14-Aug-2000"
+            "Post-History": "14-Aug-2000",
+            "URL": "https://python.org/dev/peps/pep-0203/"
         },
         {
             "PEP": "1",
@@ -4757,7 +5113,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "13-Jun-2000",
-            "Post-History": "21-Mar-2001, 29-Jul-2002, 03-May-2003, 05-May-2012,,07-Apr-2013"
+            "Post-History": "21-Mar-2001, 29-Jul-2002, 03-May-2003, 05-May-2012,,07-Apr-2013",
+            "URL": "https://python.org/dev/peps/pep-0001/"
         },
         {
             "PEP": "3",
@@ -4769,7 +5126,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "25-Sep-2000",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0003/"
         },
         {
             "PEP": "229",
@@ -4781,7 +5139,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "16-Nov-2000",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0229/"
         },
         {
             "PEP": "215",
@@ -4795,7 +5154,8 @@
             "Created": "24-Jul-2000",
             "Python-Version": "2.1",
             "Post-History": "",
-            "Superseded-By": "292"
+            "Superseded-By": "292",
+            "URL": "https://python.org/dev/peps/pep-0215/"
         },
         {
             "PEP": "201",
@@ -4808,7 +5168,8 @@
             "Content-Type": "text/x-rst",
             "Created": "13-Jul-2000",
             "Python-Version": "2.0",
-            "Post-History": "27-Jul-2000"
+            "Post-History": "27-Jul-2000",
+            "URL": "https://python.org/dev/peps/pep-0201/"
         },
         {
             "PEP": "3132",
@@ -4821,7 +5182,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-Apr-2007",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3132/"
         },
         {
             "PEP": "3126",
@@ -4833,7 +5195,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "29-Apr-2007",
-            "Post-History": "29-Apr-2007, 30-Apr-2007, 07-May-2007"
+            "Post-History": "29-Apr-2007, 30-Apr-2007, 07-May-2007",
+            "URL": "https://python.org/dev/peps/pep-3126/"
         },
         {
             "PEP": "349",
@@ -4846,7 +5209,8 @@
             "Content-Type": "text/x-rst",
             "Created": "02-Aug-2005",
             "Python-Version": "2.5",
-            "Post-History": "06-Aug-2005"
+            "Post-History": "06-Aug-2005",
+            "URL": "https://python.org/dev/peps/pep-0349/"
         },
         {
             "PEP": "361",
@@ -4859,7 +5223,8 @@
             "Content-Type": "text/x-rst",
             "Created": "29-June-2006",
             "Python-Version": "2.6 and 3.0",
-            "Post-History": "17-Mar-2008"
+            "Post-History": "17-Mar-2008",
+            "URL": "https://python.org/dev/peps/pep-0361/"
         },
         {
             "PEP": "407",
@@ -4872,7 +5237,8 @@
             "Content-Type": "text/x-rst",
             "Created": "2012-01-12",
             "Post-History": "17-Jan-2012",
-            "Resolution": "TBD"
+            "Resolution": "TBD",
+            "URL": "https://python.org/dev/peps/pep-0407/"
         },
         {
             "PEP": "413",
@@ -4885,7 +5251,8 @@
             "Content-Type": "text/x-rst",
             "Created": "2012-02-24",
             "Post-History": "2012-02-24, 2012-02-25",
-            "Resolution": "TBD"
+            "Resolution": "TBD",
+            "URL": "https://python.org/dev/peps/pep-0413/"
         },
         {
             "PEP": "375",
@@ -4897,7 +5264,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "8-Feb-2009",
-            "Python-Version": "3.1"
+            "Python-Version": "3.1",
+            "URL": "https://python.org/dev/peps/pep-0375/"
         },
         {
             "PEP": "412",
@@ -4910,7 +5278,8 @@
             "Content-Type": "text/x-rst",
             "Created": "08-Feb-2012",
             "Python-Version": "3.3 or 3.4",
-            "Post-History": "08-Feb-2012"
+            "Post-History": "08-Feb-2012",
+            "URL": "https://python.org/dev/peps/pep-0412/"
         },
         {
             "PEP": "374",
@@ -4922,7 +5291,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "07-Nov-2008",
-            "Post-History": "07-Nov-2008,22-Jan-2009"
+            "Post-History": "07-Nov-2008,22-Jan-2009",
+            "URL": "https://python.org/dev/peps/pep-0374/"
         },
         {
             "PEP": "360",
@@ -4934,7 +5304,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "30-May-2006",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0360/"
         },
         {
             "PEP": "406",
@@ -4947,7 +5318,8 @@
             "Content-Type": "text/x-rst",
             "Created": "4-Jul-2011",
             "Python-Version": "3.4",
-            "Post-History": "31-Jul-2011, 13-Nov-2011, 4-Dec-2011"
+            "Post-History": "31-Jul-2011, 13-Nov-2011, 4-Dec-2011",
+            "URL": "https://python.org/dev/peps/pep-0406/"
         },
         {
             "PEP": "3127",
@@ -4961,7 +5333,8 @@
             "Content-Type": "text/x-rst",
             "Created": "14-Mar-2007",
             "Python-Version": "3.0",
-            "Post-History": "18-Mar-2007"
+            "Post-History": "18-Mar-2007",
+            "URL": "https://python.org/dev/peps/pep-3127/"
         },
         {
             "PEP": "348",
@@ -4973,7 +5346,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "28-Jul-2005",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0348/"
         },
         {
             "PEP": "3133",
@@ -4987,7 +5361,8 @@
             "Requires": "3115, 3129",
             "Created": "1-May-2007",
             "Python-Version": "3.0",
-            "Post-History": "13-May-2007"
+            "Post-History": "13-May-2007",
+            "URL": "https://python.org/dev/peps/pep-3133/"
         },
         {
             "PEP": "566",
@@ -5003,7 +5378,8 @@
             "Created": "1-Dec-2017",
             "Python-Version": "3.x",
             "Post-History": "",
-            "Replaces": "345"
+            "Replaces": "345",
+            "URL": "https://python.org/dev/peps/pep-0566/"
         },
         {
             "PEP": "200",
@@ -5016,7 +5392,8 @@
             "Content-Type": "text/x-rst",
             "Created": "",
             "Python-Version": "2.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0200/"
         },
         {
             "PEP": "214",
@@ -5029,7 +5406,8 @@
             "Content-Type": "text/x-rst",
             "Created": "24-Jul-2000",
             "Python-Version": "2.0",
-            "Post-History": "16-Aug-2000"
+            "Post-History": "16-Aug-2000",
+            "URL": "https://python.org/dev/peps/pep-0214/"
         },
         {
             "PEP": "228",
@@ -5041,7 +5419,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "4-Nov-2000",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0228/"
         },
         {
             "PEP": "2",
@@ -5053,7 +5432,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "07-Jul-2001",
-            "Post-History": "07-Jul-2001, 09-Mar-2002"
+            "Post-History": "07-Jul-2001, 09-Mar-2002",
+            "URL": "https://python.org/dev/peps/pep-0002/"
         },
         {
             "PEP": "6",
@@ -5065,7 +5445,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "15-Mar-2001",
-            "Post-History": "15-Mar-2001 18-Apr-2001 19-Aug-2004"
+            "Post-History": "15-Mar-2001 18-Apr-2001 19-Aug-2004",
+            "URL": "https://python.org/dev/peps/pep-0006/"
         },
         {
             "PEP": "210",
@@ -5078,7 +5459,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Jul-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0210/"
         },
         {
             "PEP": "204",
@@ -5091,7 +5473,8 @@
             "Content-Type": "text/x-rst",
             "Created": "14-Jul-2000",
             "Python-Version": "2.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0204/"
         },
         {
             "PEP": "238",
@@ -5104,7 +5487,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Mar-2001",
             "Python-Version": "2.2",
-            "Post-History": "16-Mar-2001, 26-Jul-2001, 27-Jul-2001"
+            "Post-History": "16-Mar-2001, 26-Jul-2001, 27-Jul-2001",
+            "URL": "https://python.org/dev/peps/pep-0238/"
         },
         {
             "PEP": "402",
@@ -5118,7 +5502,8 @@
             "Created": "12-Jul-2011",
             "Python-Version": "3.3",
             "Post-History": "20-Jul-2011",
-            "Replaces": "382"
+            "Replaces": "382",
+            "URL": "https://python.org/dev/peps/pep-0402/"
         },
         {
             "PEP": "364",
@@ -5131,7 +5516,8 @@
             "Content-Type": "text/x-rst",
             "Created": "01-Mar-2007",
             "Python-Version": "2.6",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0364/"
         },
         {
             "PEP": "370",
@@ -5144,7 +5530,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Jan-2008",
             "Python-Version": "2.6, 3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0370/"
         },
         {
             "PEP": "416",
@@ -5156,7 +5543,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "29-February-2012",
-            "Python-Version": "3.3"
+            "Python-Version": "3.3",
+            "URL": "https://python.org/dev/peps/pep-0416/"
         },
         {
             "PEP": "3137",
@@ -5169,7 +5557,8 @@
             "Content-Type": "text/x-rst",
             "Created": "26-Sep-2007",
             "Python-Version": "3.0",
-            "Post-History": "26-Sep-2007, 30-Sep-2007"
+            "Post-History": "26-Sep-2007, 30-Sep-2007",
+            "URL": "https://python.org/dev/peps/pep-3137/"
         },
         {
             "PEP": "358",
@@ -5182,7 +5571,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Feb-2006",
             "Python-Version": "2.6, 3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0358/"
         },
         {
             "PEP": "3123",
@@ -5195,7 +5585,8 @@
             "Content-Type": "text/x-rst",
             "Created": "27-Apr-2007",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3123/"
         },
         {
             "PEP": "628",
@@ -5209,7 +5600,8 @@
             "Created": "2011-06-28",
             "Python-Version": "3.6",
             "Post-History": "2011-06-28",
-            "Resolution": "http://bugs.python.org/issue12345"
+            "Resolution": "http://bugs.python.org/issue12345",
+            "URL": "https://python.org/dev/peps/pep-0628/"
         },
         {
             "PEP": "3122",
@@ -5221,7 +5613,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "27-Apr-2007",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3122/"
         },
         {
             "PEP": "3136",
@@ -5234,7 +5627,8 @@
             "Content-Type": "text/x-rst",
             "Created": "30-Jun-2007",
             "Python-Version": "3.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3136/"
         },
         {
             "PEP": "359",
@@ -5247,7 +5641,8 @@
             "Content-Type": "text/x-rst",
             "Created": "05-Apr-2006",
             "Python-Version": "2.6",
-            "Post-History": "05-Apr-2006, 06-Apr-2006, 13-Apr-2006"
+            "Post-History": "05-Apr-2006, 06-Apr-2006, 13-Apr-2006",
+            "URL": "https://python.org/dev/peps/pep-0359/"
         },
         {
             "PEP": "371",
@@ -5260,7 +5655,8 @@
             "Content-Type": "text/x-rst",
             "Created": "06-May-2008",
             "Python-Version": "2.6 / 3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0371/"
         },
         {
             "PEP": "417",
@@ -5274,7 +5670,8 @@
             "Created": "12-Mar-2012",
             "Python-Version": "3.3",
             "Post-History": "12-Mar-2012",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-March/117507.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-March/117507.html",
+            "URL": "https://python.org/dev/peps/pep-0417/"
         },
         {
             "PEP": "403",
@@ -5288,7 +5685,8 @@
             "Created": "2011-10-13",
             "Python-Version": "3.4",
             "Post-History": "2011-10-13",
-            "Resolution": "TBD"
+            "Resolution": "TBD",
+            "URL": "https://python.org/dev/peps/pep-0403/"
         },
         {
             "PEP": "365",
@@ -5300,7 +5698,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "30-Apr-2007",
-            "Post-History": "30-Apr-2007"
+            "Post-History": "30-Apr-2007",
+            "URL": "https://python.org/dev/peps/pep-0365/"
         },
         {
             "PEP": "239",
@@ -5313,7 +5712,8 @@
             "Content-Type": "text/x-rst",
             "Created": "11-Mar-2001",
             "Python-Version": "2.2",
-            "Post-History": "16-Mar-2001"
+            "Post-History": "16-Mar-2001",
+            "URL": "https://python.org/dev/peps/pep-0239/"
         },
         {
             "PEP": "205",
@@ -5326,7 +5726,8 @@
             "Content-Type": "text/x-rst",
             "Created": "",
             "Python-Version": "2.1",
-            "Post-History": "11-Jan-2001"
+            "Post-History": "11-Jan-2001",
+            "URL": "https://python.org/dev/peps/pep-0205/"
         },
         {
             "PEP": "211",
@@ -5340,7 +5741,8 @@
             "Created": "15-Jul-2000",
             "Python-Version": "2.1",
             "Post-History": "",
-            "Resolution": "https://www.python.org/dev/peps/pep-0465/#rejected-alternatives-to-adding-a-new-operator"
+            "Resolution": "https://www.python.org/dev/peps/pep-0465/#rejected-alternatives-to-adding-a-new-operator",
+            "URL": "https://python.org/dev/peps/pep-0211/"
         },
         {
             "PEP": "7",
@@ -5352,7 +5754,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "05-Jul-2001",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0007/"
         },
         {
             "PEP": "5",
@@ -5364,7 +5767,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "26-Oct-2000",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0005/"
         },
         {
             "PEP": "11",
@@ -5376,7 +5780,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "07-Jul-2002",
-            "Post-History": "18-Aug-2007,16-May-2014,20-Feb-2015"
+            "Post-History": "18-Aug-2007,16-May-2014,20-Feb-2015",
+            "URL": "https://python.org/dev/peps/pep-0011/"
         },
         {
             "PEP": "207",
@@ -5389,7 +5794,8 @@
             "Content-Type": "text/x-rst",
             "Created": "",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0207/"
         },
         {
             "PEP": "213",
@@ -5402,7 +5808,8 @@
             "Content-Type": "text/x-rst",
             "Created": "21-Jul-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0213/"
         },
         {
             "PEP": "415",
@@ -5418,7 +5825,8 @@
             "Python-Version": "3.3",
             "Post-History": "26-Feb-2012",
             "Replaces": "409",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-May/119467.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-May/119467.html",
+            "URL": "https://python.org/dev/peps/pep-0415/"
         },
         {
             "PEP": "373",
@@ -5430,7 +5838,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "3-Nov-2008",
-            "Python-Version": "2.7"
+            "Python-Version": "2.7",
+            "URL": "https://python.org/dev/peps/pep-0373/"
         },
         {
             "PEP": "367",
@@ -5443,7 +5852,8 @@
             "Content-Type": "text/x-rst",
             "Created": "28-Apr-2007",
             "Python-Version": "2.6",
-            "Post-History": "28-Apr-2007, 29-Apr-2007 (1), 29-Apr-2007 (2), 14-May-2007"
+            "Post-History": "28-Apr-2007, 29-Apr-2007 (1), 29-Apr-2007 (2), 14-May-2007",
+            "URL": "https://python.org/dev/peps/pep-0367/"
         },
         {
             "PEP": "401",
@@ -5455,7 +5865,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "01-Apr-2009",
-            "Post-History": "01-Apr-2009"
+            "Post-History": "01-Apr-2009",
+            "URL": "https://python.org/dev/peps/pep-0401/"
         },
         {
             "PEP": "3108",
@@ -5468,7 +5879,8 @@
             "Content-Type": "text/x-rst",
             "Created": "01-Jan-2007",
             "Python-Version": "3.0",
-            "Post-History": "28-Apr-2008"
+            "Post-History": "28-Apr-2008",
+            "URL": "https://python.org/dev/peps/pep-3108/"
         },
         {
             "PEP": "429",
@@ -5480,7 +5892,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "17-Oct-2012",
-            "Python-Version": "3.4"
+            "Python-Version": "3.4",
+            "URL": "https://python.org/dev/peps/pep-0429/"
         },
         {
             "PEP": "3120",
@@ -5493,7 +5906,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Apr-2007",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3120/"
         },
         {
             "PEP": "3134",
@@ -5506,7 +5920,8 @@
             "Content-Type": "text/x-rst",
             "Created": "12-May-2005",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3134/"
         },
         {
             "PEP": "398",
@@ -5518,7 +5933,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "23-Mar-2011",
-            "Python-Version": "3.3"
+            "Python-Version": "3.3",
+            "URL": "https://python.org/dev/peps/pep-0398/"
         },
         {
             "PEP": "399",
@@ -5531,7 +5947,8 @@
             "Content-Type": "text/x-rst",
             "Created": "04-Apr-2011",
             "Python-Version": "3.3",
-            "Post-History": "04-Apr-2011, 12-Apr-2011, 17-Jul-2011, 15-Aug-2011, 01-Jan-2013"
+            "Post-History": "04-Apr-2011, 12-Apr-2011, 17-Jul-2011, 15-Aug-2011, 01-Jan-2013",
+            "URL": "https://python.org/dev/peps/pep-0399/"
         },
         {
             "PEP": "3135",
@@ -5544,7 +5961,8 @@
             "Content-Type": "text/x-rst",
             "Created": "28-Apr-2007",
             "Python-Version": "3.0",
-            "Post-History": "28-Apr-2007, 29-Apr-2007 (1), 29-Apr-2007 (2), 14-May-2007, 12-Mar-2009"
+            "Post-History": "28-Apr-2007, 29-Apr-2007 (1), 29-Apr-2007 (2), 14-May-2007, 12-Mar-2009",
+            "URL": "https://python.org/dev/peps/pep-3135/"
         },
         {
             "PEP": "3121",
@@ -5557,7 +5975,8 @@
             "Content-Type": "text/x-rst",
             "Created": "27-Apr-2007",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3121/"
         },
         {
             "PEP": "428",
@@ -5571,7 +5990,8 @@
             "Created": "30-July-2012",
             "Python-Version": "3.4",
             "Post-History": "https://mail.python.org/pipermail/python-ideas/2012-October/016338.html",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130424.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2013-November/130424.html",
+            "URL": "https://python.org/dev/peps/pep-0428/"
         },
         {
             "PEP": "366",
@@ -5584,7 +6004,8 @@
             "Content-Type": "text/x-rst",
             "Created": "1-May-2007",
             "Python-Version": "2.6, 3.0",
-            "Post-History": "1-May-2007, 4-Jul-2007, 7-Jul-2007, 23-Nov-2007"
+            "Post-History": "1-May-2007, 4-Jul-2007, 7-Jul-2007, 23-Nov-2007",
+            "URL": "https://python.org/dev/peps/pep-0366/"
         },
         {
             "PEP": "3109",
@@ -5597,7 +6018,8 @@
             "Content-Type": "text/x-rst",
             "Created": "19-Jan-2006",
             "Python-Version": "3.0",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-3109/"
         },
         {
             "PEP": "400",
@@ -5609,7 +6031,8 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "28-May-2011",
-            "Python-Version": "3.3"
+            "Python-Version": "3.3",
+            "URL": "https://python.org/dev/peps/pep-0400/"
         },
         {
             "PEP": "414",
@@ -5622,7 +6045,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Feb-2012",
             "Post-History": "28-Feb-2012, 04-Mar-2012",
-            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-February/116995.html"
+            "Resolution": "https://mail.python.org/pipermail/python-dev/2012-February/116995.html",
+            "URL": "https://python.org/dev/peps/pep-0414/"
         },
         {
             "PEP": "372",
@@ -5635,7 +6059,8 @@
             "Content-Type": "text/x-rst",
             "Created": "15-Jun-2008",
             "Python-Version": "2.7, 3.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0372/"
         },
         {
             "PEP": "212",
@@ -5648,7 +6073,8 @@
             "Content-Type": "text/x-rst",
             "Created": "22-Aug-2000",
             "Python-Version": "2.1",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0212/"
         },
         {
             "PEP": "206",
@@ -5660,7 +6086,8 @@
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0206/"
         },
         {
             "PEP": "10",
@@ -5672,7 +6099,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "07-Mar-2002",
-            "Post-History": "07-Mar-2002"
+            "Post-History": "07-Mar-2002",
+            "URL": "https://python.org/dev/peps/pep-0010/"
         },
         {
             "PEP": "4",
@@ -5684,7 +6112,8 @@
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "1-Oct-2000",
-            "Post-History": ""
+            "Post-History": "",
+            "URL": "https://python.org/dev/peps/pep-0004/"
         }
     ]
 }

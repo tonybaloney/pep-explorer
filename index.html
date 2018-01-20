@@ -22,8 +22,9 @@
                     <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#" ng-click='pickversion("Any")'><b>Any</b></a></li>
                     <li ng-repeat='x in possible_python_versions'>
-                        <a href="#">{{x}}</a>
+                        <a href="#" ng-click="pickversion(x)">{{x}}</a>
                     </li>
                     
                     </ul>
@@ -34,8 +35,10 @@
                         <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#" ng-click='pickstatus("Any")'><b>Any</b></a></li>
                         <li ng-repeat='x in possible_statuses'>
-                            <a href="#">{{x}}</a>
+                            
+                            <a href="#" ng-click='pickstatus(x)'>{{x}}</a>
                         </li>
                         
                         </ul>
@@ -55,9 +58,9 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="x in peps | orderBy: 'PEP' | filter: pepFilter">
+                <tr ng-repeat="x in peps | orderBy: 'PEP' " ng-if="(selected_status == 'Any' || x.Status == selected_status) && (selected_version == 'Any' || x['Python-Version'] == selected_version)">
                     <td>{{ x.PEP }}</td>
-                    <td>{{ x.Title }}</td>
+                    <td><a ng-href="{{x.URL}}">{{ x.Title }}</a></td>
                     <td>{{ x.Status }}</td>
                     <td>{{ x.Created }}</td>
                     <td>{{ x['Python-Version'] }}</td>

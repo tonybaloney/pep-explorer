@@ -42,6 +42,7 @@ def _pep_info(pep_path: pathlib.Path) -> dict:
                     header[attribute] = value
                 else:
                     header[last_attribute] += ',' + parts[0].strip()
+    header['URL'] = 'https://python.org/dev/peps/{0}/'.format(pep_path.stem)
     return header
 
 
