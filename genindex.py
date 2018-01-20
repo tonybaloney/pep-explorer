@@ -3,18 +3,18 @@
 This file requires Python 3
 '''
 import pathlib
-from collections import OrderedDict
 import json
 
+
 def main():
-    peps = OrderedDict()
+    peps = []
     pep_directory = pathlib.Path('peps/')
     for item in pep_directory.iterdir():
         if item.suffix == '.txt' and item.name.startswith('pep-'):
-            peps[item.name] = _pep_info(item)
+            peps.append(_pep_info(item))
 
     with open('index.json', 'w+') as index_json:
-        index_json.write(json.dumps(peps))
+        index_json.write(json.dumps({'peps': peps}))
 
 
 def _pep_info(pep_path: pathlib.Path) -> dict:
