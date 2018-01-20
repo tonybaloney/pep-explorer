@@ -24,12 +24,12 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="x in peps">
+                <tr ng-repeat="x in peps | orderBy:'PEP' | filter: pepFilter">
                     <td>{{ x.PEP }}</td>
                     <td>{{ x.Title }}</td>
                     <td>{{ x.Status }}</td>
                     <td>{{ x.Date }}</td>
-                    <td>{{ x.Python-Version }}</td>
+                    <td>{{ x."Python-Version" }}</td>
                 </tr>
             </tbody>
         </table>
