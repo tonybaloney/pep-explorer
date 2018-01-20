@@ -14,11 +14,13 @@ def main():
             peps.append(_pep_info(item))
     possible_statuses = list(set([p['Status'] for p in peps]))
     possible_python_versions = list(set([p['Python-Version'] for p in peps if 'Python-Version' in p]))
+    possible_types = list(set([p['Type'] for p in peps]))
     possible_python_versions.sort()
 
     out = {
         'possible_statuses': possible_statuses,
         'possible_python_versions': possible_python_versions,
+        'possible_types': possible_types,
         'peps': peps
     }
 

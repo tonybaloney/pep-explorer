@@ -1,13 +1,13 @@
 {
     "possible_statuses": [
-        "Draft",
-        "Rejected",
-        "Final",
-        "Superseded",
-        "Active",
-        "Accepted",
         "Withdrawn",
+        "Rejected",
+        "Active",
+        "Draft",
         "April Fool!",
+        "Final",
+        "Accepted",
+        "Superseded",
         "Deferred"
     ],
     "possible_python_versions": [
@@ -44,6 +44,11 @@
         "3.8",
         "3.x",
         "N.A."
+    ],
+    "possible_types": [
+        "Process",
+        "Informational",
+        "Standards Track"
     ],
     "peps": [
         {
