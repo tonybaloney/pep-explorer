@@ -1,14 +1,14 @@
 {
     "possible_statuses": [
-        "Deferred",
         "Accepted",
-        "Final",
-        "Rejected",
-        "Active",
-        "April Fool!",
-        "Draft",
         "Withdrawn",
-        "Superseded"
+        "Rejected",
+        "April Fool!",
+        "Superseded",
+        "Draft",
+        "Deferred",
+        "Final",
+        "Active"
     ],
     "possible_python_versions": [
         "",
@@ -46,9 +46,9 @@
         "N.A."
     ],
     "possible_types": [
-        "Process",
+        "Informational",
         "Standards Track",
-        "Informational"
+        "Process"
     ],
     "peps": [
         {
@@ -195,7 +195,7 @@
             "Last-Modified": "07-Aug-2012",
             "Author": "Daniel Holth <dholth@gmail.com>",
             "BDFL-Delegate": "Nick Coghlan <ncoghlan@gmail.com>",
-            "Status": "Accepted",
+            "Status": "Final",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "27-Jul-2012",
@@ -572,7 +572,7 @@
             "Author": "Nick Coghlan <ncoghlan@gmail.com>,,Daniel Holth <dholth@gmail.com>,,Donald Stufft <donald@stufft.io>",
             "BDFL-Delegate": "Donald Stufft <donald@stufft.io>",
             "Discussions-To": "Distutils SIG <distutils-sig@python.org>",
-            "Status": "Deferred",
+            "Status": "Withdrawn",
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Requires": "440, 508, 518",
@@ -714,7 +714,7 @@
             "Author": "Daniel Holth <dholth@gmail.com>",
             "BDFL-Delegate": "Nick Coghlan <ncoghlan@gmail.com>",
             "Discussions-To": "<distutils-sig@python.org>",
-            "Status": "Accepted",
+            "Status": "Final",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "20-Sep-2012",
@@ -883,7 +883,7 @@
             "Last-Modified": "$Date$",
             "Author": "Richard Jones <richard@python.org>",
             "Discussions-To": "Distutils SIG",
-            "Status": "Accepted",
+            "Status": "Final",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "28-Apr-2005",
@@ -3401,13 +3401,13 @@
             "Title": "Minor API improvements for binary sequences",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
-            "Author": "Nick Coghlan <ncoghlan@gmail.com>",
+            "Author": "Nick Coghlan <ncoghlan@gmail.com>, Ethan Furman <ethan@stoneleaf.us>",
             "Status": "Draft",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "2014-03-30",
-            "Python-Version": "3.5",
-            "Post-History": "2014-03-30 2014-08-15 2014-08-16",
+            "Python-Version": "3.8",
+            "Post-History": "2014-03-30 2014-08-15 2014-08-16 2016-06-07 2016-09-01",
             "URL": "https://python.org/dev/peps/pep-0467/"
         },
         {
@@ -3587,7 +3587,7 @@
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
             "Author": "Steven D'Aprano <steve@pearwood.info>",
-            "Status": "Accepted",
+            "Status": "Final",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "19-Sep-2015",
@@ -3951,7 +3951,7 @@
             "Author": "Nick Coghlan <ncoghlan@gmail.com>",
             "BDFL-Delegate": "Nick Coghlan <ncoghlan@gmail.com>",
             "Discussions-To": "Distutils SIG <distutils-sig@python.org>",
-            "Status": "Deferred",
+            "Status": "Withdrawn",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Requires": "426",
@@ -4034,7 +4034,7 @@
             "Last-Modified": "$Date$",
             "Author": "Erik M. Bray, Masayuki Yamamoto",
             "BDFL-Delegate": "Nick Coghlan",
-            "Status": "Accepted",
+            "Status": "Final",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "20-Dec-2016",
@@ -4852,7 +4852,7 @@
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
             "Author": "Tarek Ziad\u00e9 <tarek@ziade.org>",
-            "Status": "Accepted",
+            "Status": "Final",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "22-Feb-2009",
@@ -5362,23 +5362,6 @@
             "Python-Version": "3.0",
             "Post-History": "13-May-2007",
             "URL": "https://python.org/dev/peps/pep-3133/"
-        },
-        {
-            "PEP": 566,
-            "Title": "Metadata for Python Software Packages 2.1",
-            "Version": "$Revision$",
-            "Last-Modified": "$Date$",
-            "Author": "Dustin Ingram <di@di.codes>",
-            "BDFL-Delegate": "Daniel Holth",
-            "Discussions-To": "distutils-sig <distutils-sig at python.org>",
-            "Status": "Draft",
-            "Type": "Standards Track",
-            "Content-Type": "text/x-rst",
-            "Created": "1-Dec-2017",
-            "Python-Version": "3.x",
-            "Post-History": "",
-            "Replaces": "345",
-            "URL": "https://python.org/dev/peps/pep-0566/"
         },
         {
             "PEP": 200,
