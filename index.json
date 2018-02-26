@@ -1,14 +1,14 @@
 {
     "possible_statuses": [
-        "Rejected",
-        "Active",
-        "Superseded",
-        "Final",
         "Deferred",
         "Accepted",
+        "Final",
+        "Rejected",
+        "Active",
         "April Fool!",
+        "Draft",
         "Withdrawn",
-        "Draft"
+        "Superseded"
     ],
     "possible_python_versions": [
         "",
@@ -46,9 +46,9 @@
         "N.A."
     ],
     "possible_types": [
-        "Informational",
+        "Process",
         "Standards Track",
-        "Process"
+        "Informational"
     ],
     "peps": [
         {
@@ -417,7 +417,7 @@
             "Title": "Protocols: Structural subtyping (static duck typing)",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
-            "Author": "Ivan Levkivskyi <levkivskyi@gmail.com>, Jukka Lehtosalo <jukka.lehtosalo@iki.fi>, \u0141ukasz Langa <lukasz@langa.pl>",
+            "Author": "Ivan Levkivskyi <levkivskyi@gmail.com>, Jukka Lehtosalo <jukka.lehtosalo@iki.fi>, \u0141ukasz Langa <lukasz@python.org>",
             "Discussions-To": "Python-Dev <python-dev@python.org>",
             "Status": "Draft",
             "Type": "Standards Track",
@@ -1525,8 +1525,8 @@
             "Title": "Package Index Name Retention",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
-            "Author": "\u0141ukasz Langa <lukasz@langa.pl>",
-            "BDFL-Delegate": "Donald Stufft <donald@stufft.io>",
+            "Author": "\u0141ukasz Langa <lukasz@python.org>",
+            "BDFL-Delegate": "Mark Mangoba <mmangoba@python.org>",
             "Discussions-To": "distutils-sig <distutils-sig@python.org>",
             "Status": "Draft",
             "Type": "Process",
@@ -1762,7 +1762,7 @@
             "Title": "Type Hints",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
-            "Author": "Guido van Rossum <guido@python.org>, Jukka Lehtosalo <jukka.lehtosalo@iki.fi>, \u0141ukasz Langa <lukasz@langa.pl>",
+            "Author": "Guido van Rossum <guido@python.org>, Jukka Lehtosalo <jukka.lehtosalo@iki.fi>, \u0141ukasz Langa <lukasz@python.org>",
             "BDFL-Delegate": "Mark Shannon",
             "Discussions-To": "Python-Dev <python-dev@python.org>",
             "Status": "Accepted",
@@ -2611,7 +2611,7 @@
             "Title": "Literature Overview for Type Hints",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
-            "Author": "\u0141ukasz Langa <lukasz@langa.pl>",
+            "Author": "\u0141ukasz Langa <lukasz@python.org>",
             "Discussions-To": "Python-Ideas <python-ideas@python.org>",
             "Status": "Draft",
             "Type": "Informational",
@@ -2767,7 +2767,7 @@
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
             "Author": "Nathaniel J. Smith <njs@pobox.com>",
-            "Status": "Deferred",
+            "Status": "Withdrawn",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "27-Apr-2015",
@@ -2959,7 +2959,7 @@
             "Title": "Single-dispatch generic functions",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
-            "Author": "\u0141ukasz Langa <lukasz@langa.pl>",
+            "Author": "\u0141ukasz Langa <lukasz@python.org>",
             "Discussions-To": "Python-Dev <python-dev@python.org>",
             "Status": "Final",
             "Type": "Standards Track",
