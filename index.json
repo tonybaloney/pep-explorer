@@ -1,14 +1,14 @@
 {
     "possible_statuses": [
-        "Accepted",
         "Withdrawn",
-        "Rejected",
-        "April Fool!",
-        "Superseded",
-        "Draft",
         "Deferred",
+        "Active",
+        "Draft",
+        "April Fool!",
         "Final",
-        "Active"
+        "Superseded",
+        "Accepted",
+        "Rejected"
     ],
     "possible_python_versions": [
         "",
@@ -46,8 +46,8 @@
         "N.A."
     ],
     "possible_types": [
-        "Informational",
         "Standards Track",
+        "Informational",
         "Process"
     ],
     "peps": [
