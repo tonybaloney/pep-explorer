@@ -1,14 +1,14 @@
 {
     "possible_statuses": [
-        "Withdrawn",
-        "Deferred",
-        "Active",
-        "Draft",
-        "April Fool!",
         "Final",
+        "Draft",
+        "Withdrawn",
+        "Active",
+        "April Fool!",
+        "Rejected",
+        "Deferred",
         "Superseded",
-        "Accepted",
-        "Rejected"
+        "Accepted"
     ],
     "possible_python_versions": [
         "",
@@ -46,9 +46,9 @@
         "N.A."
     ],
     "possible_types": [
+        "Process",
         "Standards Track",
-        "Informational",
-        "Process"
+        "Informational"
     ],
     "peps": [
         {
@@ -223,12 +223,12 @@
             "Title": "The \"python\" Command on Unix-Like Systems",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
-            "Author": "Kerrick Staley <mail@kerrickstaley.com>,,Nick Coghlan <ncoghlan@gmail.com>,,Barry Warsaw <barry@python.org>",
+            "Author": "Kerrick Staley <mail@kerrickstaley.com>,,Nick Coghlan <ncoghlan@gmail.com>,,Barry Warsaw <barry@python.org>,,Petr Viktorin <encukou@gmail.com>",
             "Status": "Active",
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "02-Mar-2011",
-            "Post-History": "04-Mar-2011, 20-Jul-2011, 16-Feb-2012, 30-Sep-2014",
+            "Post-History": "04-Mar-2011, 20-Jul-2011, 16-Feb-2012, 30-Sep-2014, 28-Apr-2018",
             "Resolution": "https://mail.python.org/pipermail/python-dev/2012-February/116594.html",
             "URL": "https://python.org/dev/peps/pep-0394/"
         },
@@ -487,7 +487,7 @@
             "Last-Modified": "$Date$",
             "Author": "Victor Stinner <victor.stinner@gmail.com>,,Cory Benfield <cory@lukasa.co.uk>,",
             "BDFL-Delegate": "Benjamin Peterson <benjamin@python.org>",
-            "Status": "Accepted",
+            "Status": "Rejected",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "30-May-2017",
@@ -1528,10 +1528,12 @@
             "Author": "\u0141ukasz Langa <lukasz@python.org>",
             "BDFL-Delegate": "Mark Mangoba <mmangoba@python.org>",
             "Discussions-To": "distutils-sig <distutils-sig@python.org>",
-            "Status": "Draft",
+            "Status": "Final",
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "12-January-2017",
+            "Post-History": "",
+            "Resolution": "https://mail.python.org/pipermail/distutils-sig/2018-March/032089.html",
             "URL": "https://python.org/dev/peps/pep-0541/"
         },
         {
@@ -2497,7 +2499,7 @@
             "Author": "Nick Coghlan <ncoghlan@gmail.com>,,Donald Stufft <donald@stufft.io>",
             "BDFL-Delegate": "Nick Coghlan <ncoghlan@gmail.com>",
             "Discussions-To": "Distutils SIG <distutils-sig@python.org>",
-            "Status": "Accepted",
+            "Status": "Active",
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "18 Mar 2013",
@@ -3760,7 +3762,7 @@
             "Author": "Donald Stufft <donald@stufft.io>",
             "BDFL-Delegate": "Richard Jones <richard@python.org>",
             "Discussions-To": "distutils-sig@python.org",
-            "Status": "Accepted",
+            "Status": "Final",
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "02-Mar-2014",
@@ -3805,7 +3807,7 @@
             "Author": "Donald Stufft <donald@stufft.io>",
             "BDFL-Delegate": "Paul Moore <p.f.moore@gmail.com>",
             "Discussions-To": "distutils-sig@python.org",
-            "Status": "Accepted",
+            "Status": "Final",
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "12-May-2014",
@@ -4038,6 +4040,7 @@
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "20-Dec-2016",
+            "Python-Version": "3.7",
             "Post-History": "16-Dec-2016, 31-Aug-2017, 08-Sep-2017",
             "Resolution": "https://mail.python.org/pipermail/python-dev/2017-September/149358.html",
             "URL": "https://python.org/dev/peps/pep-0539/"
@@ -4223,7 +4226,7 @@
             "Author": "Donald Stufft <donald@stufft.io>",
             "BDFL-Delegate": "Richard Jones <richard@python.org>",
             "Discussions-To": "distutils-sig@python.org",
-            "Status": "Accepted",
+            "Status": "Final",
             "Type": "Process",
             "Content-Type": "text/x-rst",
             "Created": "04-Aug-2013",
@@ -5007,7 +5010,7 @@
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
             "Author": "Nick Coghlan <ncoghlan@gmail.com>,,Eli Bendersky <eliben@gmail.com>",
-            "Status": "Accepted",
+            "Status": "Active",
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "2012-02-10",
