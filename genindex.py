@@ -4,11 +4,12 @@ This file requires Python 3
 '''
 import pathlib
 import json
+import os
 
 
 def main():
     peps = []
-    pep_directory = pathlib.Path('peps/')
+    pep_directory = pathlib.Path('../pep-explorer/peps/')
     for item in pep_directory.iterdir():
         if item.suffix in ['.txt', '.rst'] and item.name.startswith('pep-'):
             peps.append(_pep_info(item))
