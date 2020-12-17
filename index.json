@@ -1,15 +1,15 @@
 {
     "possible_statuses": [
-        "Rejected",
         "April Fool!",
-        "Withdrawn",
-        "Deferred",
+        "Accepted",
         "Provisional",
-        "Final",
-        "Active",
-        "Superseded",
         "Draft",
-        "Accepted"
+        "Withdrawn",
+        "Rejected",
+        "Deferred",
+        "Final",
+        "Superseded",
+        "Active"
     ],
     "possible_python_versions": [
         "",
@@ -50,9 +50,9 @@
         "N.A."
     ],
     "possible_types": [
-        "Informational",
+        "Standards Track",
         "Process",
-        "Standards Track"
+        "Informational"
     ],
     "peps": [
         {
@@ -123,6 +123,20 @@
             "Python-Version": "3.0",
             "Post-History": "",
             "URL": "https://python.org/dev/peps/pep-3104/"
+        },
+        {
+            "PEP": 643,
+            "Title": "Metadata for Package Source Distributions",
+            "Author": "Paul Moore <p.f.moore@gmail.com>",
+            "BDFL-Delegate": "Paul Ganssle <paul@ganssle.io>",
+            "Discussions-To": "https://discuss.python.org/t/pep-643-metadata-for-package-source-distributions/5577",
+            "Status": "Accepted",
+            "Type": "Standards Track",
+            "Content-Type": "text/x-rst",
+            "Created": "24-Oct-2020",
+            "Post-History": "24-Oct-2020, 01-Nov-2020, 02-Nov-2020, 14-Nov-2020",
+            "Resolution": "https://discuss.python.org/t/pep-643-metadata-for-package-source-distributions/5577/53",
+            "URL": "https://python.org/dev/peps/pep-0643/"
         },
         {
             "PEP": 419,
@@ -376,6 +390,24 @@
             "URL": "https://python.org/dev/peps/pep-0418/"
         },
         {
+            "PEP": 642,
+            "Title": "Constraint Pattern Syntax for Structural Pattern Matching",
+            "Version": "$Revision$",
+            "Last-Modified": "$Date$",
+            "Author": "Nick Coghlan <ncoghlan@gmail.com>",
+            "BDFL-Delegate": "",
+            "Discussions-To": "Python-Dev <python-dev@python.org>",
+            "Status": "Draft",
+            "Type": "Standards Track",
+            "Content-Type": "text/x-rst",
+            "Requires": "634",
+            "Created": "26-Sep-2020",
+            "Python-Version": "3.10",
+            "Post-History": "31-Oct-2020, 8-Nov-2020",
+            "Resolution": "",
+            "URL": "https://python.org/dev/peps/pep-0642/"
+        },
+        {
             "PEP": 3105,
             "Title": "Make print a function",
             "Version": "$Revision$",
@@ -543,6 +575,18 @@
             "Python-Version": "3.0",
             "Post-History": "",
             "URL": "https://python.org/dev/peps/pep-3107/"
+        },
+        {
+            "PEP": 640,
+            "Title": "Unused variable syntax",
+            "Author": "Thomas Wouters <thomas@python.org>",
+            "Status": "Draft",
+            "Type": "Standards Track",
+            "Content-Type": "text/x-rst",
+            "Created": "04-Oct-2020",
+            "Python-Version": "3.10",
+            "Post-History": "19-Oct-2020",
+            "URL": "https://python.org/dev/peps/pep-0640/"
         },
         {
             "PEP": 368,
@@ -729,6 +773,21 @@
             "Post-History": "18-Oct-2012, 15-Feb-2013",
             "Resolution": "https://mail.python.org/pipermail/python-dev/2013-February/124103.html",
             "URL": "https://python.org/dev/peps/pep-0427/"
+        },
+        {
+            "PEP": 641,
+            "Title": "Using an underscore in the version portion of Python 3.10 compatibility tags",
+            "Author": "Brett Cannon <brett@python.org>,,Steve Dower <steve.dower@python.org>,,Barry Warsaw <barry@python.org>",
+            "PEP-Delegate": "Pablo Galindo <pablogsal@python.org>",
+            "Discussions-To": "https://discuss.python.org/t/pep-641-using-an-underscore-in-the-version-portion-of-python-3-10-compatibility-tags/5513",
+            "Status": "Rejected",
+            "Type": "Standards Track",
+            "Content-Type": "text/x-rst",
+            "Created": "2020-10-20",
+            "Python-Version": "3.10",
+            "Post-History": "2020-10-21",
+            "Resolution": "https://discuss.python.org/t/pep-641-using-an-underscore-in-the-version-portion-of-python-3-10-compatibility-tags/5513/42",
+            "URL": "https://python.org/dev/peps/pep-0641/"
         },
         {
             "PEP": 3106,
@@ -956,6 +1015,17 @@
             "URL": "https://python.org/dev/peps/pep-0379/"
         },
         {
+            "PEP": 645,
+            "Title": "Allow writing optional types as ``x?``",
+            "Author": "Maggie Moss <maggiebmoss@gmail.com>",
+            "Sponsor": "Guido van Rossum <guido@python.org>",
+            "Status": "Draft",
+            "Type": "Process",
+            "Content-Type": "text/x-rst",
+            "Created": "25-Aug-2020",
+            "URL": "https://python.org/dev/peps/pep-0645/"
+        },
+        {
             "PEP": 3102,
             "Title": "Keyword-Only Arguments",
             "Version": "$Revision$",
@@ -1037,6 +1107,20 @@
             "Python-Version": "3.0",
             "Post-History": "26-Jun-2006",
             "URL": "https://python.org/dev/peps/pep-3103/"
+        },
+        {
+            "PEP": 644,
+            "Title": "Require OpenSSL 1.1 or newer",
+            "Author": "Christian Heimes <christian@python.org>",
+            "BDFL-Delegate": "n/a",
+            "Discussions-To": "https://discuss.python.org/t/pep-644-require-openssl-1-1-or-newer/5584",
+            "Status": "Draft",
+            "Type": "Standards Track",
+            "Content-Type": "text/x-rst",
+            "Created": "27-Oct-2020",
+            "Python-Version": "3.10",
+            "Post-History": "27-Oct-2020",
+            "URL": "https://python.org/dev/peps/pep-0644/"
         },
         {
             "PEP": 3117,
@@ -1739,6 +1823,24 @@
             "URL": "https://python.org/dev/peps/pep-0308/"
         },
         {
+            "PEP": 634,
+            "Title": "Structural Pattern Matching: Specification",
+            "Version": "$Revision$",
+            "Last-Modified": "$Date$",
+            "Author": "Brandt Bucher <brandtbucher@gmail.com>,,Guido van Rossum <guido@python.org>",
+            "BDFL-Delegate": "",
+            "Discussions-To": "Python-Dev <python-dev@python.org>",
+            "Status": "Draft",
+            "Type": "Standards Track",
+            "Content-Type": "text/x-rst",
+            "Created": "12-Sep-2020",
+            "Python-Version": "3.10",
+            "Post-History": "22-Oct-2020",
+            "Replaces": "622",
+            "Resolution": "",
+            "URL": "https://python.org/dev/peps/pep-0634/"
+        },
+        {
             "PEP": 452,
             "Title": "API for Cryptographic Hash Functions v2.0",
             "Version": "$Revision$",
@@ -1936,15 +2038,33 @@
             "URL": "https://python.org/dev/peps/pep-0335/"
         },
         {
+            "PEP": 635,
+            "Title": "Structural Pattern Matching: Motivation and Rationale",
+            "Version": "$Revision$",
+            "Last-Modified": "$Date$",
+            "Author": "Tobias Kohn <kohnt@tobiaskohn.ch>,,Guido van Rossum <guido@python.org>",
+            "BDFL-Delegate": "",
+            "Discussions-To": "Python-Dev <python-dev@python.org>",
+            "Status": "Draft",
+            "Type": "Informational",
+            "Content-Type": "text/x-rst",
+            "Created": "12-Sep-2020",
+            "Python-Version": "3.10",
+            "Post-History": "22-Oct-2020",
+            "Resolution": "",
+            "URL": "https://python.org/dev/peps/pep-0635/"
+        },
+        {
             "PEP": 621,
             "Title": "Storing project metadata in pyproject.toml",
-            "Author": "Brett Cannon <brett@python.org>,,Dustin Ingram <di@python.org>,,Paul Ganssle <paul at ganssle.io>,,Paul Moore <p.f.moore@gmail.com>,,Pradyun Gedam <pradyunsg@gmail.com>,,S\u00e9bastien Eustace <sebastien@eustace.io>,,Thomas Kluyver <thomas@kluyver.me.uk>,,Tzu-Ping Chung <uranusjr@gmail.com>",
-            "Discussions-To": "https://discuss.python.org/t/pep-621-storing-project-metadata-in-pyproject-toml/4513",
-            "Status": "Draft",
+            "Author": "Brett Cannon <brett@python.org>,,Dustin Ingram <di@python.org>,,Paul Ganssle <paul at ganssle.io>,,Pradyun Gedam <pradyunsg@gmail.com>,,S\u00e9bastien Eustace <sebastien@eustace.io>,,Thomas Kluyver <thomas@kluyver.me.uk>,,Tzu-Ping Chung <uranusjr@gmail.com>",
+            "Discussions-To": "https://discuss.python.org/t/pep-621-round-3/5472",
+            "Status": "Provisional",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "22-Jun-2020",
-            "Post-History": "22-Jun-2020",
+            "Post-History": "22-Jun-2020,,18-Oct-2020,,24-Oct-2020,,31-Oct-2020",
+            "Resolution": "https://discuss.python.org/t/pep-621-round-3/5472/109",
             "URL": "https://python.org/dev/peps/pep-0621/"
         },
         {
@@ -2274,7 +2394,7 @@
             "Title": "Support for indexing with keyword arguments",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
-            "Author": "Stefano Borini, Jonathan Fine",
+            "Author": "Stefano Borini",
             "Sponsor": "Steven D'Aprano",
             "Discussions-To": "python-ideas@python.org",
             "Status": "Draft",
@@ -2496,12 +2616,13 @@
             "Author": "Brandt Bucher <brandtbucher@gmail.com>,,Daniel F Moisset <dfmoisset@gmail.com>,,Tobias Kohn <kohnt@tobiaskohn.ch>,,Ivan Levkivskyi <levkivskyi@gmail.com>,,Guido van Rossum <guido@python.org>,,Talin <viridia@gmail.com>",
             "BDFL-Delegate": "",
             "Discussions-To": "Python-Dev <python-dev@python.org>",
-            "Status": "Draft",
+            "Status": "Superseded",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "23-Jun-2020",
             "Python-Version": "3.10",
             "Post-History": "23-Jun-2020, 8-Jul-2020",
+            "Superseded-By": "634",
             "Resolution": "",
             "URL": "https://python.org/dev/peps/pep-0622/"
         },
@@ -2517,6 +2638,24 @@
             "Created": "22-Sep-2014",
             "Python-Version": "3.5",
             "URL": "https://python.org/dev/peps/pep-0478/"
+        },
+        {
+            "PEP": 636,
+            "Title": "Structural Pattern Matching: Tutorial",
+            "Version": "$Revision$",
+            "Last-Modified": "$Date$",
+            "Author": "Daniel F Moisset <dfmoisset@gmail.com>",
+            "Sponsor": "Guido van Rossum <guido@python.org>",
+            "BDFL-Delegate": "",
+            "Discussions-To": "Python-Dev <python-dev@python.org>",
+            "Status": "Draft",
+            "Type": "Informational",
+            "Content-Type": "text/x-rst",
+            "Created": "12-Sep-2020",
+            "Python-Version": "3.10",
+            "Post-History": "22-Oct-2020",
+            "Resolution": "",
+            "URL": "https://python.org/dev/peps/pep-0636/"
         },
         {
             "PEP": 281,
@@ -2947,7 +3086,7 @@
             "Title": "Precise line numbers for debugging and other tools.",
             "Author": "Mark Shannon <mark@hotpy.org>",
             "BDFL-Delegate": "Pablo Galindo <pablogsal@python.org>",
-            "Status": "Draft",
+            "Status": "Accepted",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "15-Jul-2020",
@@ -3054,11 +3193,12 @@
             "Author": "Laurie Opperman <laurie_opperman@hotmail.com>,,Arun Babu Neelicattu <arun.neelicattu@gmail.com>",
             "Sponsor": "Brett Cannon <brett@python.org>",
             "Discussions-To": "https://discuss.python.org/t/dependency-specification-in-pyproject-toml-using-an-exploded-toml-table/5123/",
-            "Status": "Draft",
+            "Status": "Rejected",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "2020-09-02",
             "Post-History": "2020-09-02",
+            "Resolution": "https://discuss.python.org/t/how-to-specify-dependencies-pep-508-strings-or-a-table-in-toml/5243/38",
             "URL": "https://python.org/dev/peps/pep-0633/"
         },
         {
@@ -3551,11 +3691,12 @@
             "Author": "Ofek Lev <ofekmeister@gmail.com>",
             "Sponsor": "Paul Ganssle <paul@ganssle.io>",
             "Discussions-To": "https://discuss.python.org/t/5018",
-            "Status": "Draft",
+            "Status": "Accepted",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
             "Created": "20-Aug-2020",
             "Post-History": "20-Aug-2020",
+            "Resolution": "https://discuss.python.org/t/how-to-specify-dependencies-pep-508-strings-or-a-table-in-toml/5243/38",
             "URL": "https://python.org/dev/peps/pep-0631/"
         },
         {
@@ -3587,7 +3728,7 @@
         },
         {
             "PEP": 480,
-            "Title": "Surviving a Compromise of PyPI: The Maximum Security Model",
+            "Title": "Surviving a Compromise of PyPI: End-to-end signing of packages",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
             "Author": "Trishank Karthik Kuppusamy <karthik@trishank.com>,,Vladimir Diaz <vladimir.diaz@nyu.edu>,,Justin Cappos <jcappos@nyu.edu>",
@@ -3633,7 +3774,7 @@
             "Title": "Isolating Extension Modules",
             "Author": "Petr Viktorin <encukou@gmail.com>",
             "Discussions-To": "capi-sig@python.org",
-            "Status": "Draft",
+            "Status": "Active",
             "Type": "Informational",
             "Content-Type": "text/x-rst",
             "Created": "25-Aug-2020",
@@ -4426,6 +4567,19 @@
             "URL": "https://python.org/dev/peps/pep-0589/"
         },
         {
+            "PEP": 8102,
+            "Title": "2021 Term steering council election",
+            "Version": "$Revision$",
+            "Last-Modified": "$Date$",
+            "Author": "Ewa Jodlowska <ewa@python.org>, Ee W. Durbin III <ee@python.org>, Joe Carey <joe@python.org>",
+            "Sponsor": "Brett Cannon <brett@python.org>",
+            "Status": "Active",
+            "Type": "Informational",
+            "Content-Type": "text/x-rst",
+            "Created": "29-Oct-2020",
+            "URL": "https://python.org/dev/peps/pep-8102/"
+        },
+        {
             "PEP": 562,
             "Title": "Module __getattr__ and __dir__",
             "Author": "Ivan Levkivskyi <levkivskyi@gmail.com>",
@@ -4485,7 +4639,7 @@
             "Title": "January 2019 steering council election",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
-            "Author": "Nathaniel J. Smith <njs@pobox.com>, Ernest W. Durbin III <ewdurbin@gmail.com>",
+            "Author": "Nathaniel J. Smith <njs@pobox.com>, Ee W. Durbin III <ee@python.org>",
             "Status": "Active",
             "Type": "Informational",
             "Content-Type": "text/x-rst",
@@ -4993,7 +5147,7 @@
             "Title": "2020 Term steering council election",
             "Version": "$Revision$",
             "Last-Modified": "$Date$",
-            "Author": "Ewa Jodlowska <ewa@python.org>, Ernest W. Durbin III <ewdurbin@gmail.com>",
+            "Author": "Ewa Jodlowska <ewa@python.org>, Ee W. Durbin III <ee@python.org>",
             "Sponsor": "Brett Cannon <brett@python.org>",
             "Status": "Active",
             "Type": "Informational",
@@ -5934,7 +6088,7 @@
             "Status": "Draft",
             "Type": "Standards Track",
             "Content-Type": "text/x-rst",
-            "Created": "15-Aug-2018",
+            "Created": "15-Aug-2019",
             "Python-Version": "3.x",
             "Post-History": "",
             "Replaces": "566",
@@ -6959,7 +7113,7 @@
         {
             "PEP": 601,
             "Title": "Forbid return/break/continue breaking out of finally",
-            "Author": "Damien George, Batuhan Taskaya",
+            "Author": "Damien George, Batuhan Taskaya <batuhan@python.org>",
             "Sponsor": "Nick Coghlan",
             "Discussions-To": "https://discuss.python.org/t/pep-601-forbid-return-break-continue-breaking-out-of-finally/2239",
             "Status": "Rejected",
