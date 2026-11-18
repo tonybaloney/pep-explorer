@@ -5,19 +5,35 @@ This file requires Python 3
 import pathlib
 import json
 import os
+import re
+
+_ver = re.compile(r'^\d+(\.\d+)*')
+_here = pathlib.Path(__file__).parent
+
+
+def _versionlike(s: str) -> tuple[tuple[int, ...], str]:
+    m = _ver.match(s)
+    if m is not None:
+        parts = tuple(int(p) for p in m[0].split('.'))
+        return parts, s
+    else:
+        return 999, s
 
 
 def main():
     peps = []
-    pep_directory = pathlib.Path('../pep-explorer/peps/')
+    pep_directory = _here.joinpath('peps', 'peps')
     for item in pep_directory.iterdir():
         if item.suffix in ['.txt', '.rst'] and item.name.startswith('pep-'):
             peps.append(_pep_info(item))
-    possible_statuses = list(set([p['Status'] for p in peps]))
-    possible_python_versions = list(set([p['Python-Version'] for p in peps if 'Python-Version' in p]))
-    possible_types = list(set([p['Type'] for p in peps]))
+    peps.sort(key=lambda p: p['PEP'])
 
-    possible_python_versions.sort()
+    possible_statuses = sorted({p['Status'] for p in peps})
+    possible_python_versions = sorted(
+        {p['Python-Version'] for p in peps if 'Python-Version' in p},
+        key=_versionlike,
+    )
+    possible_types = sorted({p['Type'] for p in peps})
 
     out = {
         'possible_statuses': possible_statuses,
